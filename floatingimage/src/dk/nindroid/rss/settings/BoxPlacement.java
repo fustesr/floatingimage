@@ -53,7 +53,7 @@ public class BoxPlacement extends View {
 		int screenHeight = this.getHeight();
 		if(mVisible){
 			int width, height;
-			if(Math.max(canvas.getWidth(), canvas.getHeight()) > 1100){
+			if(Math.max(canvas.getWidth(), canvas.getHeight()) > 1300){
 				width = 512;
 			}else{
 				width = 256;

@@ -175,51 +175,26 @@ public class Image implements ImagePlane {
 	public float getScale(float szX, float szY, boolean sideways){
 		float height = mDisplay.getFocusedHeight() * mDisplay.getFill();
 		float width = mDisplay.getWidth() * mDisplay.getFill();
-		boolean fill = mActivity.getSettings().slideshowFill;
-		if(fill){
-			if(sideways){
-				float scale = 1.0f;
-				// Scale to X
+		if(sideways){
+			float scale = 1.0f;
+			if(szX > height){
 				scale = height / szX;
 				szY *= scale;
-				
-				// If y is smaller, scale to Y
-				if(szY < width){
-					scale *= width / szY;
-				}
-				return scale;
-			}else{
-				float scale = 1.0f;
+			}
+			if(szY > width){
+				scale *= width / szY;
+			}
+			return scale;
+		}else{
+			float scale = 1.0f;
+			if(szX > width){
 				scale = width / szX;
 				szY *= scale;
-				
-				if(szY < height){
-					scale *= height / szY;
-				}
-				return scale;
 			}
-		}else{
-			if(sideways){
-				float scale = 1.0f;
-				if(szX > height){
-					scale = height / szX;
-					szY *= scale;
-				}
-				if(szY > width){
-					scale *= width / szY;
-				}
-				return scale;
-			}else{
-				float scale = 1.0f;
-				if(szX > width){
-					scale = width / szX;
-					szY *= scale;
-				}
-				if(szY > height){
-					scale *= height / szY;
-				}
-				return scale;
+			if(szY > height){
+				scale *= height / szY;
 			}
+			return scale;
 		}
 	}
 	
