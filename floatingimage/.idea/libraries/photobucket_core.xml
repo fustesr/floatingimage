@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="photobucket-core">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/photobucket-core.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

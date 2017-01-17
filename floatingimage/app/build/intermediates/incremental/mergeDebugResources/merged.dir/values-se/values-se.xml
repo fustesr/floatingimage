@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="backgroundColorDescriptions">
+                <item>Grå</item>
+                <item>Svart</item>
+                <item>Ren svärta</item>
+                <item>Vitt</item>
+                <item>Blått</item>
+                <item>Grön</item>
+                <item>Röd</item>
+                <item>Gul</item>
+                <item>Alla</item>
+        </string-array>
+    <string-array name="backgroundColorValues">
+                <item>0</item>
+                <item>1</item>
+                <item>8</item>
+                <item>2</item>
+                <item>3</item>
+                <item>4</item>
+                <item>5</item>
+                <item>6</item>
+                <item>7</item>
+        </string-array>
+    <string-array name="displayModeDescriptions">
+                <item>Ingen</item>
+                <item>Glid horisontellt</item>
+                <item>Glid vertikalt</item>
+                <item>Övergång</item>
+                <item>Tona över till svar</item>
+                <item>Tona över till vitt</item>
+                <item>Slumpmässigt från ovan</item>
+                <item>Flytande bilder</item>
+        </string-array>
+    <string-array name="displayModeValues">
+                <item>none</item>
+                <item>slideRightToLeft</item>
+                <item>SlideTopToBottom</item>
+                <item>crossFade</item>
+                <item>fadeToBlack</item>
+                <item>fadeToWhite</item>
+                <item>random</item>
+                <item>floatingImages</item>
+        </string-array>
+    <string-array name="floatingSpeedDescriptions">
+                <item>väldigt snabb</item>
+                <item>snabb</item>
+                <item>normal</item>
+                <item>långsam</item>
+                <item>väldigt långsam</item>
+        </string-array>
+    <string-array name="floatingSpeedValues">
+                <item>7000</item>
+                <item>15000</item>
+                <item>30000</item>
+                <item>60000</item>
+                <item>250000</item>
+        </string-array>
+    <string-array name="floatingTypeDescriptions">
+                <item>Höger</item>
+                <item>Vänster</item>
+                <item>Ner</item>
+                <item>Upp</item>
+                <item>Hyperfart</item>
+                <item>Lägg på ett bord</item>
+                <item>Lägg i en hög</item>
+                <item>Mixa ihop</item>
+        </string-array>
+    <string-array name="floatingTypeValues">
+                <item>0</item>
+                <item>1</item>
+                <item>2</item>
+                <item>3</item>
+                <item>4</item>
+                <item>5</item>
+                <item>6</item>
+                <item>20</item>
+        </string-array>
+    <string-array name="forceRotationDescriptions">
+                <item>Ingen rotation</item>
+                <item>90 grader</item>
+                <item>180 grader</item>
+                <item>270 grader</item>
+        </string-array>
+    <string-array name="forceRotationValues">
+                <item>0</item>
+                <item>90</item>
+                <item>180</item>
+                <item>270</item>
+        </string-array>
+    <string-array name="slideIntervalDescriptions">
+                <item>2 sekund</item>
+                <item>5 sekund</item>
+                <item>10 sekund</item>
+                <item>30 sekund</item>
+                <item>1 minut</item>
+                <item>2 minuter</item>
+                <item>5 minuter</item>
+                <item>10 minuter</item>
+                <item>30 minuter</item>
+                <item>1 timme</item>
+                <item>2 timmar</item>
+                <item>6 timmar</item>
+                <item>12 timmar</item>
+                <item>1 dag</item>
+                <item>1 vecka</item>
+        </string-array>
+    <string-array name="slideIntervalValues">
+                <item>2000</item>
+                <item>5000</item>
+                <item>10000</item>
+                <item>30000</item>
+                <item>60000</item>
+                <item>120000</item>
+                <item>300000</item>
+                <item>600000</item>
+                <item>1800000</item>
+                <item>3600000</item>
+                <item>7200000</item>
+                <item>21600000</item>
+                <item>43200000</item>
+                <item>86400000</item>
+                <item>604800000</item>
+        </string-array>
+    <string-array name="slideSpeedDescriptions">
+                <item>snabb</item>
+                <item>långsam</item>
+                <item>väldigt långsam</item>
+        </string-array>
+    <string-array name="slideSpeedValues">
+                <item>300</item>
+                <item>1000</item>
+                <item>3000</item>
+        </string-array>
+    <string name="Downloads">Nedladdningar</string>
+    <string name="LiveWallpapers">Levande bakgrunder</string>
+    <string name="LiveWallpapersSummary">Handera levande bakgrunder för att ställa in Floating Image som bakgrund</string>
+    <string name="about">Om appen</string>
+    <string name="aboutSummary">Våghalsig presentation av mig</string>
+    <string name="albumBy">Album av</string>
+    <string name="app_name">Floating Image</string>
+    <string name="authorization_failed">Nåt konstigt hände vid autentiseringen... Vänligen försök igen!</string>
+    <string name="authorize">Logga in</string>
+    <string name="authorizing">Autentiserar</string>
+    <string name="backgroundColor">Bakgrundsfärg</string>
+    <string name="backgroundColorSummary">Färgen bakom de svävande bilderna</string>
+    <string name="backgroundColorTitle">Välj bakgrundsfärgen</string>
+    <string name="blackEdges">Svart ytterlinje</string>
+    <string name="blackEdgesSummary">Lägg en svart ytterlinje runt bilderna. Ta bort detta för högre prestanda.</string>
+    <string name="cameraPictures">Bilder från kameran</string>
+    <string name="cancel">Avbryt</string>
+    <string name="cancel_show">Avbryt visning</string>
+    <string name="cannot_read_feed">Kan ej läsa källa, den är förmodligen för stor.</string>
+    <string name="clearCache">Töm cache</string>
+    <string name="clearCacheSummary">Töm hela bildcachen</string>
+    <string name="dataFolder">/floatingImage</string>
+    <string name="delete_image">Ta bort bild</string>
+    <string name="delete_image_are_you_sure">Är du säker på att du vill ta bort bilden?</string>
+    <string name="device_does_not_support_live_wallpapers">Ledsen, men din enhet verkar inte stödja levande bakgrunder. :-(</string>
+    <string name="dismiss">Röj undan</string>
+    <string name="display">Display</string>
+    <string name="empty_feed">Inga bilder funna från källan</string>
+    <string name="error_fetching_albums">Fel vid hämtning av album, vänligen försök igen</string>
+    <string name="error_fetching_friends">Fel vid hämtning av vänner, vänligen försök igen</string>
+    <string name="error_getting_flickr_user">Fel vid hämtning av din användarprofil, vänligen logga in igen.</string>
+    <string name="error_showing_fetching_album_list">Fel vid hämtning av albumlistan. Klicka för att försöka igen.</string>
+    <string name="exploreFolder">/.exploreCache</string>
+    <string name="facebook">Facebook</string>
+    <string name="facebookFriends">Vänner</string>
+    <string name="facebookFriendsAlbums">Album av</string>
+    <string name="facebookMyAlbums">Mna album</string>
+    <string name="facebookPhotosOfFriend">Visa bilder av</string>
+    <string name="facebookPhotosOfMe">Visa bilder av mig</string>
+    <string name="facebookShowAlbum">Visa</string>
+    <string name="feedMenuAdd">Lägg till ny källa</string>
+    <string name="feedMenuAddSummary">Lägg till en ny källa för bilder</string>
+    <string name="feedMenuRemove">Ta bort källa</string>
+    <string name="feeds">Källor</string>
+    <string name="flickr">Flickr</string>
+    <string name="flickrAllContactsStreams">Alla kontakters\' flöden</string>
+    <string name="flickrExplore">Topp 500 (utforska)</string>
+    <string name="flickrMyAlbums">Mina album</string>
+    <string name="flickrMyContactsPhotos">Foton av mina kontakter</string>
+    <string name="flickrMyFavorites">Mina favoriter</string>
+    <string name="flickrMyPhotos">Mina bilder</string>
+    <string name="flickrPhotosFromHere">Foton härifrån</string>
+    <string name="flickrSearch">Sök efter taggar</string>
+    <string name="flickrSearchNoText">Vänligen fyll i söktext.</string>
+    <string name="flickrSearchTerm">Sök, separera sökord med ett komma (,)</string>
+    <string name="flickrShowStream">Visa flickr flöde</string>
+    <string name="flickrShowStreamBadUsername">Flickr användaren ej funnen.</string>
+    <string name="flickrShowStreamNoUsername">Vänligen fyll i användarnamn.</string>
+    <string name="flickrShowStreamUsername">Vänligen mata in användarnamnets flöde</string>
+    <string name="flickr_search">Sök: </string>
+    <string name="floating">Svävande bilder</string>
+    <string name="floatingSpeed">Hastighet</string>
+    <string name="floatingSpeedSummary">Hur snabbt bilderna flyger genom skärmen</string>
+    <string name="floatingSpeedTitle">Flygande bilders hastighet</string>
+    <string name="floatingType">Rörelse</string>
+    <string name="floatingTypeSummary">Hur bilderna ska röra sig</string>
+    <string name="floatingTypeTitle">Svävande bilders rörelse</string>
+    <string name="forceRotation">Tvinga skärmens rotationForce screen rotation</string>
+    <string name="forceRotationSummary">Justera skärmens rotation manuellt</string>
+    <string name="forceRotationTitle">Skärmens rotation</string>
+    <string name="fullscreen">Helskärm</string>
+    <string name="fullscreenBlack">Tona bakgrunden svart vid fullskärmsläge</string>
+    <string name="fullscreenBlackSummary">Tona bakgrunden helsvart i fullskärmsläge</string>
+    <string name="galleryMode">Galleri läge</string>
+    <string name="galleryModeSummary">Agera som en standard galleri. Detta kommer att upphäva inställningarna nedan!</string>
+    <string name="go_to_source">Gå till källan</string>
+    <string name="imageDecorations">Dekorera bilder</string>
+    <string name="imageDecorationsSummary">Ger bilderna en skugga och ett sken under dem</string>
+    <string name="internal_error">Intern fel, vänligen kontakta utvecklaren</string>
+    <string name="internals">Interna</string>
+    <string name="liveWallpaperLowFramerate">Minska bilduppdateringshastighet som levande bakgrund</string>
+    <string name="liveWallpaperLowFramerateSummary">Begränsa till 20 bilduppdateringar per sekund för att förlänga batteriets kapacitet</string>
+    <string name="loadingAlbums">Laddar album...</string>
+    <string name="loadingFriends">Laadar vänner...</string>
+    <string name="loading_feeds">Laddar bilder från källor</string>
+    <string name="local">Telefon</string>
+    <string name="manageFeeds">Hantera källor</string>
+    <string name="manageFeedsSummary">Var ska bilderna strömmas från</string>
+    <string name="me">mig</string>
+    <string name="misc">Diverse</string>
+    <string name="mode">Visningsläge</string>
+    <string name="modeSummary">Hur bilderna ska visas</string>
+    <string name="modeTitle">Välj visningsläge</string>
+    <string name="moreCameraPictures">Fler bilder från kameran</string>
+    <string name="pause">Paus</string>
+    <string name="photobucket">Photobucket</string>
+    <string name="photobucketShowFollowing">Visa foton som följs</string>
+    <string name="photobucketShowRecent">Visa nya foton</string>
+    <string name="photobucketShowUser">Visa användare</string>
+    <string name="photobucketShowUserBadUsername">Photobucket användare ej funnen.</string>
+    <string name="picasa">Picasa</string>
+    <string name="picasaSearch">Sök efter sökord</string>
+    <string name="picasaSearchNoText">Vänligen fyll i söktext.</string>
+    <string name="picasaSearchTerm">Sök, separera varje sökord med en komma (,)</string>
+    <string name="picasaShowAlbums">Visa album</string>
+    <string name="picasaShowMyAlbums">Visa mina album</string>
+    <string name="picasaShowMyStream">Visa mitt flöde</string>
+    <string name="picasaShowStream">Visa flöde</string>
+    <string name="picasaShowStreamBadUsername">Picasa användare ej funnen.</string>
+    <string name="picasaShowStreamNoUsername">Vänligen fyll i ett användarnamn.</string>
+    <string name="picasaShowUser">Show user</string>
+    <string name="picasaShowUserUsername">Vänligen fyll i användarnamnet på användaren</string>
+    <string name="please_wait">Hamsterhjulen snurrar... Vänligen vänta</string>
+    <string name="resume">Fortsätt</string>
+    <string name="rotateImages">Roterande bilder</string>
+    <string name="rotateImagesSummary">Luta bilderna för att ge en liten stökig effekt</string>
+    <string name="save_image">Spara bild</string>
+    <string name="search_flickr">Sök på Flickr</string>
+    <string name="searching_for_user">Leta efter användare</string>
+    <string name="selectCurrentFolder">Välj nuvarande mapp</string>
+    <string name="selectFolder">Välj mapp</string>
+    <string name="set_as_background">Andvänd som bakgrund</string>
+    <string name="settings">Inställningar</string>
+    <string name="share_image">Dela bild</string>
+    <string name="share_subject">Titta, en bild!</string>
+    <string name="share_url">Dela bildens URL</string>
+    <string name="show">Visa</string>
+    <string name="showHiddenFiles">Växla visning av gömda filer</string>
+    <string name="show_details">Visa detaljer</string>
+    <string name="show_flickr">Visa Flickr</string>
+    <string name="show_flickr_user">Visa Flickr användare</string>
+    <string name="show_folder">Visa mapp</string>
+    <string name="shuffle">Blanda bilderna</string>
+    <string name="shuffleSummary">Visa bilderna på måfå</string>
+    <string name="signingIn">Loggar in</string>
+    <string name="singleClickDeselect">Klicka en gång för att avmarkera bild</string>
+    <string name="singleClickDeselectSummary">Avmarkerar bild vid en enkel klick. Dubbelklick får fram menyn.</string>
+    <string name="slideInterval">Bildspel intervall</string>
+    <string name="slideIntervalSummary">Välj hur länge varje enskild bild ska visas</string>
+    <string name="slideIntervalTitle">Välj bildspelets interval</string>
+    <string name="slideSpeed">Bildspelets övergångshastighet</string>
+    <string name="slideSpeedSummary">Hur snabb glidningshastigheten ska vara</string>
+    <string name="slideSpeedTitle">Väl hastighet på övergångseffekten</string>
+    <string name="slideshow">Bildspel</string>
+    <string name="stream">Ström</string>
+    <string name="tsunami">Tsunami</string>
+    <string name="tsunamiSummary">Fyll skärmen med bilder. VARNING: Kan orsaka konstigheter och instabilitet!</string>
+    <string name="unauthorize">Logga ut</string>
+    <string name="useCache">Cacha bilderna</string>
+    <string name="useCacheSummary">Ger ett jämnare flöde vid streaming från internetkällor</string>
+    <string name="useHighResThumbs">Använd högupplösta miniatyrer</string>
+    <string name="useHighResThumbsSummary">EXPERIMENTELLT: Detta kan orsaka krasher! Endast för högpresterande enheter.</string>
+    <string name="user_agent">Floating image/Android</string>
+</resources>

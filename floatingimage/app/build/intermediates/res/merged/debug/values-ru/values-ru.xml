@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="backgroundColorDescriptions">
+		<item>Серый</item>
+		<item>Почти черный</item>
+		<item>Черный</item>
+
+		<item>Белый</item>
+		<item>Синий</item>
+		<item>Зеленый</item>
+		<item>Красный</item>
+		<item>Желтый</item>
+		<item>Все цвета</item>
+
+	</string-array>
+    <string-array name="backgroundColorValues">
+		<item>0</item>
+		<item>1</item>
+		<item>8</item>
+		<item>2</item>
+		<item>3</item>
+
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+	</string-array>
+    <string-array name="displayModeDescriptions">
+		<item>Без эффектов</item>
+		<item>Сдвигать горизонтально</item>
+		<item>Сдвигать вертикально</item>
+		<item>Перекрестный переход</item>
+		<item>Переход через черное</item>
+
+		<item>Переход через белое</item>
+		<item>Случайно из вышеуказанных</item>
+		<item>Плывущие изображения</item>
+	</string-array>
+    <string-array name="displayModeValues">
+		<item>none</item>
+		<item>slideRightToLeft</item>
+
+		<item>SlideTopToBottom</item>
+		<item>crossFade</item>
+		<item>fadeToBlack</item>
+		<item>fadeToWhite</item>
+		<item>random</item>
+		<item>floatingImages</item>
+
+	</string-array>
+    <string-array name="floatingSpeedDescriptions">
+		<item>Очень быстро</item>
+		<item>Быстро</item>
+		<item>Нормально</item>
+		<item>Медленно</item>
+		<item>Очень медленно</item>
+
+	</string-array>
+    <string-array name="floatingSpeedValues">
+		<item>7000</item>
+		<item>15000</item>
+		<item>30000</item>
+		<item>60000</item>
+		<item>250000</item>
+
+	</string-array>
+    <string-array name="floatingTypeDescriptions">
+		<item>Влево</item>
+		<item>Вправо</item>
+		<item>Вниз</item>
+		<item>Вверх</item>
+		<item>Гиперскорость</item>
+
+		<item>Настольный</item>
+		<item>Наложение</item>
+		<item>Вперемешку</item>
+	</string-array>
+    <string-array name="floatingTypeValues">
+		<item>0</item>
+		<item>1</item>
+
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>20</item>
+
+	</string-array>
+    <string-array name="forceRotationDescriptions">
+		<item>Не поворачивать</item>
+		<item>90 градусов</item>
+		<item>180 градусов</item>
+		<item>270 градусов</item>
+	</string-array>
+    <string-array name="forceRotationValues">
+		<item>0</item>
+		<item>90</item>
+		<item>180</item>
+		<item>270</item>
+	</string-array>
+    <string-array name="slideIntervalDescriptions">
+		<item>2 секунды</item>
+		<item>5 секунд</item>
+		<item>10 секунд</item>
+		<item>30 секунд</item>
+		<item>1 минута</item>
+
+		<item>2 минуты</item>
+		<item>5 минут</item>
+		<item>10 минут</item>
+		<item>30 минут</item>
+		<item>1 час</item>
+		<item>2 часа</item>
+
+		<item>6 часов</item>
+		<item>12 часов</item>
+		<item>1 день</item>
+		<item>1 неделя</item>
+	</string-array>
+    <string-array name="slideIntervalValues">
+		<item>2000</item>
+
+		<item>5000</item>
+		<item>10000</item>
+		<item>30000</item>
+		<item>60000</item>
+		<item>120000</item>
+		<item>300000</item>
+
+		<item>600000</item>
+		<item>1800000</item>
+		<item>3600000</item>
+		<item>7200000</item>
+		<item>21600000</item>
+		<item>43200000</item>
+
+		<item>86400000</item>
+		<item>604800000</item>
+	</string-array>
+    <string-array name="slideSpeedDescriptions">
+		<item>Быстро</item>
+
+		<item>Медленно</item>
+		<item>Очень медленно</item>
+	</string-array>
+    <string-array name="slideSpeedValues">
+		<item>300</item>
+		<item>1000</item>
+		<item>3000</item>
+
+	</string-array>
+    <string name="Downloads">Загрузки</string>
+    <string name="about">О программе</string>
+    <string name="aboutSummary">Информация о программе пока на английском, по просьбе автора</string>
+    <string name="albumBy">Альбом </string>
+    <string name="app_name">Floating Image</string>
+    <string name="authorization_failed">Что-то странное произошло при авторизации... Пожалуйста, попробуйте еще раз!</string>
+    <string name="authorize">Войти</string>
+    <string name="backgroundColor">Цвет фона</string>
+    <string name="backgroundColorSummary">Цвет фона под изображениями</string>
+    <string name="backgroundColorTitle">Выберите цвет фона</string>
+    <string name="cameraPictures">Изображения с камеры</string>
+    <string name="cancel">Отмена</string>
+    <string name="cancel_show">Отменить показ</string>
+    <string name="clearCache">Очистить кэш</string>
+    <string name="clearCacheSummary">Полностью очистить кэш</string>
+    <string name="dataFolder">/floatingImage</string>
+    <string name="delete_image">Удалить изображение</string>
+    <string name="delete_image_are_you_sure">Вы уверены, что хотите удалить это изображение?</string>
+    <string name="dismiss">Отмена</string>
+    <string name="display">Отображение</string>
+    <string name="empty_feed">Не найдено изображений в этом канале</string>
+    <string name="error_fetching_albums">Ошибка выборки альбомов. Пожалуйста, повторите снова.</string>
+    <string name="error_fetching_friends">Ошибка выборки списка друзей. Пожалуйста, повторите снова.</string>
+    <string name="error_getting_flickr_user">Ошибка получения вашего пользователя, пожалуйста, попробуйте снова войти в систему.</string>
+    <string name="error_showing_fetching_album_list">Ошибка выборки списка альбомов. Нажмите кнопку, чтобы повторить.</string>
+    <string name="exploreFolder">/.exploreCache</string>
+    <string name="facebook">Facebook</string>
+    <string name="facebookFriends">Друзья</string>
+    <string name="facebookFriendsAlbums">Альбомы пользователя </string>
+    <string name="facebookMyAlbums">Мои альбомы</string>
+    <string name="facebookPhotosOfFriend">Показать фото пользователя </string>
+    <string name="facebookPhotosOfMe">Показать фото со мной</string>
+    <string name="facebookShowAlbum">показать</string>
+    <string name="feedMenuAdd">Добавить новый канал</string>
+    <string name="feedMenuAddSummary">Добавить новый источник изображений</string>
+    <string name="feedMenuRemove">Удалить канал</string>
+    <string name="feeds">Каналы</string>
+    <string name="flickr">Flickr</string>
+    <string name="flickrAllContactsStreams">Все фото\' контактов</string>
+    <string name="flickrExplore">Лучшие 500</string>
+    <string name="flickrMyAlbums">Мои альбомы</string>
+    <string name="flickrMyContactsPhotos">Фото моих контактов</string>
+    <string name="flickrMyFavorites">Мое избранное</string>
+    <string name="flickrMyPhotos">Мои фото</string>
+    <string name="flickrPhotosFromHere">Фото отсюда</string>
+    <string name="flickrSearch">Поиск по меткам</string>
+    <string name="flickrSearchNoText">Введите текст для поиска.</string>
+    <string name="flickrSearchTerm">Ищите, разделяя метки через запятые (,)</string>
+    <string name="flickrShowStream">Показать фото пользователя</string>
+    <string name="flickrShowStreamBadUsername">Извините, такой Flickr-пользователь не найден.</string>
+    <string name="flickrShowStreamNoUsername">Пожалуйста, заполните поле имя пользователя.</string>
+    <string name="flickrShowStreamUsername">Пожалуйста, введите имя Flickr-пользователя</string>
+    <string name="flickr_search">Поиск: </string>
+    <string name="floating">Плывущие изображения</string>
+    <string name="floatingSpeed">Скорость</string>
+    <string name="floatingSpeedSummary">Как быстро изображения перемещаются по экрану</string>
+    <string name="floatingSpeedTitle">Скорость перемещения изображений</string>
+    <string name="floatingType">Перемещение</string>
+    <string name="floatingTypeSummary">Каким образом изображения должны двигаться</string>
+    <string name="floatingTypeTitle">Плывущие изображения перемещаются</string>
+    <string name="forceRotation">Принудительное вращение экрана</string>
+    <string name="forceRotationSummary">Установка угла поворота экрана</string>
+    <string name="forceRotationTitle">Поворот экрана</string>
+    <string name="fullscreen">На весь экран</string>
+    <string name="fullscreenBlack">Зачернить фон на полном экране</string>
+    <string name="fullscreenBlackSummary">Полностью затемнить фон при переключении на полный экран</string>
+    <string name="go_to_source">Перейти к исходнику</string>
+    <string name="imageDecorations">Оформление изображения</string>
+    <string name="imageDecorationsSummary">Показывать тени и свечение позади изображения</string>
+    <string name="internal_error">Словили внутреннюю ошибку, пожалуйста, свяжитесь с разработчиком.</string>
+    <string name="internals">Internals</string>
+    <string name="liveWallpaperLowFramerate">Снижение частоты кадров для Живых обоев</string>
+    <string name="liveWallpaperLowFramerateSummary">Принудительная установка макс 20 кадров/с для уменьшения потребления батареи</string>
+    <string name="loadingAlbums">Загрузка альбомов...</string>
+    <string name="loadingFriends">Загрузка списка друзей...</string>
+    <string name="loading_feeds">Загрузка каналов</string>
+    <string name="local">Телефон</string>
+    <string name="manageFeeds">Управление каналами</string>
+    <string name="manageFeedsSummary">Выбрать откуда загружать изображения</string>
+    <string name="me">мой</string>
+    <string name="mode">Режим отображения</string>
+    <string name="modeSummary">Режим показа изображений</string>
+    <string name="modeTitle">Выберите режим отображения</string>
+    <string name="moreCameraPictures">Еще изображений с камеры</string>
+    <string name="pause">Пауза</string>
+    <string name="picasa">Picasa</string>
+    <string name="picasaSearch">Поиск по меткам</string>
+    <string name="picasaSearchNoText">Введите текст для поиска.</string>
+    <string name="picasaSearchTerm">Ищите, разделяя метки через запятые (,)</string>
+    <string name="picasaShowAlbums">Показать альбомы</string>
+    <string name="picasaShowMyAlbums">Показать мои альбомы</string>
+    <string name="picasaShowMyStream">Показать все мои фото</string>
+    <string name="picasaShowStream">Показать фото</string>
+    <string name="picasaShowStreamBadUsername">Извините, Picasa-пользователь не найден.</string>
+    <string name="picasaShowStreamNoUsername">Пожалуйста, введите имя пользователя.</string>
+    <string name="picasaShowUser">Показать пользователя</string>
+    <string name="picasaShowUserUsername">Пожалуйста, укажите имя пользователя желаемого юзера</string>
+    <string name="please_wait">Процесс идет... Подождите пожалуйста</string>
+    <string name="resume">Продолжить</string>
+    <string name="rotateImages">Вращать изображения</string>
+    <string name="rotateImagesSummary">Наклонить изображения для придания более перемешанного эффекта</string>
+    <string name="save_image">Сохранить изображение</string>
+    <string name="search_flickr">Search Flickr</string>
+    <string name="selectCurrentFolder">Выберите текущую папку</string>
+    <string name="selectFolder">Выберите папку</string>
+    <string name="set_as_background">Установить как обои</string>
+    <string name="settings">Настройки</string>
+    <string name="share_image">Поделиться изображением</string>
+    <string name="share_subject">Смотри какая картинка!</string>
+    <string name="share_url">Поделиться ссылкой на изображение</string>
+    <string name="show">Начать показ</string>
+    <string name="showHiddenFiles">Показывать скрытые файлы</string>
+    <string name="show_details">Показать детали</string>
+    <string name="show_flickr">Show Flickr</string>
+    <string name="show_flickr_user">Show Flickr user</string>
+    <string name="show_folder">Show folder</string>
+    <string name="shuffle">Перемешать изображения</string>
+    <string name="shuffleSummary">Показывать изображения в случайном порядке</string>
+    <string name="slideInterval">Интервал слайд-шоу</string>
+    <string name="slideIntervalSummary">Выберите время показа каждого изображения</string>
+    <string name="slideIntervalTitle">Выберите интервал слайд-шоу</string>
+    <string name="slideSpeed">Время перехода в слайд-шоу</string>
+    <string name="slideSpeedSummary">Как быстро будут выполняться переходы между изображениями</string>
+    <string name="slideSpeedTitle">Выберите скорость перехода</string>
+    <string name="slideshow">Слайд-шоу</string>
+    <string name="stream">Поток</string>
+    <string name="unauthorize">Выйти</string>
+    <string name="useCache">Кэшировать изображения</string>
+    <string name="useCacheSummary">Это дает более устойчивый поток при потоковой передаче</string>
+    <string name="useHighResThumbs">Использовать превью высокого качества</string>
+    <string name="useHighResThumbsSummary">ЭКСПЕРИМЕНТАЛЬНО: Это может испортить Ваш телефон! Только для устройств с экраном высокого разрешения</string>
+    <string name="user_agent">Floating image/Android</string>
+</resources>

@@ -1,0 +1,1308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main$Generated" generated="true"><source path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res"/><source path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\build\generated\res\rs\debug"/><source path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\build\generated\res\resValues\debug"/></dataSet><dataSet config="debug$Generated" generated="true"><source path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\debug\res"/></dataSet><dataSet config="main" generated-set="main$Generated"><source path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res"><file name="background" path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\drawable\background.png" qualifiers="" type="drawable"/><file name="background_all" path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\drawable\background_all.jpg" qualifiers="" type="drawable"/><file name="background_blue" path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\drawable\background_blue.jpg" qualifiers="" type="drawable"/><file name="background_dark" path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\drawable\background_dark.jpg" qualifiers="" type="drawable"/><file name="background_green" path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\drawable\background_green.jpg" qualifiers="" type="drawable"/><file name="background_red" path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\drawable\background_red.jpg" qualifiers="" type="drawable"/><file name="background_white" path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\drawable\background_white.jpg" qualifiers="" type="drawable"/><file name="background_yellow" path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\drawable\background_yellow.jpg" qualifiers="" type="drawable"/><file name="facebook_icon" path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\drawable\facebook_icon.png" qualifiers="" type="drawable"/><file name="fivehundredpx_icon" path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\drawable\fivehundredpx_icon.png" qualifiers="" type="drawable"/><file name="flickr_icon" path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\drawable\flickr_icon.png" qualifiers="" type="drawable"/><file name="glow_trans" path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\drawable\glow_trans.png" qualifiers="" type="drawable"/><file name="icon" path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\drawable\icon.png" qualifiers="" type="drawable"/><file name="icon_gallery" path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\drawable\icon_gallery.png" qualifiers="" type="drawable"/><file name="image_shadow" path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\drawable\image_shadow.png" qualifiers="" type="drawable"/><file name="oldicon" path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\drawable\oldicon.png" qualifiers="" type="drawable"/><file name="osd_autoselect_pause" path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\drawable\osd_autoselect_pause.png" qualifiers="" type="drawable"/><file name="osd_autoselect_play" path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\drawable\osd_autoselect_play.png" qualifiers="" type="drawable"/><file name="osd_brightness" path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\drawable\osd_brightness.png" qualifiers="" type="drawable"/><file name="osd_images" path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\drawable\osd_images.png" qualifiers="" type="drawable"/><file name="osd_images_move" path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\drawable\osd_images_move.png" qualifiers="" type="drawable"/><file name="osd_images_pause" path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\drawable\osd_images_pause.png" qualifiers="" type="drawable"/><file name="osd_pause" path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\drawable\osd_pause.png" qualifiers="" type="drawable"/><file name="osd_play" path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\drawable\osd_play.png" qualifiers="" type="drawable"/><file name="osd_rotate_clockwise" path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\drawable\osd_rotate_clockwise.png" qualifiers="" type="drawable"/><file name="osd_rotate_counterclockwise" path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\drawable\osd_rotate_counterclockwise.png" qualifiers="" type="drawable"/><file name="osd_settings" path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\drawable\osd_settings.png" qualifiers="" type="drawable"/><file name="osd_toggle_full" path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\drawable\osd_toggle_full.png" qualifiers="" type="drawable"/><file name="phone_icon" path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\drawable\phone_icon.png" qualifiers="" type="drawable"/><file name="photobucket_icon" path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\drawable\photobucket_icon.png" qualifiers="" type="drawable"/><file name="picasa_icon" path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\drawable\picasa_icon.png" qualifiers="" type="drawable"/><file name="plus" path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\drawable\plus.png" qualifiers="" type="drawable"/><file name="plus_circle" path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\drawable\plus_circle.png" qualifiers="" type="drawable"/><file name="rss_icon" path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\drawable\rss_icon.png" qualifiers="" type="drawable"/><file name="smooth_block_red" path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\drawable\smooth_block_red.png" qualifiers="" type="drawable"/><file name="smooth_circle" path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\drawable\smooth_circle.png" qualifiers="" type="drawable"/><file name="smooth_circle_red" path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\drawable\smooth_circle_red.png" qualifiers="" type="drawable"/><file name="splash" path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\drawable\splash.png" qualifiers="" type="drawable"/><file name="about" path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\layout\about.xml" qualifiers="" type="layout"/><file name="clock_placement" path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\layout\clock_placement.xml" qualifiers="" type="layout"/><file name="context_menu" path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\layout\context_menu.xml" qualifiers="" type="layout"/><file name="directory_browser_item" path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\layout\directory_browser_item.xml" qualifiers="" type="layout"/><file name="feeds_row" path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\layout\feeds_row.xml" qualifiers="" type="layout"/><file name="feed_settings" path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\layout\feed_settings.xml" qualifiers="" type="layout"/><file name="gallery" path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\layout\gallery.xml" qualifiers="" type="layout"/><file name="main" path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\layout\main.xml" qualifiers="" type="layout"/><file name="manage_feeds" path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\layout\manage_feeds.xml" qualifiers="" type="layout"/><file name="save_chooser" path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\layout\save_chooser.xml" qualifiers="" type="layout"/><file name="source_row" path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\layout\source_row.xml" qualifiers="" type="layout"/><file name="source_selector" path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\layout\source_selector.xml" qualifiers="" type="layout"/><file name="splashscreen" path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\layout\splashscreen.xml" qualifiers="" type="layout"/><file name="webauth" path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\layout\webauth.xml" qualifiers="" type="layout"/><file name="source_selector" path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\layout-land\source_selector.xml" qualifiers="land" type="layout"/><file name="file_menu" path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\menu\file_menu.xml" qualifiers="" type="menu"/><file path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\values\error_strings.xml" qualifiers=""><string name="internal_error">Internal error caught, please contact the developer</string><string name="error_fetching_albums">Error fetching albums, please try again</string><string name="error_showing_fetching_album_list">Error fetching album list. Click to try again.</string><string name="error_getting_flickr_user">Error getting your user, please try to sign in again.</string><string name="error_fetching_friends">Error fetching friends, please try again</string><string name="cannot_read_feed">Cannot read feed, it\'s probably too large.</string><string name="device_does_not_support_live_wallpapers">Apologies, it appears your device does not support live wallpapers. :(</string><string name="authorization_failed">Something strange happened when authorizing... Please try again!</string></file><file path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\values\settingsStrings.xml" qualifiers=""><string name="flickrSearch">Search for tags</string><string name="picasaShowStream">Show stream</string><string name="clockAboveImages">Show clock above images</string><string name="liveWallpaperLowFramerate">Live Wallpaper reduced framerate</string><string name="beware_of_public_feeds">If you choose to watch images from a public feed (Like Flickr explore or the 500px discover feeds) you may be exposed to nudity. These are public community driven image services and as such may contain anything. If this sounds bad, please stay away from public feeds!</string><string name="photobucketFollowing">Following</string><string name="fivehundredpxCategoryFamily">Family</string><string name="fivehundredpxPopular">Popular</string><string name="selectFolder">Select folder</string><string name="fivehundredpxCategoryAbstract">Abstract</string><string name="fivehundredpxCategoryFood">Food</string><string name="rotateImagesSummary">Tilt images for a slightly more messed up effect</string><string name="clockPositionTitle">Choose position of clock</string><string name="photobucketRecent">Recent</string><string name="fivehundredpxCategoryPeople">People</string><string name="fivehundredpxWeek">This week\'s photos</string><string name="loadingFriends">Loading friends…</string><string name="controls">Controls</string><string name="floatingType">Movement</string><string name="pauseWhenSelectedSummary">Stop floating when an image is selected</string><string name="forceRotation">Force screen rotation</string><string name="floating">Floating images</string><string name="photobucketShowUserBadUsername">Sorry, Photobucket user not found.</string><string name="signingIn">Signing in</string><string name="flickrMyAlbums">My albums</string><string name="photobucketEmptyUserSearch">Please enter a username</string><string name="slideInterval">Slideshow interval</string><string name="fivehundredpxShowUser">Show user</string><string name="fivehundredpxTodaySummary">Photos since midnight</string><string name="settings">Settings</string><string name="feedMenuRemove">Remove feed</string><string name="albumBy">Album by</string><string name="fivehundredpxShowFriends">Show friends</string><string name="picasaShowMyAlbums">Show my albums</string><string name="fivehundredpxCategorySport">Sport</string><string name="launchOnDock">Launch on dock</string><string name="selectImageSummary">Move image to focus by tapping on it</string><string name="visible">Visible</string><string name="note">Note:</string><string name="tsunamiSummary">Fill screen with images. USE WITH CAUTION: This may cause strange behaviour and instability!</string><string name="picasaSearchTerm">Search, separate search terms with a comma (,)</string><string name="fivehundredpxSearch">Search</string><string name="flickrSearchNoText">Please search for something.</string><string name="picasaShowAlbums">Show albums</string><string name="feedMenuAddSummary">Add a new source of images</string><string name="feedActive">Active</string><string name="nudityWallpaper">Disallow nudity in wallpaper</string><string name="disabled">Disabled</string><string name="forceRotationSummary">Adjust screen rotation manually</string><string name="fivehundredpxCategoryStillLife">Still life</string><string name="picasaShowUser">Show user</string><string name="fivehundredpxCategoryCityAndArchitecture">City and architecture</string><string name="photobucketShowUser">Show user</string><string name="imageDecorationsSummary">Show shadows and glow behind images</string><string name="backgroundColorTitle">Select the background color</string><string name="fivehundredpxCategoryBlackAndWhite">Black and white</string><string name="add_this_directory">Select %s</string><string name="savePath">Save path</string><string name="loadingAlbums">Loading albums…</string><string name="fivehundredpxEditorsSummary">Selected by 500px editors</string><string name="slideSpeedSummary">How fast should the slide transitions be</string><string name="fivehundredpxCategoryStreet">Street</string><string name="imageDecorations">Decorate images</string><string name="picasaSearch">Search for keywords</string><string name="useHighResThumbsSummary">EXPERIMENTAL: This might crash your phone! High res devices only.</string><string name="fivehundredpxCategoryAnimals">Animals</string><string name="fivehundredpxUserNotFound">User could not be found</string><string name="useHighResThumbs">Use high-res thumbnails</string><string name="moreCameraPictures">More camera pictures</string><string name="floatingSpeedSummary">How fast do the images traverse the screen</string><string name="photobucketLoadingAlbums">Loading albums…</string><string name="feedName">Name</string><string name="clockPosition">Position of clock</string><string name="picasaSearchNoText">Please search for something.</string><string name="launchOnDockSummary">Start Floating Image when docked</string><string name="picasaShowStreamNoUsername">Please fill in a username.</string><string name="fivehundredpxTypeUsername">Enter username</string><string name="photobucket">Photobucket</string><string name="slideSpeed">Slideshow transition speed</string><string name="facebookShowAlbum">show</string><string name="photobucketEmptySearch">Please search for something</string><string name="photobucketEmptyGroupSearch">Please enter a groupname</string><string name="nuditySummary">If some sneak in anyway, the service is at fault.</string><string name="cameraPictures">Camera pictures</string><string name="fivehundredpxYesterday">Yesterday\'s photos</string><string name="fivehundredpxCategoryUnderwater">Underwater</string><string name="rssEmptyDialog">Please enter an RSS stream</string><string name="modeTitle">Select display mode</string><string name="me">me</string><string name="singleClickDeselectSummary">If on a single click deselects an image. Double click brings up the menu.</string><string name="tsunami">Tsunami</string><string name="singleClickDeselect">Click once to deselect image</string><string name="fivehundredpxCategoryNude">Nude</string><plurals name="n_images">
+		<item quantity="one">One image</item>
+		<item quantity="other">%d images</item>
+	</plurals><string name="floatingTypeSummary">How should the images move</string><string name="picasaShowStreamBadUsername">Sorry, Picasa user not found.</string><string name="fivehundredpxCategoryMacro">Macro</string><string name="backgroundColor">Background color</string><string name="facebookFriends">Friends</string><string name="photobucketImagesBy">Images by %s</string><string name="photobucketGroup">Group</string><string name="fivehundredpxEditors">Editor\'s choice</string><string name="fivehundredpxCategoryLandscapes">Landscapes</string><string name="fivehundredpxCategoryCommercial">Commercial</string><string name="fivehundredpxUpcoming">Upcoming</string><string name="fivehundredpxEmptySearch">Please enter something to search for</string><string name="flickrShowStream">Show stream</string><string name="local">Phone</string><string name="flickrMyPhotos">My photos</string><string name="nudity">Disallow nudity</string><string name="shuffle">Shuffle images</string><string name="cancel">Cancel</string><string name="fivehundredpxCategoryTravel">Travel</string><string name="photobucketShowFollowing">Show followed photos</string><string name="searching_for_user">Searching for user</string><string name="fivehundredpxShowingUsersFriends">Showing %s\'s friends</string><string name="clockPositionSummary">Where should the time be displayed</string><string name="fivehundredpxVerifyingUser">Verifying user</string><string name="fivehundredpxYesterdaySummary">Photos uploaded yesterday</string><string name="rotateImages">Rotate images</string><string name="display">Display</string><string name="manageFeeds">Manage feeds</string><string name="flickrShowStreamUsername">Please enter the stream username</string><string name="include_all_subdirs">Include all subdirectories</string><string name="feedMenuAdd">Add new feed</string><string name="rssEnterPaste">Please enter (paste) an RSS url</string><string name="fivehundredpxPopularSummary">Photos with a rating over 80</string><string name="fivehundredpxDiscover">Discover new photos</string><string name="include_subdirs">Include images from subdirectories</string><string name="floatingSpeed">Speed</string><string name="flickr">Flickr</string><string name="facebook">Facebook</string><string name="fivehundredpxShowingUsersFavorites">Showing %s\'s favorites</string><string name="center">Center</string><string name="showHiddenFiles">Toggle hidden files</string><string name="slideSpeedTitle">Select transition speed</string><string name="show_new_feed">Show new feed</string><string name="selectCurrentFolder">Select current folder</string><string name="feedSubtitle">Subtitle</string><string name="blackEdgesSummary">Put a black outline around images. Remove this for better performance.</string><string name="slideshow">Slideshow</string><string name="shuffleSummary">Show images in random order</string><string name="selectImage">Tap image to select</string><string name="dismiss">Dismiss</string><string name="misc">Misc</string><string name="backgroundColorSummary">The color behind the floating images</string><string name="flickr_search">Search: </string><string name="feeds">Feeds</string><string name="fivehundredpxCategoryFashion">Fashion</string><string name="fivehundredpxWeekSummary">Photos since 7 days ago</string><string name="savePathSummary">Where should downloaded images be saved</string><string name="photobucketSearch">Search</string><string name="fivehundredpxCategoryCelebrities">Celebrities</string><string name="LiveWallpapers">Live wallpapers</string><string name="slideIntervalSummary">Select how long each picture is displayed</string><string name="moveStreamSummary">Browse stream by swiping screen</string><string name="feedSortOrder">Sort images by</string><string name="blackEdges">Black outline</string><string name="delete">Delete</string><string name="clockAboveImagesSummary">Should the time be shown above or below the images</string><string name="pauseWhenSelected">Pause stream on selection</string><string name="flickrAllContactsStreams">All contacts\' streams</string><string name="flickrExploreSummary">Daily 500 most interesting</string><string name="facebookPhotosOfFriend">Show photos of</string><string name="fullscreenBlackSummary">Fade background to all black when in fullscreen mode</string><string name="photobucketAlbumBy">Album by %s</string><string name="fivehundredpxToday">Today\'s photos</string><string name="flickrShowStreamNoUsername">Please fill in a username.</string><string name="picasaShowUserUsername">Please enter the username of the desired user</string><string name="fivehundredpx">500px</string><string name="floatingSpeedTitle">Floating images speed</string><string name="select_what_to_show">Select what to show</string><string name="mode">Display mode</string><string name="Downloads">Downloads</string><string name="photobucketShowGroup">Show Group</string><string name="facebookMyAlbums">My albums</string><string name="fivehundredpxTypeSearchTerm">Enter search term</string><string name="LiveWallpapersSummary">Manage live wallpapers to set Floating Image as wallpaper</string><string name="forceRotationTitle">Screen rotation</string><string name="flickrMyContactsPhotos">Photos by my Contacts</string><string name="slideIntervalTitle">Select slideshow interval</string><string name="fivehundredpxCategoryNature">Nature</string><string name="fivehundredpxCategoryConcert">Concert</string><string name="fivehundredpxCategoryJournalism">Journalism</string><string name="flickrSearchTerm">Search, separate search terms with a comma (,)</string><string name="manageFeedsSummary">Where should the images float from</string><string name="flickrShowStreamBadUsername">Sorry, Flickr user not found.</string><string name="fivehundredpxShowing">Showing %s</string><string name="fivehundredpxShowFavorites">Show favorites</string><string name="fivehundredpxCategoryPerformingArts">Performing arts</string><string name="moveStream">Stream can be pushed</string><string name="facebookPhotosOfMe">Show photos of me</string><string name="picasa">Picasa</string><string name="fivehundredpxCategoryFineArt">Fine art</string><string name="floatingTypeTitle">Floating images movement</string><string name="modeSummary">How should the images be displayed</string><string name="picasaShowMyStream">Show my stream</string><string name="fivehundredpxUpcomingSummary">Photos with a rating over 60</string><string name="flickrExplore">Explore</string><string name="fivehundredpxCategories">Categories</string><string name="liveWallpaperLowFramerateSummary">Force max 20 frames per second to reduce battery drain</string><string name="fivehundredpxCategoryFilm">Film</string><string name="facebookFriendsAlbums">Albums by</string><string name="photobucketShowRecent">Show recent photos</string><string name="flickrMyFavorites">My favorites</string><string name="fullscreenBlack">Fade to black when fullscreen</string></file><file path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\values\settings_arrays.xml" qualifiers=""><string-array name="backgroundColorDescriptions">
+		<item>Grey</item>
+		<item>Black</item>
+		<item>Pure black</item>
+		<item>White</item>
+		<item>Blue</item>
+		<item>Green</item>
+		<item>Red</item>
+		<item>Yellow</item>
+		<item>All</item>
+	</string-array><string-array name="forceRotationDescriptions">
+		<item>No rotation</item>
+		<item>90 degrees</item>
+		<item>180 degrees</item>
+		<item>270 degrees</item>
+	</string-array><array name="clockPositionValues">
+	    <item>topleft</item>
+	    <item>topright</item>
+	    <item>bottomleft</item>
+	    <item>bottomright</item>
+	    <item>disabled</item>
+	</array><array name="clockPositionDescriptions">
+	    <item>Top left</item>
+	    <item>Top right</item>
+	    <item>Bottom left</item>
+	    <item>Bottom right</item>
+	    <item>No clock</item>
+	</array><string-array name="sortOrderFiles">
+		<item>Name</item>
+		<item>Name reverse</item>
+		<item>Date</item>
+		<item>Date reverse</item>
+		<item>Random</item>
+	</string-array><string-array name="sortOrderOnline">
+		<item>Name</item>
+		<item>Name reverse</item>
+		<item>Date</item>
+		<item>Date reverse</item>
+		<item>Random</item>
+	</string-array><string-array name="floatingSpeedDescriptions">
+		<item>very fast</item>
+		<item>fast</item>
+		<item>normal</item>
+		<item>slow</item>
+		<item>very slow</item>
+	</string-array><string-array name="forceRotationValues">
+		<item>0</item>
+		<item>90</item>
+		<item>180</item>
+		<item>270</item>
+	</string-array><string-array name="displayModeDescriptions">
+		<item>None</item>
+		<item>Slide horizontal</item>
+		<item>Slide vertical</item>
+		<item>Crossfade</item>
+		<item>Fade to black</item>
+		<item>Fade to white</item>
+		<item>Random from the above</item>
+		<item>Floating images</item>
+	</string-array><string-array name="floatingSpeedValues">
+		<item>7000</item>
+		<item>15000</item>
+		<item>30000</item>
+		<item>60000</item>
+		<item>250000</item>
+	</string-array><string-array name="slideIntervalValues">
+		<item>2000</item>
+		<item>5000</item>
+		<item>10000</item>
+		<item>30000</item>
+		<item>60000</item>
+		<item>120000</item>
+		<item>300000</item>
+		<item>600000</item>
+		<item>1800000</item>
+		<item>3600000</item>
+		<item>7200000</item>
+		<item>21600000</item>
+		<item>43200000</item>
+		<item>86400000</item>
+		<item>604800000</item>
+	</string-array><string-array name="floatingTypeValues">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>20</item>
+	</string-array><string-array name="displayModeValues">
+		<item>none</item>
+		<item>slideRightToLeft</item>
+		<item>SlideTopToBottom</item>
+		<item>crossFade</item>
+		<item>fadeToBlack</item>
+		<item>fadeToWhite</item>
+		<item>random</item>
+		<item>floatingImages</item>
+	</string-array><string-array name="backgroundColorValues">
+		<item>0</item>
+		<item>1</item>
+		<item>8</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+	</string-array><string-array name="slideSpeedValues">
+		<item>300</item>
+		<item>1000</item>
+		<item>3000</item>
+	</string-array><string-array name="slideSpeedDescriptions">
+		<item>fast</item>
+		<item>slow</item>
+		<item>really slow</item>
+	</string-array><string-array name="floatingTypeDescriptions">
+		<item>Right</item>
+		<item>Left</item>
+		<item>Down</item>
+		<item>Up</item>
+		<item>Hyperspeed</item>
+		<item>TableTop</item>
+		<item>Stack</item>
+		<item>Mix up</item>
+	</string-array><string-array name="slideIntervalDescriptions">
+		<item>2 seconds</item>
+		<item>5 seconds</item>
+		<item>10 seconds</item>
+		<item>30 seconds</item>
+		<item>1 minute</item>
+		<item>2 minutes</item>
+		<item>5 minutes</item>
+		<item>10 minutes</item>
+		<item>30 minutes</item>
+		<item>1 hour</item>
+		<item>2 hours</item>
+		<item>6 hours</item>
+		<item>12 hours</item>
+		<item>1 day</item>
+		<item>1 week</item>
+	</string-array></file><file path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\values\strings.xml" qualifiers=""><string name="please_wait">The gears are grinding... Please wait</string><string name="dataFolder">/floatingImage</string><string name="show_details">Show details</string><string name="cancel_show">Cancel show</string><string name="resume">Resume</string><string name="authorizing">Authorizing</string><string name="stream">Stream</string><string name="share_url">Share image URL</string><string name="delete_image_are_you_sure">Are you sure you want to delete the image</string><string name="set_as_background">Set as background</string><string name="authorize">Sign in</string><string name="search_flickr">Search Flickr</string><string name="share_subject">Lookit, a picture!</string><string name="pause">Pause</string><string name="no_images_showing_stay">I like this</string><string name="about">About</string><string name="fullscreen">Fullscreen</string><string name="empty_feed">No pictures found in feed</string><string name="exploreFolder">/.exploreCache</string><string name="aboutSummary">Shameless self promotion</string><string name="app_name">Floating Image</string><string name="user_agent">Floating image/Android</string><string name="show_flickr">Show Flickr</string><string name="no_images_showing">I cannot seem to find any images. Nothing is going to happen.</string><string name="show_flickr_user">Show Flickr user</string><string name="unauthorize">Sign out</string><string name="save_image">Save image</string><string name="show">Show</string><string name="loading_feeds">Loading feeds</string><string name="share_image">Share image</string><string name="delete_image">Delete image</string><string name="no_images_showing_manage">Find images</string><string name="go_to_source">Go to source</string><string name="show_folder">Show folder</string></file><file path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\values-cs\error_strings.xml" qualifiers="cs"><string name="error_fetching_albums">Chyba přenosu alb, zkuste to prosím znovu.</string><string name="error_getting_flickr_user">Chyba přihlášení, zkuste to prosím znovu.</string><string name="authorization_failed">Chyba při autorizaci... Zkuste to prosím znovu!</string><string name="error_showing_fetching_album_list">Chyba přenosu listu alb, klikněte pro nový pokus.</string><string name="cannot_read_feed">Nemohu načíst kanál, pravděpodobně je příliš velký.</string><string name="internal_error">Interní chyba, kontaktujte prosím vývojáře.</string><string name="error_fetching_friends">Chyba přenosu přátel, zkuste to prosím znovu.</string><string name="device_does_not_support_live_wallpapers">Omlouváme se, ale vaše zařízení nejspíše nepodporuje Živá Pozadí ... :(</string></file><file path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\values-cs\settingsStrings.xml" qualifiers="cs"><string name="blackEdges">Černé orámování</string><string name="picasaShowUserUsername">Zvolte prosím jméno požadovaného uživatele.</string><string name="slideIntervalTitle">Zvolte interval Slideshow.</string><string name="useHighResThumbs">Použít vysokou kvalitu zobrazení.</string><string name="facebookShowAlbum">Zobrazit</string><string name="feedActive">Aktivní</string><string name="dismiss">Zapomenout</string><string name="fivehundredpxCategoryPeople">Lidé</string><string name="include_all_subdirs">Zahrnout všechny podadresáře</string><string name="fivehundredpxUserNotFound">Uživatel nenalezen</string><string name="flickrMyContactsPhotos">Fotografie dle mých kontaktů</string><string name="facebookMyAlbums">Má alba</string><string name="tsunamiSummary">Vyplnit displej obrazy. UPOZORNĚNÍ: Může způsobit nestabilitu!</string><string name="fivehundredpxCategoryTravel">Cestování</string><string name="settings">Nastavení</string><string name="add_this_directory">Zvolte %s</string><string name="fivehundredpxPopular">Populární</string><string name="feedSubtitle">Podtitul</string><string name="picasaSearch">Vyhledat klíčová slova</string><string name="floatingTypeTitle">Plovoucí obrazy</string><string name="fivehundredpxToday">Dnešní fotografie</string><string name="floatingSpeedTitle">Rychlost plovoucích obrazů.</string><string name="fivehundredpxSearch">Vyhledat</string><string name="flickrSearchNoText">Zvolte údaj pro vyhledávání, prosím.</string><string name="facebookFriendsAlbums">Alba podle</string><string name="flickrSearchTerm">Vyhledávání, údaje oddělujte čárkou (,)</string><string name="show_new_feed">Zobrazit nové kanály</string><string name="showHiddenFiles">Přepnout skryté soubory</string><string name="fivehundredpxEditors">Tipy autora</string><string name="modeSummary">Jak mají být obrazy zobrazeny.</string><string name="liveWallpaperLowFramerateSummary">Nastaví 20FPS pro snížení spotřeby.</string><string name="fivehundredpx">500px</string><string name="fivehundredpxCategories">Kategorie</string><string name="backgroundColor">Barva pozadí</string><string name="feedMenuRemove">Odstranit kanál</string><string name="fivehundredpxCategoryFashion">Móda</string><string name="forceRotationTitle">Rotace displeje</string><string name="fivehundredpxEmptySearch">Zadejte prosím údaj pro vyhledávání</string><string name="select_what_to_show">Zvolte položky k zobrazení</string><string name="cancel">Zrušit</string><string name="fivehundredpxWeek">Fotografie tohoto týdne</string><string name="loadingFriends">Nahrávám přátele…</string><string name="flickrMyAlbums">Má alba</string><string name="picasaShowStreamNoUsername">Vyplňte prosím jméno</string><string name="picasaSearchNoText">Zadejte údaj k vyhledání</string><string name="flickrMyPhotos">Mé fotografie</string><string name="nudity">Zakázat nahotu</string><string name="photobucketShowFollowing">Zobrazit následující fotografie</string><string name="include_subdirs">Zahrnout obrazy z podadresářů</string><string name="photobucketShowUser">Zobrazit uživatele</string><string name="moreCameraPictures">Další fotografie z foťáku</string><string name="photobucket">Photobucket</string><string name="slideSpeedSummary">Zvolte rychlost přechodů pro Slideshow.</string><string name="flickr">Flickr</string><string name="fivehundredpxCategoryCelebrities">Celebrity</string><string name="facebookPhotosOfFriend">Zobrazit fotografie</string><string name="fivehundredpxShowing">Zobrazit</string><string name="manageFeedsSummary">Nastavení zdrojových složek.</string><string name="fivehundredpxCategoryUnderwater">Vodní svět</string><string name="fivehundredpxYesterday">Včerejší fotografie</string><string name="singleClickDeselectSummary">Pokud je tato funkce zapnuta, menu vyvolává dvojtý klik.</string><string name="feedMenuAdd">Přidat nový kanál</string><string name="imageDecorations">Dekoraze obrazů</string><string name="fivehundredpxTypeSearchTerm">Vložit údaj pro hledání</string><string name="picasaShowMyStream">Zobrazit mé kanály</string><string name="selectCurrentFolder">Zvolit stávající adresář</string><string name="picasaShowAlbums">Zobrazit alba</string><string name="flickrShowStreamNoUsername">Vyplňte prosím uživatelské jméno.</string><string name="fivehundredpxUpcoming">Připravované</string><string name="fivehundredpxShowingUsersFriends">Zobrazit %s přátele(-tel)</string><string name="fivehundredpxDiscover">Prozkoumat nové fotografie</string><string name="fivehundredpxCategoryConcert">Koncert</string><string name="photobucketShowUserBadUsername">Promiňte, Photobucket uživatel nenalezen.</string><string name="fivehundredpxShowUser">Zobrazit uživatele</string><string name="slideSpeed">Rychlost přechodů Slideshow</string><string name="beware_of_public_feeds">Pokud zvolíte obrazy z veřejného kanálu (jako Flickr nebo 500px kanálů), může být vyobrazena i nahota. Tyto kanály jsou řízeny veřejností, a jako takové mohou obsahovat cokoliv. Pokud si toto nepřejete, vyhýbejte se prosím veřejným kanálům!</string><string name="shuffleSummary">Zobrazí obrazy v náhodném pořadí.</string><string name="Downloads">Stažené</string><string name="albumBy">Alba dle</string><string name="floatingType">Pohyb</string><string name="display">Displej</string><string name="floatingSpeed">Rychlost</string><string name="feedName">Jméno</string><string name="picasaSearchTerm">Vyhledávání, údaje oddělujte čárkou (,)</string><string name="facebookPhotosOfMe">Zobrazit fotografie mé osoby</string><string name="flickrMyFavorites">Oblíbené</string><string name="fivehundredpxShowingUsersFavorites">Zobrazit %s oblíbené(-ných)</string><string name="manageFeeds">Upravit kanály</string><string name="slideSpeedTitle">Zvolte rychlost přechodu</string><string name="flickrShowStream">Ukázat Stream</string><string name="mode">Mód zobrazení</string><string name="nuditySummary">Zobrazení nahoty ve veřejných kanálech nelze plně zabránít!</string><string name="backgroundColorSummary">Barva za plovoucími obrazy.</string><string name="forceRotationSummary">Nastavte rotaci displeje</string><string name="flickr_search">Vyhledávání: </string><string name="fivehundredpxCategoryCityAndArchitecture">Město a architektura</string><string name="slideInterval">Interval Slideshow</string><string name="floating">Plovoucí obrazy</string><string name="nudityWallpaper">Zakázat nahotu v pozadích</string><string name="fivehundredpxYesterdaySummary">Fotografie nahrané včera</string><string name="delete">Smazat</string><string name="rotateImages">Rotavat obrazy</string><string name="flickrExplore">Prozkoumat</string><string name="picasaShowUser">Zobrazit uživatele</string><string name="signingIn">Přihlášení</string><string name="fivehundredpxCategoryFood">Potraviny</string><string name="shuffle">Náhodný mód</string><string name="flickrExploreSummary">Dnešních 500 nejzajímavějších</string><string name="facebook">Facebook</string><string name="fivehundredpxTodaySummary">Fotografie od půlnoci</string><string name="fivehundredpxPopularSummary">Fotografie s hodnocením nad 80</string><string name="modeTitle">Zvolte mód zobrazení.</string><string name="slideshow">Slideshow</string><string name="fivehundredpxWeekSummary">Fotografie za posledních 7 dní</string><string name="backgroundColorTitle">Zvolte barvu pozadí</string><string name="forceRotation">Vynucená rotace displeje</string><string name="fivehundredpxCategoryAbstract">Abstraktní</string><string name="fivehundredpxCategoryMacro">Macro</string><string name="rotateImagesSummary">Naklonit obrazy pro celkové zlepšení efektu.</string><string name="fivehundredpxEditorsSummary">Zvolit dle 500px autorů</string><string name="useHighResThumbsSummary">EXPERIMENTÁLNÍ: Může způsobit pád telefonu! Pouze pro High-End zařízení!</string><string name="picasaShowStream">Ukázat kanál</string><string name="fivehundredpxShowFavorites">Zobrazit oblíbené</string><string name="fivehundredpxCategoryCommercial">Komerční</string><string name="local">Telefon</string><string name="LiveWallpapers">Živá Pozadí</string><string name="fivehundredpxCategoryBlackAndWhite">Černobílé</string><string name="searching_for_user">Hledám uživatele</string><string name="fivehundredpxCategorySport">Sport</string><string name="fivehundredpxCategoryStreet">Ulice</string><string name="flickrAllContactsStreams">Všechny kontakty\' kanály</string><string name="floatingSpeedSummary">Jak rychle se mají obrazy pohybovat.</string><string name="selectFolder">Zvolit složku</string><string name="flickrSearch">Vyhledat tagy</string><string name="fivehundredpxCategoryFineArt">Umění</string><string name="tsunami">Tsunami</string><string name="photobucketShowRecent">Zobrazit nedávné fotografie</string><string name="fivehundredpxUpcomingSummary">Fotografie s hodnocením nad 60</string><string name="fivehundredpxCategoryLandscapes">Krajina</string><string name="fivehundredpxCategoryNature">Příroda</string><string name="fivehundredpxCategoryPerformingArts">Umělci</string><string name="picasa">Picasa</string><string name="fullscreenBlackSummary">Fade pozadí do černé - pro fullscreen mód</string><string name="fivehundredpxCategoryFilm">Film</string><string name="fivehundredpxVerifyingUser">Ověřuji uživatele</string><plurals name="n_images">
+		<item quantity="one">Jeden obraz</item>
+
+		<item quantity="other">%d obrazů</item>
+	</plurals><string name="misc">Ostatní</string><string name="feedSortOrder">Seřadit obrazy podle</string><string name="imageDecorationsSummary">Zobrazuje stín a záři za obrazy.</string><string name="fivehundredpxCategoryNude">Nahota</string><string name="cameraPictures">Fotografie z foťáku</string><string name="fivehundredpxCategoryAnimals">Zvířata</string><string name="note">Poznámka:</string><string name="feeds">Kanály</string><string name="me">Já</string><string name="fullscreenBlack">Fade do černé v případě vyplnění obrazovky</string><string name="fivehundredpxCategoryJournalism">Žurnál</string><string name="fivehundredpxCategoryFamily">Rodina</string><string name="picasaShowMyAlbums">Zobrazit má alba</string><string name="floatingTypeSummary">Jak se mají obrazy pohybovat.</string><string name="flickrShowStreamUsername">Uveďte uživatelské jméno pro Stream</string><string name="picasaShowStreamBadUsername">Sorry, Picasa uživatel nenalezen.</string><string name="flickrShowStreamBadUsername">Promiňte, uživatel Flickr nebyl nalezen.</string><string name="loadingAlbums">Nahrávám alba…</string><string name="fivehundredpxCategoryStillLife">Momentky</string><string name="liveWallpaperLowFramerate">Redukce FPS pro Živé Pozadí</string><string name="fivehundredpxTypeUsername">Vložit uživatele</string><string name="blackEdgesSummary">Nastaví černý rámeček kolem obrazů. Zakažte v případě snížení výkonu.</string><string name="facebookFriends">Přátelé</string><string name="singleClickDeselect">Jeden klik pro zrušení obrazu</string><string name="LiveWallpapersSummary">Zvolte Floating Image v Živých Pozadích.</string><string name="slideIntervalSummary">Zvolte čas pro zobrazení obrazu.</string><string name="fivehundredpxShowFriends">Zobrazit přátele</string><string name="feedMenuAddSummary">Přidat nový zdroj obrazů.</string></file><file path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\values-cs\settings_arrays.xml" qualifiers="cs"><string-array name="backgroundColorDescriptions">
+		<item>Šedá</item>
+		<item>Černá</item>
+		<item>Ryzí černá</item>
+
+		<item>Bílá</item>
+		<item>Modrá</item>
+		<item>Zelená</item>
+		<item>Červená</item>
+		<item>Žlutá</item>
+		<item>Všechny</item>
+
+	</string-array><string-array name="slideSpeedValues">
+		<item>300</item>
+		<item>1000</item>
+		<item>3000</item>
+
+	</string-array><string-array name="slideIntervalValues">
+		<item>2000</item>
+
+		<item>5000</item>
+		<item>10000</item>
+		<item>30000</item>
+		<item>60000</item>
+		<item>120000</item>
+		<item>300000</item>
+
+		<item>600000</item>
+		<item>1800000</item>
+		<item>3600000</item>
+		<item>7200000</item>
+		<item>21600000</item>
+		<item>43200000</item>
+
+		<item>86400000</item>
+		<item>604800000</item>
+	</string-array><string-array name="floatingTypeValues">
+		<item>0</item>
+		<item>1</item>
+
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>20</item>
+
+	</string-array><string-array name="displayModeDescriptions">
+		<item>Žádný</item>
+		<item>Najetí shora</item>
+		<item>Najetí odspoda</item>
+		<item>Prolnutí</item>
+		<item>Fade do černé</item>
+
+		<item>Fade do bílé</item>
+		<item>Náhodný z výše uvedených</item>
+		<item>Plovoucí obrazy</item>
+	</string-array><string-array name="slideIntervalDescriptions">
+		<item>2 sekundy</item>
+		<item>5 sekund</item>
+		<item>10 sekund</item>
+		<item>30 sekund</item>
+		<item>1 minuta</item>
+
+		<item>2 minuty</item>
+		<item>5 minut</item>
+		<item>10 minut</item>
+		<item>30 minut</item>
+		<item>1 hodina</item>
+		<item>2 hodiny</item>
+
+		<item>6 hodin</item>
+		<item>12 hodin</item>
+		<item>1 den</item>
+		<item>1 týden</item>
+	</string-array><string-array name="floatingSpeedValues">
+		<item>7000</item>
+		<item>15000</item>
+		<item>30000</item>
+		<item>60000</item>
+		<item>250000</item>
+
+	</string-array><string-array name="forceRotationValues">
+		<item>0</item>
+		<item>90</item>
+		<item>180</item>
+		<item>270</item>
+	</string-array><string-array name="floatingTypeDescriptions">
+		<item>Vpravo</item>
+		<item>Vlevo</item>
+		<item>Dolů</item>
+		<item>Nahoru</item>
+		<item>StarWars</item>
+
+		<item>Stůl</item>
+		<item>Balík</item>
+		<item>Mix</item>
+	</string-array><string-array name="sortOrderFiles">
+
+		<item>Jméno</item>
+		<item>Jméno zpětně</item>
+		<item>Datum</item>
+		<item>Datum zpětně</item>
+		<item>Náhodně</item>
+	</string-array><string-array name="slideSpeedDescriptions">
+		<item>Rychle</item>
+
+		<item>Pomalu</item>
+		<item>Nejpomaleji</item>
+	</string-array><string-array name="forceRotationDescriptions">
+		<item>Bez rotace</item>
+		<item>90 stupňů</item>
+		<item>180 stupňů</item>
+		<item>270 stupňů</item>
+	</string-array><string-array name="displayModeValues">
+		<item>none</item>
+		<item>slideRightToLeft</item>
+		<item>SlideTopToBottom</item>
+		<item>crossFade</item>
+		<item>fadeToBlack</item>
+		<item>fadeToWhite</item>
+		<item>random</item>
+		<item>floatingImages</item>
+	</string-array><string-array name="sortOrderOnline">
+		<item>Jméno</item>
+		<item>Jméno zpětně</item>
+		<item>Datum</item>
+		<item>Datum zpětně</item>
+		<item>Náhodně</item>
+
+	</string-array><string-array name="floatingSpeedDescriptions">
+		<item>Nejrychleji</item>
+		<item>Rychle</item>
+		<item>Standard</item>
+		<item>Pomalu</item>
+		<item>Nejpomaleji</item>
+
+	</string-array><string-array name="backgroundColorValues">
+		<item>0</item>
+		<item>1</item>
+		<item>8</item>
+		<item>2</item>
+		<item>3</item>
+
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+	</string-array></file><file path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\values-cs\strings.xml" qualifiers="cs"><string name="no_images_showing_stay">To se mi líbí</string><string name="delete_image_are_you_sure">Skutečně chcete obraz smazat?</string><string name="save_image">Uložit obraz</string><string name="unauthorize">Odhlášení</string><string name="authorize">Přihlášení</string><string name="delete_image">Smazat obraz</string><string name="aboutSummary">Pár slov o autorovi</string><string name="show_details">Zobrazit detaily</string><string name="authorizing">Autorizace</string><string name="user_agent">Floating image/Android</string><string name="please_wait">Probíhá příprava... Prosím strpení</string><string name="resume">Pokračovat</string><string name="share_subject">Podívejte, obrázek!</string><string name="empty_feed">V kanálu nebyly nalezeny obrazy</string><string name="go_to_source">Přejít ke zdroji</string><string name="exploreFolder">/.exploreCache</string><string name="share_url">Sdílet URL obrazu</string><string name="app_name">Floating Image</string><string name="show">Zobrazit</string><string name="no_images_showing">Nemohu najít žádné obrazy.</string><string name="set_as_background">Nastavit jako pozadí</string><string name="share_image">Sdílet obraz</string><string name="no_images_showing_manage">Najít obrazy</string><string name="dataFolder">/floatingImage</string><string name="stream">Kanál</string><string name="search_flickr">Vyhledat Flickr</string><string name="show_flickr">Zobrazit Flickr</string><string name="cancel_show">Zrušit zobrazení</string><string name="about">O aplikaci</string><string name="show_folder">Zobrazit adresář</string><string name="loading_feeds">Nahrávám kanály</string><string name="pause">Pauza</string><string name="fullscreen">Fullscreen</string><string name="show_flickr_user">Zobrazit uživatele Flickr</string></file><file path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\values-da\error_strings.xml" qualifiers="da"><string name="error_fetching_friends">Fejl ved hentning af venner, prøv venligst igen</string><string name="device_does_not_support_live_wallpapers">Det lader desværre til at din enhed ikke understøtter levende baggrunde. :()</string><string name="internal_error">Intern fejl fanget, kontakt venligst udvikleren</string><string name="error_getting_flickr_user">Fejl ved hentning af din bruger, prøv venligst at logge ind igen.</string><string name="error_showing_fetching_album_list">Fejl ved hentning af album liste. Tryk for at prøve igen.</string><string name="authorization_failed">Der skete noget underligt ved login… Prøv venligst igen!</string><string name="error_fetching_albums">Fejl ved hentning af album, prøv venligst igen</string><string name="cannot_read_feed">Kan ikke læse kilden, den er måske for stor.</string></file><file path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\values-da\settingsStrings.xml" qualifiers="da"><string name="fullscreenBlackSummary">Gør baggrunden helt sort når billede vises i fuldskærm</string><string name="singleClickDeselect">Enkelt-klik fravælger</string><string name="slideSpeedSummary">Hvor hurtige skal overgangene mellem billederne være</string><string name="manageFeeds">Redigér kilder</string><string name="modeSummary">Hvordan skal billederne vises</string><string name="moveStream">Billedestrømmen kan blive flyttet</string><string name="useHighResThumbsSummary">EXPERIMENTIEL: Dette kan få din telefon til at gå ned! Virker kun på enheder i høj opløsning.</string><string name="selectCurrentFolder">Vælg denne mappe</string><string name="slideSpeed">Slideshow overgangshastighed</string><string name="flickrMyFavorites">Mine favoritter</string><string name="cancel">Annullér</string><string name="Downloads">Downloads</string><string name="flickrAllContactsStreams">Alle kontakters strømme</string><string name="flickrShowStreamNoUsername">Indtast venligst et brugernavn.</string><string name="flickrSearchTerm">Søg, separér søgetermer med et komma (,)</string><string name="facebookPhotosOfFriend">Vis billeder af</string><string name="floatingType">Bevægelse</string><string name="imageDecorationsSummary">Vis skygger bag billeder</string><string name="feedName">Navn</string><string name="picasaShowStreamBadUsername">Picasabrugeren blev desværre ikke fundet.</string><string name="searching_for_user">Leder efter bruger</string><string name="picasaSearch">Søg efter nøgleord</string><string name="tsunamiSummary">Fyld skærmen med billeder. Pas på, dette kan lede til ustabilitet!</string><string name="shuffle">Bland billeder</string><string name="useHighResThumbs">Brug thumbnails i høj opløsning</string><string name="slideSpeedTitle">Vælg overgangshastighed</string><string name="picasaShowMyStream">Vis min strøm</string><string name="flickrMyContactsPhotos">Fotos fra mine kontakter</string><string name="moveStreamSummary">Bevæg dig rundt i billedestrømmen ved at flytte fingeren hen over skærmen</string><string name="tsunami">Tsunami</string><string name="shuffleSummary">Vis billeder i tilfældig rækkefølge</string><string name="facebookShowAlbum">Vis</string><string name="feedMenuAdd">Tilføj ny kilde</string><string name="flickrExploreSummary">Dagens 500 mest interessante</string><string name="local">Enhed</string><string name="feedMenuRemove">Fjern kilde</string><string name="backgroundColorSummary">Farven bag de flydende billeder</string><string name="flickrSearch">Led efter tags</string><string name="include_subdirs">Tag billeder fra underbiblioteker med</string><string name="facebook">Facebook</string><string name="showHiddenFiles">Vis/skjul skjulte filer</string><string name="photobucketShowUserBadUsername">Desværre, Photobucket-bruger ikke fundet.</string><string name="floatingSpeedTitle">Flydende billedhastighed</string><string name="settings">Indstillinger</string><string name="forceRotation">Tving skærmrotation</string><string name="misc">Diverse</string><string name="picasaShowAlbums">Vis albums</string><string name="liveWallpaperLowFramerateSummary">Tving højst 20 billeder i sekundet for at reducere batteriforbrug</string><string name="picasaSearchTerm">Søg, separér søgeord med et komma (,)</string><string name="floatingSpeedSummary">Hvor hurtigt skal billederne bevæge sig over skærmen</string><string name="photobucket">Photobucket</string><string name="imageDecorations">Dekorér billeder</string><string name="add_this_directory">Vælg %s</string><string name="blackEdges">Sort kant</string><string name="flickrShowStream">Vis strøm</string><string name="backgroundColorTitle">Vælg baggrundsfarven</string><string name="facebookPhotosOfMe">Vis billeder af mig</string><string name="loadingAlbums">Henter albums…</string><string name="blackEdgesSummary">Læg en sort kant rundt om billederne. Slå dette fra for bedre performance.</string><string name="manageFeedsSummary">Hvor skal billederne komme fra</string><string name="loadingFriends">Henter venner…</string><string name="feedSortOrder">Sortér billeder efter</string><string name="flickrMyAlbums">Mine albums</string><string name="flickrMyPhotos">Mine billeder</string><string name="flickrSearchNoText">Søg venligst efter noget.</string><string name="facebookFriends">Venner</string><string name="backgroundColor">Baggrundsfarve</string><string name="photobucketShowFollowing">Vis fulgte fotos</string><string name="LiveWallpapers">Bevægelige baggrunde</string><string name="photobucketShowUser">Vis bruger</string><string name="modeTitle">Vælg visningsform</string><string name="picasaSearchNoText">Søg venligst efter noget.</string><string name="LiveWallpapersSummary">Sæt bevægelige baggrunde op for at sætte Floating Image som en baggrund</string><string name="dismiss">afvis</string><string name="forceRotationTitle">Skærmrotation</string><string name="picasaShowUser">Vis bruger</string><string name="flickrExplore">Explore</string><string name="slideshow">Slideshow</string><string name="flickrShowStreamBadUsername">Flickrbrugeren blev desværre ikke fundet.</string><string name="floating">Flydende billeder</string><string name="me">mig</string><string name="slideIntervalTitle">Vælg slideshow interval</string><string name="picasaShowStreamNoUsername">Indtast venligst et brugernavn.</string><string name="picasa">Picasa</string><string name="signingIn">Logger ind</string><string name="rotateImages">Roter billeder</string><string name="delete">Slet</string><string name="floatingTypeSummary">Hvordan skal billederne bevæge sig</string><string name="flickrShowStreamUsername">Indtast venligst brugernavnet for strømmen</string><string name="fullscreenBlack">Helt sort ved fuldskærm</string><string name="moreCameraPictures">Flere kamerabilleder</string><string name="display">Udseende</string><string name="picasaShowUserUsername">Indtast venligst brugernavnet på den ønskede bruger</string><string name="selectImageSummary">Flyt et billede i fokus ved at trykke på det</string><string name="show_new_feed">Vis ny kilde</string><string name="picasaShowStream">Vis strøm</string><string name="cameraPictures">Kamerabilleder</string><string name="feedActive">Aktiv</string><string name="floatingTypeTitle">Flydende billedbevægelse</string><string name="slideIntervalSummary">Vælg hvor længe hvert billede vises</string><string name="flickr_search">Søg: </string><string name="liveWallpaperLowFramerate">Live Tapet reduceret opdatering</string><string name="selectFolder">Vælg mappe</string><string name="forceRotationSummary">Juster skærmrotationen manuelt</string><string name="slideInterval">Slideshow interval</string><string name="facebookMyAlbums">Mine albums</string><plurals name="n_images">
+		<item quantity="one">Ét billede</item>
+		<item quantity="other">%d billeder</item>
+	</plurals><string name="rotateImagesSummary">Vælt billeder for en lidt mere rodet effekt</string><string name="feedSubtitle">Undertitel</string><string name="select_what_to_show">Vælg hvad der skal vises</string><string name="flickr">Flickr</string><string name="facebookFriendsAlbums">Albums af</string><string name="feedMenuAddSummary">Tilføj en ny strøm af billeder</string><string name="selectImage">Tryk på billede for at vælge</string><string name="mode">Visningsform</string><string name="feeds">Kilder</string><string name="controls">Kontroller</string><string name="picasaShowMyAlbums">Vis mine albums</string><string name="photobucketShowRecent">Vis nylige billeder</string><string name="albumBy">Album af</string><string name="singleClickDeselectSummary">Hvis på fravælger et enkelt klik billedet. Dobbeltklik vil vise menuen.</string><string name="floatingSpeed">Hastighed</string></file><file path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\values-da\settings_arrays.xml" qualifiers="da"><string-array name="backgroundColorValues">
+		<item>0</item>
+		<item>1</item>
+		<item>8</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+	</string-array><string-array name="sortOrderOnline">
+		<item>Navn</item>
+		<item>Navn baglæns</item>
+		<item>Dato</item>
+		<item>Dato baglæns</item>
+		<item>Tilfældig</item>
+	</string-array><string-array name="slideIntervalDescriptions">
+		<item>2 sekunder</item>
+		<item>5 sekunder</item>
+		<item>10 sekunder</item>
+		<item>30 sekunder</item>
+		<item>1 minut</item>
+		<item>2 minutter</item>
+		<item>5 minutter</item>
+		<item>10 minutter</item>
+		<item>30 minutter</item>
+		<item>1 time</item>
+		<item>2 timer</item>
+		<item>6 timer</item>
+		<item>12 timer</item>
+		<item>1 dag</item>
+		<item>1 uge</item>
+	</string-array><string-array name="displayModeValues">
+		<item>none</item>
+		<item>slideRightToLeft</item>
+		<item>SlideTopToBottom</item>
+		<item>crossFade</item>
+		<item>fadeToBlack</item>
+		<item>fadeToWhite</item>
+		<item>random</item>
+		<item>floatingImages</item>
+	</string-array><string-array name="sortOrderFiles">
+		<item>Navn</item>
+		<item>Navn baglæns</item>
+		<item>Dato</item>
+		<item>Dato baglæns</item>
+		<item>Tilfældig</item>
+	</string-array><string-array name="forceRotationDescriptions">
+		<item>Ingen rotation</item>
+		<item>90 grader</item>
+		<item>180 grader</item>
+		<item>270 grader</item>
+	</string-array><string-array name="displayModeDescriptions">
+		<item>Ingen</item>
+		<item>Glide horizontalt</item>
+		<item>Glide vertikalt</item>
+		<item>Glidende overgang</item>
+		<item>Overgang til sort</item>
+		<item>Overgang til hvidt</item>
+		<item>Tilfældigt fra ovenstående</item>
+		<item>Flydende billeder</item>
+	</string-array><string-array name="floatingSpeedDescriptions">
+		<item>Meget hurtig</item>
+		<item>Hurtig</item>
+		<item>Normal</item>
+		<item>Langsom</item>
+		<item>Meget langsom</item>
+	</string-array><string-array name="floatingTypeDescriptions">
+		<item>Højre</item>
+		<item>Venstre</item>
+		<item>Ned</item>
+		<item>Op</item>
+		<item>Hyperrum</item>
+		<item>Bordtop</item>
+		<item>Bunke</item>
+		<item>Blandet</item>
+	</string-array><string-array name="slideIntervalValues">
+		<item>2000</item>
+		<item>5000</item>
+		<item>10000</item>
+		<item>30000</item>
+		<item>60000</item>
+		<item>120000</item>
+		<item>300000</item>
+		<item>600000</item>
+		<item>1800000</item>
+		<item>3600000</item>
+		<item>7200000</item>
+		<item>21600000</item>
+		<item>43200000</item>
+		<item>86400000</item>
+		<item>604800000</item>
+	</string-array><string-array name="forceRotationValues">
+		<item>0</item>
+		<item>90</item>
+		<item>180</item>
+		<item>270</item>
+	</string-array><string-array name="slideSpeedValues">
+		<item>300</item>
+		<item>1000</item>
+		<item>3000</item>
+	</string-array><string-array name="floatingTypeValues">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>20</item>
+	</string-array><string-array name="slideSpeedDescriptions">
+		<item>Hurtig</item>
+		<item>Langsom</item>
+		<item>Rigtigt langsom</item>
+	</string-array><string-array name="backgroundColorDescriptions">
+		<item>Grå</item>
+		<item>Sort</item>
+		<item>Helt sort</item>
+		<item>Hvid</item>
+		<item>Blå</item>
+		<item>Grøn</item>
+		<item>Rød</item>
+		<item>Gul</item>
+		<item>Alle</item>
+	</string-array><string-array name="floatingSpeedValues">
+		<item>7000</item>
+		<item>15000</item>
+		<item>30000</item>
+		<item>60000</item>
+		<item>250000</item>
+	</string-array></file><file path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\values-da\strings.xml" qualifiers="da"><string name="delete_image">Slet billede</string><string name="no_images_showing_stay">Fint nok</string><string name="show_details">Vis detaljer</string><string name="show_flickr">Vis Flickr</string><string name="show">Vis</string><string name="show_folder">Vis mappe</string><string name="loading_feeds">Henter kilder</string><string name="exploreFolder">/.exploreCache</string><string name="go_to_source">Gå til kilde</string><string name="stream">Kilde</string><string name="share_url">Del billedesti</string><string name="delete_image_are_you_sure">Er du sikker på at du ønsker at slette dette billede</string><string name="dataFolder">/floatingImage</string><string name="resume">Fortsæt</string><string name="fullscreen">Fuldskærm</string><string name="user_agent">Floating image/Android</string><string name="share_subject">Se, et billede!</string><string name="authorizing">Autentificerer</string><string name="empty_feed">Ingen billeder fundet i kilde</string><string name="please_wait">Kaffepause... Vent venligst</string><string name="search_flickr">Søg i Flickr</string><string name="set_as_background">Sæt som baggrund</string><string name="show_flickr_user">Vis Flickr bruger</string><string name="cancel_show">Annullér vis</string><string name="no_images_showing_manage">Vælg billeder</string><string name="save_image">Gem billede</string><string name="authorize">Log ind</string><string name="unauthorize">Log ud</string><string name="app_name">Floating Image</string><string name="pause">Pause</string><string name="share_image">Del billede</string><string name="about">Om</string><string name="no_images_showing">Jeg kan ikke lige finde nogen billeder. Der sker ikke mere.</string><string name="aboutSummary">Skamløs selvpromovering (engelsk)</string></file><file path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\values-de\error_strings.xml" qualifiers="de"><string name="authorization_failed">Etwas seltsames passierte während der Authorisierung... Bitte probiere es erneut!</string><string name="error_fetching_friends">Fehler beim Herunterladen der Freundesliste, bitte probiere es erneut.</string><string name="internal_error">Interner Fehler, bitte setze dich mit dem Entwickler in Verbindung.</string><string name="error_showing_fetching_album_list">Fehler beim Herunterladen der Albumliste. Klicke hier um es noch einmal zu probieren.</string><string name="error_fetching_albums">Fehler beim Herunterladen des Albums, bitte probiere es erneut.</string><string name="error_getting_flickr_user">Fehler beim Herunterladen deines Users, bitte probiere es erneut.</string></file><file path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\values-de\settingsStrings.xml" qualifiers="de"><string name="modeTitle">Auswahl Anzeige Modus</string><string name="floatingSpeedSummary">Wie schnell sollen die Bilder über den Bildschirm fliegen</string><string name="slideshow">Filmstreifen</string><string name="modeSummary">Wie sollten die Bilder angezeigt werden</string><string name="cancel">Abbruch</string><string name="feedMenuRemove">Feed entfernen</string><string name="picasaShowStream">Stream anzeigen</string><string name="fullscreenBlack">Überblendung schwarz</string><string name="mode">Anzeige Modus</string><string name="backgroundColorTitle">Auswahl Hintergrundfarbe</string><string name="liveWallpaperLowFramerate">Verringerte Bildwiederholungsrate für Live Hintergrund</string><string name="facebookFriendsAlbums">Alben über</string><string name="floatingTypeSummary">Wie sollen sich die Bilder bewegen</string><string name="settings">Einstellungen</string><string name="backgroundColor">Hintergrundfarbe</string><string name="flickrShowStream">Stream anzeigen</string><string name="feeds">Feeds</string><string name="forceRotationSummary">Bildschirmausrichtung manuell einstellen</string><string name="flickrExplore">Top 500 (Explore)</string><string name="feedMenuAdd">Neuen Feed hinzufügen</string><string name="flickrMyAlbums">Meine Alben</string><string name="flickrAllContactsStreams">Alle Kontaktstreams</string><string name="internals">Internals</string><string name="manageFeeds">Feeds verwalten</string><string name="me">mich</string><string name="shuffle">Zufall</string><string name="picasaShowMyStream">Meine Streams anzeigen</string><string name="floatingType">Bewegung</string><string name="flickrShowStreamNoUsername">Bitte einen Benutzernamen angeben.</string><string name="flickrSearchTerm">Suche, trenne die einzelnen Suchwörter mit einem Komma (,)</string><string name="rotateImagesSummary">Neige die Bilder, um ein wenig mehr Chaoseffekt zu erzeugen</string><string name="flickrSearch">Nach Stichwörtern suchen</string><string name="flickr_search">Suche: </string><string name="facebookPhotosOfMe">Meine Bilder anzeigen</string><string name="slideInterval">Filmstreifenintervall</string><string name="floatingSpeed">Geschwindigkeit</string><string name="slideSpeedSummary">Wie schnell soll die Bewegungsgeschwindigkeit sein</string><string name="flickrMyFavorites">Meine Favoriten</string><string name="server">Eigener Server</string><string name="picasaSearch">Nach Stichwörtern suchen</string><string name="facebookFriends">Freunde</string><string name="imageDecorationsSummary">Schatten und Leuten hinter den Bilder anzeigen</string><string name="liveWallpaperLowFramerateSummary">Erzwinge max. 20 Bilder pro Sekunde für weniger Stromverbrauch</string><string name="slideIntervalSummary">Wie lange soll ein Bild sichtbar sein</string><string name="floatingSpeedTitle">Schwebende Bilder Geschwindigkeit</string><string name="useHighResThumbs">Hohe Auslösung</string><string name="useCache">Bilder cachen</string><string name="flickrPhotosFromHere">Bilder von hier</string><string name="manageFeedsSummary">Von welcher Quelle sollen die Bilder kommen</string><string name="useHighResThumbsSummary">WICHTIG: Könnte zum Absturz des Handys führen. Nur für VGA+ Handys</string><string name="floating">Schwebende Bilder</string><string name="floatingTypeTitle">Schwebende Bilder Bewegung</string><string name="dismiss">Abweisen</string><string name="flickrShowStreamUsername">Bitte für den Stream einen Benutzernamen angeben</string><string name="picasaSearchNoText">Bitte etwas suchen.</string><string name="facebookShowAlbum">anzeigen</string><string name="fullscreenBlackSummary">Im Vollbildmodus Hintergrund schwarz überblenden</string><string name="Downloads">Downloads</string><string name="facebookMyAlbums">Meine Alben</string><string name="picasaShowAlbums">Alben anzeigen</string><string name="slideIntervalTitle">Auswahl Filmstreifenintervall</string><string name="flickrSearchNoText">Bitte gebe etwas zum Suchen ein.</string><string name="picasa">Picasa</string><string name="rotateImages">Rotierende Bilder</string><string name="facebookPhotosOfFriend">Bilder von anzeigen</string><string name="selectCurrentFolder">Aktuelen Ordner auswählen</string><string name="forceRotationTitle">Bildschirmausrichtung</string><string name="picasaShowUser">Nutzer anzeigen</string><string name="slideSpeed">Filmstreifen Bewegungsgeschwindigkeit</string><string name="imageDecorations">Bilder Dekorationen</string><string name="useCacheSummary">Dies bewirkt einen flüssigeren Fluss während des Herunterladens</string><string name="flickrMyContactsPhotos">Photos von meinen Kontakten</string><string name="cameraPictures">Kamerabilder</string><string name="picasaShowUserUsername">Bitte den gewünschten Benutzernamen eingeben</string><string name="loadingFriends">Freunde werden geladen...</string><string name="flickrMyPhotos">Meine Bilder</string><string name="clearCache">Lösche Cache</string><string name="picasaSearchTerm">Suche, trenne die einzelnen Suchwörter mit einem Komma (,)</string><string name="backgroundColorSummary">Farbe hinter den schwebenden Bildern</string><string name="display">Bildschirm</string><string name="moreCameraPictures">Weitere Kamerabilder</string><string name="slideSpeedTitle">Auswahl Bewegungsgeschwindigkeit</string><string name="flickrShowStreamBadUsername">Es tut mir Leid, Flickr Nutzer wurde nicht gefunden.</string><string name="local">Speicher/SD</string><string name="picasaShowStreamBadUsername">Es tut mir Leid, Picasa Nutzer wurde nicht gefunden.</string><string name="forceRotation">Erzwinge Bildschirmausrichtung</string><string name="loadingAlbums">Alben werden geladen...</string><string name="flickr">Flickr</string><string name="picasaShowMyAlbums">Meine Alben anzeigen</string><string name="facebook">Facebook</string><string name="albumBy">Album über</string><string name="selectFolder">Ordner auswählen</string><string name="feedMenuAddSummary">Neue Bilderquelle hinzufügen</string><string name="showHiddenFiles">Toggle hidden files</string><string name="shuffleSummary">Zufällige Bildreihenfolge</string><string name="picasaShowStreamNoUsername">Bitte einen Benutzernamen angeben.</string><string name="clearCacheSummary">Gesamten Bilder Cache löschen</string></file><file path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\values-de\settings_arrays.xml" qualifiers="de"><string-array name="backgroundColorDescriptions">
+		<item>Grau</item>
+		<item>Schwarz</item>
+		<item>absolut Schwarz</item>
+		<item>Weiß</item>
+		<item>Blau</item>
+		<item>Grün</item>
+		<item>Rot</item>
+		<item>Gelb</item>
+		<item>Regenbogen</item>
+	</string-array><string-array name="backgroundColorValues">
+		<item>0</item>
+		<item>1</item>
+		<item>8</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+	</string-array><string-array name="slideSpeedValues">
+		<item>300</item>
+		<item>1000</item>
+		<item>3000</item>
+	</string-array><string-array name="forceRotationValues">
+		<item>0</item>
+		<item>90</item>
+		<item>180</item>
+		<item>270</item>
+	</string-array><string-array name="floatingSpeedDescriptions">
+		<item>sehr schnell</item>
+		<item>schnell</item>
+		<item>normal</item>
+		<item>langsam</item>
+		<item>sehr langsam</item>
+	</string-array><string-array name="slideIntervalValues">
+		<item>2000</item>
+		<item>5000</item>
+		<item>10000</item>
+		<item>30000</item>
+		<item>60000</item>
+		<item>120000</item>
+		<item>300000</item>
+		<item>600000</item>
+		<item>1800000</item>
+		<item>3600000</item>
+		<item>7200000</item>
+		<item>21600000</item>
+		<item>43200000</item>
+		<item>86400000</item>
+		<item>604800000</item>
+	</string-array><string-array name="displayModeDescriptions">
+		<item>Keine</item>
+		<item>Horizontale Verschiebung</item>
+		<item>Vertikale Verschiebung</item>
+		<item>Überblendung</item>
+		<item>Überblendung nach schwarz</item>
+		<item>Überblendung nach weiß</item>
+		<item>Zufällig von oben</item>
+		<item>Schwebende Bilder</item>
+	</string-array><string-array name="floatingTypeDescriptions">
+		<item>Rechts</item>
+		<item>Links</item>
+		<item>Unten</item>
+		<item>Oben</item>
+		<item>Sterngeschwindigkeit</item>
+		<item>TabelleOben</item>
+		<item>Stapel</item>
+		<item>Durcheinander</item>
+	</string-array><string-array name="floatingSpeedValues">
+		<item>7000</item>
+		<item>15000</item>
+		<item>30000</item>
+		<item>60000</item>
+		<item>250000</item>
+	</string-array><string-array name="forceRotationDescriptions">
+		<item>Keine Rotation</item>
+		<item>90 Grad</item>
+		<item>180 Grad</item>
+		<item>270 Grad</item>
+	</string-array><string-array name="displayModeValues">
+		<item>none</item>
+		<item>slideRightToLeft</item>
+		<item>SlideTopToBottom</item>
+		<item>crossFade</item>
+		<item>fadeToBlack</item>
+		<item>fadeToWhite</item>
+		<item>random</item>
+		<item>floatingImages</item>
+	</string-array><string-array name="slideSpeedDescriptions">
+		<item>schnell</item>
+		<item>langsam</item>
+		<item>sehr langsam</item>
+	</string-array><string-array name="slideIntervalDescriptions">
+		<item>2 Sekunden</item>
+		<item>5 Sekunden</item>
+		<item>10 Sekunden</item>
+		<item>30 Sekunden</item>
+		<item>1 Minute</item>
+		<item>2 Minute</item>
+		<item>5 Minute</item>
+		<item>10 Minute</item>
+		<item>30 Minute</item>
+		<item>1 Stunde</item>
+		<item>2 Stunde</item>
+		<item>6 Stunde</item>
+		<item>12 Stunde</item>
+		<item>1 Tag</item>
+		<item>1 Woche</item>
+	</string-array><string-array name="floatingTypeValues">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>20</item>
+	</string-array></file><file path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\values-de\strings.xml" qualifiers="de"><string name="share_url">Bild URL teilen</string><string name="fullscreen">Vollbild</string><string name="show_flickr">Flickr anzeigen</string><string name="save_image">Bilder speichern</string><string name="share_image">Bild teilen</string><string name="delete_image">Bild löschen</string><string name="app_name">Schwebende Bilder</string><string name="pause">Pause</string><string name="delete_image_are_you_sure">Sind Sie sicher, dass Sie dieses Bild löschen wollen?</string><string name="cancel_show">Abbruch anzeigen</string><string name="go_to_source">Gehe zur Quelle</string><string name="about">Über</string><string name="show_details">Details anzeigen</string><string name="please_wait">Die Mühlen mahlen... Please wait</string><string name="unauthorize">Abmelden</string><string name="show">Anzeigen</string><string name="resume">Fortfahren</string><string name="dataFolder">/floatingImage</string><string name="loading_feeds">Feed laden</string><string name="search_flickr">Flickrsuche</string><string name="aboutSummary">Charmlose Eigenwerbung</string><string name="set_as_background">Als Hintergrundbild setzen</string><string name="user_agent">Floating image/Android</string><string name="authorize">Anmelden</string><string name="stream">Stream</string><string name="show_folder">Ordner anzeigen</string><string name="empty_feed">Keine Bilder im Feed gefunden</string><string name="show_flickr_user">Flickr Benutzer anzeigen</string><string name="share_subject">Siehe da, ein Bild!</string><string name="exploreFolder">/.exploreCache</string></file><file path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\values-es\error_strings.xml" qualifiers="es"><string name="authorization_failed">Algo extraño pasó durante la autorización... Por favor intente nuevamente!</string><string name="error_fetching_albums">Error descargando álbumes, por favor intente nuevamente</string><string name="error_showing_fetching_album_list">Error al descargar listado de álbumes. Clic para intentar nuevamente.</string><string name="error_fetching_friends">Error descargando amigos, por favor intente nuevamente</string><string name="error_getting_flickr_user">Error al obtener su usuario, por favor regístrese nuevamente.</string><string name="internal_error">Error interno, por favor contactar al desarrollador</string></file><file path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\values-es\settingsStrings.xml" qualifiers="es"><string name="internals">Interno</string><string name="facebookShowAlbum">mostrar</string><string name="floatingTypeTitle">Movimiento de las imágenes flotantes</string><string name="picasaShowMyStream">Mostrar mi flujo</string><string name="flickrExplore">Top 500 (Explorar)</string><string name="feedMenuRemove">Quitar fuente</string><string name="showHiddenFiles">Mostrar archivos ocultos</string><string name="facebookPhotosOfMe">Muestra fotos donde aparezco</string><string name="manageFeedsSummary">Desde dónde deben flotar las imágenes</string><string name="rotateImagesSummary">incinar las imágenes para un leve efecto de desorden</string><string name="moreCameraPictures">Más imágenes de la cámara</string><string name="floatingSpeed">Velocidad</string><string name="backgroundColorTitle">Seleccione el color de fondo</string><string name="picasaShowStreamNoUsername">Por favor ingrese nombre de usuario.</string><string name="imageDecorations">Decorar imágenes</string><string name="picasaShowMyAlbums">Mostrar mis álbumes</string><string name="shuffleSummary">Mostrar imágenes en orden aleatorio</string><string name="slideIntervalSummary">Seleccione cuanto tiempo cada imagen debe ser presentada</string><string name="slideSpeedTitle">Seleccione velocidad de transición</string><string name="picasaShowStreamBadUsername">No se encontró el suario de Picasa.</string><string name="facebookPhotosOfFriend">Mostrar fotos de</string><string name="modeSummary">Como deben ser visualizadas las imágenes</string><string name="useHighResThumbsSummary">EXPERIMENTAL: Esta opción puede congelar su equipo! Sólo dispositivos con pantalla de alta resolución.</string><string name="floatingSpeedSummary">Cuan rápido las imágenes cruzan la pantalla</string><string name="picasaShowUserUsername">Por favor ingrese el nombre de usuario deseado</string><string name="cancel">Cancelar</string><string name="fullscreenBlackSummary">Desvanecer el fondo a negro en modo de pantalla completa</string><string name="selectCurrentFolder">Selecciona carpeta actual</string><string name="dismiss">Descartar</string><string name="forceRotationSummary">Ajustar la rotación de pantalla de forma manual</string><string name="flickr_search">Búsqueda: </string><string name="picasaSearchTerm">Búsqueda, separe los términos a buscar con coma (,)</string><string name="feedMenuAddSummary">Agrega una nueva fuente de imágenes</string><string name="slideInterval">Intervalo de presentación</string><string name="floatingTypeSummary">Como se deben mover las imágenes</string><string name="floatingType">Movimiento</string><string name="flickrSearchTerm">Búsqueda, separe los términos a buscar con coma (,)</string><string name="flickrMyContactsPhotos">Fotos de mis contactos</string><string name="picasaShowAlbums">Mostrar álbumes</string><string name="slideSpeedSummary">Cuan rápido la velocidad de transición debe ser</string><string name="local">Teléfono</string><string name="flickrShowStreamUsername">Por favor ingrese nombre de usuario del flujo</string><string name="floating">Floating images</string><string name="forceRotation">Rotación de pantalla forzada</string><string name="albumBy">Álbum por</string><string name="Downloads">Descargas</string><string name="flickrMyFavorites">Mis favoritos</string><string name="slideshow">Presentación</string><string name="facebookMyAlbums">Mis álbumes</string><string name="fullscreenBlack">Desvanecimiento a negro en pantalla completa</string><string name="modeTitle">Seleccione de modo de visualización</string><string name="loadingAlbums">Cargando álbumes...</string><string name="useCache">Hacer caché de imagenes</string><string name="picasaShowUser">Mostrar usuario</string><string name="flickrShowStreamNoUsername">Por favor ingrese nombre de usuario.</string><string name="flickrSearch">Buscar por etiquetas</string><string name="clearCache">Borrar caché</string><string name="backgroundColor">Color de fondo</string><string name="liveWallpaperLowFramerate">Cuadros por segundo reducidos para fondo de pantalla animado</string><string name="flickrSearchNoText">Por favor busque algo.</string><string name="imageDecorationsSummary">Mostrar sombras y brillo detrás de las imágenes</string><string name="feeds">Fuentes</string><string name="flickrShowStream">Mostrar flujo</string><string name="facebookFriends">Amigos</string><string name="settings">Preferencias</string><string name="useCacheSummary">Permite dar un flujo continuo cuando se hace transmisión continua</string><string name="facebook">Facebook</string><string name="clearCacheSummary">Borra todo el caché de imágenes</string><string name="flickrShowStreamBadUsername">No se encontró el suario de Flickr.</string><string name="mode">Modo de visualización</string><string name="flickrMyPhotos">Mis fotos</string><string name="display">Visualización</string><string name="picasa">Picasa</string><string name="loadingFriends">Cargando amigos...</string><string name="flickr">Flickr</string><string name="flickrMyAlbums">Mis álbumes</string><string name="rotateImages">Girar imágenes</string><string name="selectFolder">Seleccionar carpeta</string><string name="flickrPhotosFromHere">Fotos de aquí</string><string name="forceRotationTitle">Rotación de pantalla</string><string name="slideSpeed">Velocidad de transición en la presentación</string><string name="backgroundColorSummary">El color detrás de las imágenes flotantes</string><string name="manageFeeds">Administrar fuentes</string><string name="useHighResThumbs">Usar íconos de álta resolución</string><string name="flickrAllContactsStreams">Flujo de todos los contactos</string><string name="picasaSearch">Buscar por palabras clave</string><string name="floatingSpeedTitle">Velocidad de las imágenes flotantes</string><string name="slideIntervalTitle">Seleccione intervalo de presentación</string><string name="shuffle">Revolver imágenes</string><string name="liveWallpaperLowFramerateSummary">Máximo de 20 cuadros por segundo para reducir el gasto de batería</string><string name="picasaShowStream">Mostrar flujo</string><string name="me">mi</string><string name="cameraPictures">Imágenes de la cámara</string><string name="feedMenuAdd">Agregar nueva fuente</string><string name="picasaSearchNoText">Por favor busque algo.</string><string name="facebookFriendsAlbums">Álbumes de</string></file><file path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\values-es\settings_arrays.xml" qualifiers="es"><string-array name="displayModeDescriptions">
+		<item>Ninguno</item>
+		<item>Desplazamiento horizontal</item>
+		<item>Desplazamiento vertical</item>
+		<item>Desvanecimiento</item>
+		<item>Desvanecimiento a negro</item>
+		<item>Desvanecimiento a blanco</item>
+		<item>Aleatorio desde arriba</item>
+		<item>Imágenes flotantes</item>
+	</string-array><string-array name="forceRotationDescriptions">
+		<item>Sin rotación</item>
+		<item>90 grados</item>
+		<item>180 grados</item>
+		<item>270 grados</item>
+	</string-array><string-array name="forceRotationValues">
+		<item>0</item>
+		<item>90</item>
+		<item>180</item>
+		<item>270</item>
+	</string-array><string-array name="backgroundColorDescriptions">
+		<item>Gris</item>
+		<item>Negro</item>
+		<item>Negro puro</item>
+		<item>Blanco</item>
+		<item>Azul</item>
+		<item>Verde</item>
+		<item>Rojo</item>
+		<item>Amarillo</item>
+		<item>Todos</item>
+	</string-array><string-array name="slideIntervalDescriptions">
+		<item>2 segundos</item>
+		<item>5 segundos</item>
+		<item>10 segundos</item>
+		<item>30 segundos</item>
+		<item>1 minuto</item>
+		<item>2 minutos</item>
+		<item>5 minutos</item>
+		<item>10 minutos</item>
+		<item>30 minutos</item>
+		<item>1 hora</item>
+		<item>2 horas</item>
+		<item>6 horas</item>
+		<item>12 horas</item>
+		<item>1 dia</item>
+		<item>1 semana</item>
+	</string-array><string-array name="displayModeValues">
+		<item>none</item>
+		<item>slideRightToLeft</item>
+		<item>SlideTopToBottom</item>
+		<item>crossFade</item>
+		<item>fadeToBlack</item>
+		<item>fadeToWhite</item>
+		<item>random</item>
+		<item>floatingImages</item>
+	</string-array><string-array name="floatingSpeedValues">
+		<item>7000</item>
+		<item>15000</item>
+		<item>30000</item>
+		<item>60000</item>
+		<item>250000</item>
+	</string-array><string-array name="slideIntervalValues">
+		<item>2000</item>
+		<item>5000</item>
+		<item>10000</item>
+		<item>30000</item>
+		<item>60000</item>
+		<item>120000</item>
+		<item>300000</item>
+		<item>600000</item>
+		<item>1800000</item>
+		<item>3600000</item>
+		<item>7200000</item>
+		<item>21600000</item>
+		<item>43200000</item>
+		<item>86400000</item>
+		<item>604800000</item>
+	</string-array><string-array name="slideSpeedDescriptions">
+		<item>Rápido</item>
+		<item>Lento</item>
+		<item>Realmente lento</item>
+	</string-array><string-array name="floatingTypeValues">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>20</item>
+	</string-array><string-array name="floatingSpeedDescriptions">
+		<item>Muy rápido</item>
+		<item>Rápido</item>
+		<item>Normal</item>
+		<item>Lento</item>
+		<item>Muy lento</item>
+	</string-array><string-array name="backgroundColorValues">
+		<item>0</item>
+		<item>1</item>
+		<item>8</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+	</string-array><string-array name="floatingTypeDescriptions">
+		<item>Derecha</item>
+		<item>Izquierda</item>
+		<item>Abajo</item>
+		<item>Arriba</item>
+		<item>Velocidad estelar</item>
+		<item>Sobre la mesa</item>
+		<item>Apilado</item>
+		<item>Combinado</item>
+	</string-array><string-array name="slideSpeedValues">
+		<item>300</item>
+		<item>1000</item>
+		<item>3000</item>
+	</string-array></file><file path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\values-es\strings.xml" qualifiers="es"><string name="search_flickr">Buscar Flickr</string><string name="show_details">Mostrar detalles</string><string name="save_image">Guardar imágen</string><string name="fullscreen">Pantalla completa</string><string name="go_to_source">Ir a fuentes</string><string name="please_wait">Los engranajes están girando... Por favor espere</string><string name="show_flickr_user">Mostrar usuario de Flickr</string><string name="unauthorize">Desregistrarse</string><string name="user_agent">Floating image/Android</string><string name="loading_feeds">Carfando fuentes</string><string name="aboutSummary">Shameless self promotion</string><string name="empty_feed">No se encontraron imágenes en esta fuente</string><string name="share_url">Compartir URL de imágen</string><string name="delete_image">Borrar imágen</string><string name="resume">Continuar</string><string name="dataFolder">/floatingImage</string><string name="show_flickr">Mostrar Flickr</string><string name="delete_image_are_you_sure">Está seguro que desea borrar la imágen</string><string name="set_as_background">Utilizar como fondo de pantalla</string><string name="authorize">Registrarse</string><string name="cancel_show">Cancelar muestra</string><string name="about">Acerca de</string><string name="stream">Flujo</string><string name="share_subject">Mira, una foto!</string><string name="show">Mostrar</string><string name="app_name">Floating Image</string><string name="show_folder">Mostrar carpetas</string><string name="share_image">Compartir imágen</string><string name="pause">Pausar</string><string name="exploreFolder">/.exploreCache</string></file><file path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\values-ko\error_strings.xml" qualifiers="ko"><string name="error_getting_flickr_user">사용자정보 획득 실패.  다시 로그인해 주세요.</string><string name="error_fetching_albums">앨범 받기 실패. 다시 시도해 주세요.</string><string name="error_fetching_friends">친구목록 받기 실패. 다시 시도해 주세요.</string><string name="authorization_failed">인증과정에서 알수없는 오류 발생.  다시 시도해 주세요!</string><string name="internal_error">내부 에러 발생. 개발자에게 문의해 주세요.</string><string name="error_showing_fetching_album_list">앨범목록 받기 실패. 다시 시도해 주세요.</string></file><file path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\values-ko\settingsStrings.xml" qualifiers="ko"><string name="rotateImagesSummary">사진을 약간 기울여 흩어놓은 효과를 줍니다</string><string name="slideIntervalSummary">각각의 사진이 표시되는 시간을 설정합니다</string><string name="flickrMyContactsPhotos">내 연락처에 따른 사진들</string><string name="selectFolder">폴더 선택</string><string name="flickrShowStream">스트림 보기</string><string name="picasaShowStreamNoUsername">사용자이름을 적어주세요.</string><string name="picasaShowMyStream">내 스트림 보기</string><string name="facebookPhotosOfMe">내 사진 보기</string><string name="backgroundColorTitle">배경색 지정</string><string name="settings">설정</string><string name="clearCache">캐시메모리 비우기</string><string name="facebook">Facebook</string><string name="useHighResThumbs">고해상도 섬네일</string><string name="loadingAlbums">앨범 읽는중...</string><string name="showHiddenFiles">숨겨진 파일보기 전환</string><string name="picasaShowStreamBadUsername">해당 사용자를 찾지 못했습니다</string><string name="flickrSearch">태그로 검색</string><string name="picasaShowUser">특정사용자 보기</string><string name="flickrMyAlbums">내 앨범</string><string name="picasaShowUserUsername">원하는 사용자의 이름을 입력하세요</string><string name="floating">떠다니는 사진 관련 설정</string><string name="floatingType">전개방식</string><string name="picasaSearchTerm">콤마(,)로 검색단어를 구분하여 검색하세요</string><string name="slideSpeedSummary">슬라이드 간의 전환속도를 설정합니다</string><string name="slideSpeedTitle">전환속도 설정</string><string name="facebookShowAlbum">보기</string><string name="liveWallpaperLowFramerateSummary">최고 프레임을 20으로 제한해 배터리소모를 줄입니다</string><string name="me">나</string><string name="internals">내부</string><string name="Downloads">다운로드</string><string name="floatingSpeedTitle">사진 이동속도</string><string name="backgroundColor">배경색</string><string name="liveWallpaperLowFramerate">라이브 월페이퍼는 프레임을 떨어뜨립니다</string><string name="feedMenuRemove">피드 제거</string><string name="picasaShowStream">스트림 보기</string><string name="modeTitle">표시방식 설정하기</string><string name="useCacheSummary">사진이 흘러갈때 더 부드럽게 보입니다</string><string name="flickrMyFavorites">내가 가장 좋아하는 것</string><string name="useHighResThumbsSummary">실험적 기능: 강제종료 될 수 있습니다! 고해상도 기기에서만 사용하세요.</string><string name="feedMenuAddSummary">새로운 피드를 추가합니다</string><string name="backgroundColorSummary">사진이 흘러갈때의 배경색을 지정합니다</string><string name="fullscreenBlackSummary">개별사진 선택시 배경을 검게 만듭니다</string><string name="picasaShowMyAlbums">내 앨범 보기</string><string name="flickrShowStreamNoUsername">사용자이름을 적어주세요</string><string name="picasaSearch">키워드로 검색하기</string><string name="facebookMyAlbums">내 앨범</string><string name="mode">표시방식</string><string name="floatingSpeedSummary">사진의 이동속도를 설정합니다</string><string name="cameraPictures">카메라 사진</string><string name="clearCacheSummary">모든 캐시파일을 지웁니다</string><string name="forceRotationSummary">수동으로 화면을 회전시킵니다</string><string name="floatingTypeTitle">사진 전개방식</string><string name="forceRotation">강제 화면회전</string><string name="picasa">Picasa</string><string name="manageFeedsSummary">어디서 사진을 받아올까요</string><string name="display">화면 설정</string><string name="shuffle">사진 섞기</string><string name="picasaSearchNoText">검색해 주세요.</string><string name="rotateImages">사진 기울이기</string><string name="imageDecorations">사진 장식효과</string><string name="fullscreenBlack">전체화면에서 검은색 배경 사용</string><string name="flickrShowStreamUsername">스트림의 사용자이름을 적어주세요</string><string name="imageDecorationsSummary">사진뒤에 그림자 및 광원효과를 추가합니다</string><string name="albumBy">앨범</string><string name="manageFeeds">피드 관리</string><string name="slideIntervalTitle">슬라이드쇼 간격 설정</string><string name="flickrMyPhotos">내 사진</string><string name="local">내 휴대폰</string><string name="flickrSearchNoText">검색해 주세요.</string><string name="feedMenuAdd">피드 추가</string><string name="floatingTypeSummary">사진이 자동으로 전개되는 방식을 설정합니다</string><string name="slideshow">슬라이드쇼</string><string name="loadingFriends">친구목록 읽는중...</string><string name="flickrShowStreamBadUsername">해당 사용자를 찾지 못했습니다.</string><string name="floatingSpeed">속도</string><string name="selectCurrentFolder">현재 폴더 선택</string><string name="forceRotationTitle">화면회전</string><string name="shuffleSummary">사진을 무작위의 순서로 보여줍니다</string><string name="flickrSearchTerm">콤마(,)로 검색단어를 구분하여 검색하세요</string><string name="facebookFriends">친구들</string><string name="flickrPhotosFromHere">이곳의 사진</string><string name="flickr_search">검색: </string><string name="slideSpeed">슬라이드쇼 전환속도</string><string name="moreCameraPictures">더 많은 카메라 사진들</string><string name="picasaShowAlbums">앨범 보기</string><string name="facebookFriendsAlbums">앨범</string><string name="useCache">캐시메모리에 저장</string><string name="feeds">피드</string><string name="flickrAllContactsStreams">모든 연락처의 스트림</string><string name="cancel">취소</string><string name="dismiss">해제</string><string name="modeSummary">사진이 나타나는 방식을 설정합니다</string><string name="slideInterval">슬라이드쇼 간격</string><string name="flickrExplore">탑 500 (구경하기)</string><string name="facebookPhotosOfFriend">사진 보기</string><string name="flickr">Flickr</string></file><file path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\values-ko\settings_arrays.xml" qualifiers="ko"><string-array name="displayModeDescriptions">
+		<item>미지정</item>
+		<item>평행이동</item>
+		<item>수직이동</item>
+		<item>크로스페이드 효과</item>
+		<item>흑색 페이드 효과</item>
+
+		<item>백색 페이드 효과</item>
+		<item>위 방식중 무작위로</item>
+		<item>떠다니는 사진</item>
+	</string-array><string-array name="slideIntervalDescriptions">
+		<item>2초</item>
+		<item>5초</item>
+		<item>10초</item>
+		<item>30초</item>
+		<item>1분</item>
+
+		<item>2분</item>
+		<item>5분</item>
+		<item>10분</item>
+		<item>30분</item>
+		<item>1시간</item>
+		<item>2시간</item>
+
+		<item>6시간</item>
+		<item>12시간</item>
+		<item>1일</item>
+		<item>1주</item>
+	</string-array><string-array name="floatingSpeedValues">
+		<item>7000</item>
+		<item>15000</item>
+		<item>30000</item>
+		<item>60000</item>
+		<item>250000</item>
+
+	</string-array><string-array name="forceRotationValues">
+		<item>0</item>
+		<item>90</item>
+		<item>180</item>
+		<item>270</item>
+	</string-array><string-array name="slideIntervalValues">
+		<item>2000</item>
+
+		<item>5000</item>
+		<item>10000</item>
+		<item>30000</item>
+		<item>60000</item>
+		<item>120000</item>
+		<item>300000</item>
+
+		<item>600000</item>
+		<item>1800000</item>
+		<item>3600000</item>
+		<item>7200000</item>
+		<item>21600000</item>
+		<item>43200000</item>
+
+		<item>86400000</item>
+		<item>604800000</item>
+	</string-array><string-array name="floatingTypeDescriptions">
+		<item>오른쪽으로</item>
+		<item>왼쪽으로</item>
+		<item>아래로</item>
+		<item>위로</item>
+		<item>안에서 밖으로</item>
+
+		<item>탁자위에 놓듯이</item>
+		<item>포개기</item>
+		<item>뒤섞기</item>
+	</string-array><string-array name="floatingSpeedDescriptions">
+		<item>매우 빠르게</item>
+		<item>빠르게</item>
+		<item>보통 속도로</item>
+		<item>느리게</item>
+		<item>매우 느리게</item>
+
+	</string-array><string-array name="backgroundColorValues">
+		<item>0</item>
+		<item>1</item>
+		<item>8</item>
+		<item>2</item>
+		<item>3</item>
+
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+	</string-array><string-array name="slideSpeedDescriptions">
+		<item>빠름</item>
+
+		<item>느림</item>
+		<item>매우 느림</item>
+	</string-array><string-array name="forceRotationDescriptions">
+		<item>회전 없음</item>
+		<item>90도 회전</item>
+		<item>180도 회전</item>
+		<item>270도 회전</item>
+	</string-array><string-array name="displayModeValues">
+		<item>none</item>
+		<item>slideRightToLeft</item>
+		<item>SlideTopToBottom</item>
+		<item>crossFade</item>
+		<item>fadeToBlack</item>
+		<item>fadeToWhite</item>
+		<item>random</item>
+		<item>floatingImages</item>
+	</string-array><string-array name="backgroundColorDescriptions">
+		<item>회색</item>
+		<item>검은색</item>
+		<item>완전 검은색</item>
+
+		<item>하얀색</item>
+		<item>파란색</item>
+		<item>초록색</item>
+		<item>빨간색</item>
+		<item>노란색</item>
+		<item>모든 색깔</item>
+
+	</string-array><string-array name="slideSpeedValues">
+		<item>300</item>
+		<item>1000</item>
+		<item>3000</item>
+
+	</string-array><string-array name="floatingTypeValues">
+		<item>0</item>
+		<item>1</item>
+
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>20</item>
+
+	</string-array></file><file path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\values-ko\strings.xml" qualifiers="ko"><string name="cancel_show">보기 취소</string><string name="stream">스트림</string><string name="empty_feed">피드에서 사진을 찾을 수 없습니다</string><string name="show">보기</string><string name="save_image">사진 저장</string><string name="please_wait">작동중입니다... 잠시만 기다리세요</string><string name="share_subject">보세요, 사진떳음!</string><string name="show_folder">폴더 보기</string><string name="show_flickr_user">Flickr 사용자 보기</string><string name="about">본 어플에 관하여</string><string name="fullscreen">전체화면</string><string name="set_as_background">배경화면으로 설정</string><string name="aboutSummary">제 자신을 소개합니다</string><string name="search_flickr">Flickr 검색</string><string name="loading_feeds">피드 읽는중</string><string name="pause">정지</string><string name="delete_image_are_you_sure">정말 이 사진을 지울까요?</string><string name="share_image">사진 공유</string><string name="share_url">사진 주소 공유하기</string><string name="delete_image">사진 삭제</string><string name="unauthorize">로그아웃 하기</string><string name="dataFolder">/floatingImage</string><string name="go_to_source">원 출처로 이동</string><string name="app_name">Floating Image</string><string name="exploreFolder">/.exploreCache</string><string name="user_agent">Floating image/Android</string><string name="show_flickr">Flickr 보기</string><string name="authorize">로그인 하기</string><string name="resume">재이동</string><string name="show_details">세부사항 표시</string></file><file path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\values-no\error_strings.xml" qualifiers="no"><string name="error_fetching_friends">Feil ved henting av venner, vennligst prøv igjen.</string><string name="authorization_failed">Det skjedde noe rart med påloggingsforsøket... Vennligst prøv igjen!</string><string name="device_does_not_support_live_wallpapers">Beklager, duppeditten din støtter visst ikke Live Wallpapers? :(</string><string name="error_fetching_albums">Feil ved henting av album, vennligst prøv igjen.</string><string name="error_getting_flickr_user">Feil ved henting av brukeren din, vennligst prøv å logge inn igjen.</string><string name="error_showing_fetching_album_list">Feil ved henting av album liste. Trykk for å prøve igjen.</string><string name="cannot_read_feed">Kan ikke lese kilden, den er antagelig for stor.</string><string name="internal_error">Intern feil, vennligst ta kontakt med utvikleren.</string></file><file path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\values-no\settingsStrings.xml" qualifiers="no"><string name="clearCacheSummary">Fjerner alt innhold fra bildecache</string><string name="imageDecorationsSummary">Vis skygger bak bildene</string><string name="liveWallpaperLowFramerate">Live Wallpaper redusert oppdatering</string><string name="misc">Annet</string><string name="imageDecorations">Dekorér bildene</string><string name="clearCache">Tøm cache</string><string name="feedMenuAddSummary">Tilføy en ny strøm av bilder</string><string name="picasaShowUser">Vis bruker</string><string name="settings">Innstillinger</string><string name="slideIntervalTitle">Velg slideshow intervall</string><string name="picasaSearchNoText">Vennligst tast inn en søkestreng.</string><string name="rotateImages">Roter bildene</string><string name="LiveWallpapersSummary">La Floating Image organisere Live Wallpaper oppsettet</string><string name="flickrSearchNoText">Vennligst tast inn en søkestreng.</string><string name="flickrExplore">Top 500 (Utforsk)</string><string name="flickr">Flickr</string><string name="floatingTypeTitle">Flytene bildebevegelse</string><string name="backgroundColor">Bakgrunnsfarge</string><string name="cameraPictures">Kamerabilder</string><string name="LiveWallpapers">Live wallpapers</string><string name="dismiss">Avvis</string><string name="backgroundColorSummary">Fargen bak de flytende bildene</string><string name="picasaShowAlbums">Vis album</string><string name="forceRotationSummary">Justér skjermrotasjonen manuelt</string><string name="manageFeedsSummary">Hvor skal bildene komme fra</string><string name="fullscreenBlackSummary">Gjør bakgrunnen helt sort når bildene vises i fullskjerm</string><string name="picasaSearchTerm">Søk, separér søketermer med et komma (,)</string><string name="facebookPhotosOfMe">Vis bilder av meg</string><string name="flickrShowStream">Vis strøm</string><string name="me">meg</string><string name="slideSpeedTitle">Velg overgangshastighet</string><string name="useHighResThumbs">Bruk høyoppløselige thumbnails</string><string name="useCacheSummary">Dette gir en jevnere bildestrøm ved streaming</string><string name="flickrMyPhotos">Mine bilder</string><string name="slideIntervalSummary">Velg hvor lenge hvert bilde vises</string><string name="facebookShowAlbum">Vis</string><string name="internals">Internt</string><string name="flickrShowStreamNoUsername">Vennligst tast inn et brukernavn.</string><string name="flickrPhotosFromHere">Foto herfra</string><string name="loadingFriends">Henter venner...</string><string name="blackEdges">Svart omriss</string><string name="photobucketShowFollowing">Vis fulgte bilder</string><string name="modeTitle">Velg visningsform</string><string name="slideSpeedSummary">Hvor lang tid skal overgangene mellom bildene være?</string><string name="forceRotation">Tving skjermrotasjon</string><string name="picasaSearch">Søk etter nøkkelord</string><string name="floatingSpeedTitle">Flytende bildehastighet</string><string name="forceRotationTitle">Skjermrotasjion</string><string name="Downloads">Downloads</string><string name="selectCurrentFolder">Velg denne mappen</string><string name="modeSummary">Hvordan skal bildene vises</string><string name="signingIn">Logger på</string><string name="slideSpeed">Slideshow overgangshastighet</string><string name="loadingAlbums">Henter album...</string><string name="flickrSearch">Let etter tags</string><string name="picasaShowUserUsername">Vennligst tast inn brukernavnet på den aktuelle bruker</string><string name="tsunami">Tsunami</string><string name="flickrMyAlbums">Mine album</string><string name="tsunamiSummary">Fyll skjermen med bilder</string><string name="photobucket">Photobucket</string><string name="flickrMyFavorites">Mine favoritter</string><string name="feedMenuAdd">Tilføy ny kilde</string><string name="showHiddenFiles">Vis/skjul skjulte filer</string><string name="blackEdgesSummary">Viser et svart omriss rundt bildene</string><string name="facebook">Facebook</string><string name="searching_for_user">Leter etter bruker</string><string name="photobucketShowUserBadUsername">Beklager, Photobucket brukeren dessverre ikke funnet.</string><string name="slideshow">Slideshow</string><string name="feedMenuRemove">Fjern kilde</string><string name="flickrSearchTerm">Søk, separér søketermer med et komma (,)</string><string name="manageFeeds">Redigér kilder</string><string name="cancel">Annullér</string><string name="feeds">Kilder</string><string name="floatingType">Bevegelse</string><string name="shuffle">Bland bildene</string><string name="mode">Visningsform</string><string name="facebookFriends">Venner</string><string name="picasaShowStreamBadUsername">Picasabrukeren ble desverre ikke funnet.</string><string name="picasaShowMyStream">Vis min strøm</string><string name="facebookPhotosOfFriend">Vis bilder av</string><string name="photobucketShowUser">Vis bruker</string><string name="flickrAllContactsStreams">Alle kontakters strømmer</string><string name="slideInterval">Slideshow intervall</string><string name="local">Enhet</string><string name="photobucketShowRecent">Vis nye</string><string name="useHighResThumbsSummary">EKSPERIMENTELL: Dette kan få duppeditten din til å kræsje! Virker kun på enheter som støtter høy oppløsning.</string><string name="albumBy">Album av</string><string name="moreCameraPictures">Flere kamerabilder</string><string name="facebookFriendsAlbums">Album av</string><string name="flickr_search">Søk: </string><string name="useCache">Bildecache</string><string name="fullscreenBlack">Helt sort ved fullskjerm</string><string name="picasaShowStream">Vis strøm</string><string name="shuffleSummary">Vis bildene i tilfeldig rekkefølge</string><string name="floating">Flytende bilder</string><string name="floatingTypeSummary">Hvordan skal bildene bevege seg</string><string name="liveWallpaperLowFramerateSummary">Tving høyst 20 bilder i sekundet for å redusere batteriforbruk</string><string name="floatingSpeedSummary">Hvor hurtig skal bildene bevege seg over skjermen</string><string name="floatingSpeed">Hastighet</string><string name="picasa">Picasa</string><string name="selectFolder">Velg mappe</string><string name="picasaShowStreamNoUsername">Vennligst tast inn et brukernavn.</string><string name="rotateImagesSummary">Velt bildene for en litt mer rotete effekt</string><string name="display">Utseende</string><string name="backgroundColorTitle">Velg bakgrunnsfargen</string><string name="flickrShowStreamUsername">Vennligst tast inn brukernavnet for strømmen</string><string name="flickrShowStreamBadUsername">Flickrbrukeren ble desverre ikke funnet.</string><string name="facebookMyAlbums">Mine album</string><string name="flickrMyContactsPhotos">Foto fra mine kontakter</string><string name="picasaShowMyAlbums">Vis mine album</string></file><file path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\values-no\settings_arrays.xml" qualifiers="no"><string-array name="forceRotationDescriptions">
+		<item>Ingen rotasjon</item>
+		<item>90 grader</item>
+		<item>180 grader</item>
+		<item>270 grader</item>
+	</string-array><string-array name="backgroundColorValues">
+		<item>0</item>
+		<item>1</item>
+		<item>8</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+	</string-array><string-array name="slideSpeedValues">
+		<item>300</item>
+		<item>1000</item>
+		<item>3000</item>
+	</string-array><string-array name="slideSpeedDescriptions">
+		<item>Hurtig</item>
+		<item>Langsom</item>
+		<item>Svært langsom</item>
+	</string-array><string-array name="slideIntervalDescriptions">
+		<item>2 sekunder</item>
+		<item>5 sekunder</item>
+		<item>10 sekunder</item>
+		<item>30 sekunder</item>
+		<item>1 minutt</item>
+		<item>2 minutter</item>
+		<item>5 minutter</item>
+		<item>10 minutter</item>
+		<item>30 minutter</item>
+		<item>1 time</item>
+		<item>2 timer</item>
+		<item>6 timer</item>
+		<item>12 timer</item>
+		<item>1 dag</item>
+		<item>1 uke</item>
+	</string-array><string-array name="displayModeDescriptions">
+		<item>Ingen</item>
+		<item>Gli horizontalt</item>
+		<item>Gli vertikalt</item>
+		<item>Glidende overgang</item>
+		<item>Overgang til sort</item>
+		<item>Overgang til hvitt</item>
+		<item>Tilfeldig fra overstående</item>
+		<item>Flytende bilder</item>
+	</string-array><string-array name="floatingTypeValues">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>20</item>
+	</string-array><string-array name="floatingSpeedValues">
+		<item>7000</item>
+		<item>15000</item>
+		<item>30000</item>
+		<item>60000</item>
+		<item>250000</item>
+	</string-array><string-array name="floatingSpeedDescriptions">
+		<item>Meget hurtig</item>
+		<item>Hurtig</item>
+		<item>Normal</item>
+		<item>Langsom</item>
+		<item>Meget langsom</item>
+	</string-array><string-array name="forceRotationValues">
+		<item>0</item>
+		<item>90</item>
+		<item>180</item>
+		<item>270</item>
+	</string-array><string-array name="backgroundColorDescriptions">
+		<item>Grå</item>
+		<item>Sort</item>
+		<item>Helt sort</item>
+		<item>Hvit</item>
+		<item>Blå</item>
+		<item>Grønn</item>
+		<item>Rød</item>
+		<item>Gul</item>
+		<item>Alle</item>
+	</string-array><string-array name="floatingTypeDescriptions">
+		<item>Høyre</item>
+		<item>Venstre</item>
+		<item>Ned</item>
+		<item>Opp</item>
+		<item>Hyperrom</item>
+		<item>Bordflate</item>
+		<item>Bunke</item>
+		<item>Blandet</item>
+	</string-array><string-array name="slideIntervalValues">
+		<item>2000</item>
+		<item>5000</item>
+		<item>10000</item>
+		<item>30000</item>
+		<item>60000</item>
+		<item>120000</item>
+		<item>300000</item>
+		<item>600000</item>
+		<item>1800000</item>
+		<item>3600000</item>
+		<item>7200000</item>
+		<item>21600000</item>
+		<item>43200000</item>
+		<item>86400000</item>
+		<item>604800000</item>
+	</string-array><string-array name="displayModeValues">
+		<item>none</item>
+		<item>slideRightToLeft</item>
+		<item>SlideTopToBottom</item>
+		<item>crossFade</item>
+		<item>fadeToBlack</item>
+		<item>fadeToWhite</item>
+		<item>random</item>
+		<item>floatingImages</item>
+	</string-array></file><file path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\values-no\strings.xml" qualifiers="no"><string name="authorize">Logg inn</string><string name="app_name">Floating Image</string><string name="save_image">Gjem bilde</string><string name="share_image">Del bilde</string><string name="empty_feed">Ingen bilder funnet i kilden</string><string name="stream">Kilde</string><string name="delete_image">Slett bilde</string><string name="go_to_source">Gå til kilde</string><string name="set_as_background">Sett som bakgrunnsbilde</string><string name="show_details">Vis detaljer</string><string name="please_wait">Vennligst vent ..</string><string name="fullscreen">Fullskjerm</string><string name="show_flickr_user">Vis Flickr bruker</string><string name="about">Om</string><string name="pause">Pause</string><string name="cancel_show">Annullér visning</string><string name="unauthorize">Logg ut</string><string name="authorizing">Autoriserer</string><string name="share_url">Del bildesti</string><string name="search_flickr">Søk i Flickr</string><string name="aboutSummary">Skamløs selvpromotering (engelsk)</string><string name="delete_image_are_you_sure">Er du sikker på at du ønsker å slette dette bilde?</string><string name="resume">Fortsett</string><string name="loading_feeds">Henter kilder</string><string name="show_folder">Vis mappe</string><string name="show_flickr">Vis Flickr</string><string name="share_subject">Se, et bilde!</string><string name="show">Vis</string></file><file path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\values-ru\error_strings.xml" qualifiers="ru"><string name="error_getting_flickr_user">Ошибка получения вашего пользователя, пожалуйста, попробуйте снова войти в систему.</string><string name="error_fetching_friends">Ошибка выборки списка друзей. Пожалуйста, повторите снова.</string><string name="authorization_failed">Что-то странное произошло при авторизации... Пожалуйста, попробуйте еще раз!</string><string name="error_showing_fetching_album_list">Ошибка выборки списка альбомов. Нажмите кнопку, чтобы повторить.</string><string name="internal_error">Словили внутреннюю ошибку, пожалуйста, свяжитесь с разработчиком.</string><string name="error_fetching_albums">Ошибка выборки альбомов. Пожалуйста, повторите снова.</string></file><file path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\values-ru\settingsStrings.xml" qualifiers="ru"><string name="clearCacheSummary">Полностью очистить кэш</string><string name="cameraPictures">Изображения с камеры</string><string name="picasaSearch">Поиск по меткам</string><string name="clearCache">Очистить кэш</string><string name="facebookFriends">Друзья</string><string name="backgroundColorSummary">Цвет фона под изображениями</string><string name="backgroundColorTitle">Выберите цвет фона</string><string name="picasaSearchNoText">Введите текст для поиска.</string><string name="flickrShowStreamBadUsername">Извините, такой Flickr-пользователь не найден.</string><string name="facebookFriendsAlbums">Альбомы пользователя </string><string name="shuffle">Перемешать изображения</string><string name="picasaShowUserUsername">Пожалуйста, укажите имя пользователя желаемого юзера</string><string name="loadingAlbums">Загрузка альбомов...</string><string name="facebookMyAlbums">Мои альбомы</string><string name="albumBy">Альбом </string><string name="shuffleSummary">Показывать изображения в случайном порядке</string><string name="manageFeeds">Управление каналами</string><string name="feedMenuRemove">Удалить канал</string><string name="useCacheSummary">Это дает более устойчивый поток при потоковой передаче</string><string name="flickrSearchNoText">Введите текст для поиска.</string><string name="picasaShowStream">Показать фото</string><string name="useHighResThumbs">Использовать превью высокого качества</string><string name="feedMenuAdd">Добавить новый канал</string><string name="feeds">Каналы</string><string name="flickrShowStreamUsername">Пожалуйста, введите имя Flickr-пользователя</string><string name="facebook">Facebook</string><string name="imageDecorationsSummary">Показывать тени и свечение позади изображения</string><string name="flickrMyFavorites">Мое избранное</string><string name="settings">Настройки</string><string name="rotateImagesSummary">Наклонить изображения для придания более перемешанного эффекта</string><string name="flickrSearch">Поиск по меткам</string><string name="fullscreenBlack">Зачернить фон на полном экране</string><string name="flickrMyPhotos">Мои фото</string><string name="slideSpeedSummary">Как быстро будут выполняться переходы между изображениями</string><string name="flickrAllContactsStreams">Все фото\' контактов</string><string name="forceRotationTitle">Поворот экрана</string><string name="flickrMyAlbums">Мои альбомы</string><string name="picasaSearchTerm">Ищите, разделяя метки через запятые (,)</string><string name="flickr_search">Поиск: </string><string name="local">Телефон</string><string name="loadingFriends">Загрузка списка друзей...</string><string name="slideIntervalTitle">Выберите интервал слайд-шоу</string><string name="floatingSpeedSummary">Как быстро изображения перемещаются по экрану</string><string name="slideSpeedTitle">Выберите скорость перехода</string><string name="flickrShowStream">Показать фото пользователя</string><string name="floatingTypeTitle">Плывущие изображения перемещаются</string><string name="forceRotationSummary">Установка угла поворота экрана</string><string name="display">Отображение</string><string name="moreCameraPictures">Еще изображений с камеры</string><string name="slideInterval">Интервал слайд-шоу</string><string name="selectCurrentFolder">Выберите текущую папку</string><string name="imageDecorations">Оформление изображения</string><string name="flickrExplore">Лучшие 500</string><string name="floatingTypeSummary">Каким образом изображения должны двигаться</string><string name="mode">Режим отображения</string><string name="modeTitle">Выберите режим отображения</string><string name="liveWallpaperLowFramerateSummary">Принудительная установка макс 20 кадров/с для уменьшения потребления батареи</string><string name="picasaShowUser">Показать пользователя</string><string name="slideshow">Слайд-шоу</string><string name="picasaShowMyStream">Показать все мои фото</string><string name="picasa">Picasa</string><string name="fullscreenBlackSummary">Полностью затемнить фон при переключении на полный экран</string><string name="Downloads">Загрузки</string><string name="facebookShowAlbum">показать</string><string name="cancel">Отмена</string><string name="selectFolder">Выберите папку</string><string name="flickr">Flickr</string><string name="floatingType">Перемещение</string><string name="picasaShowStreamBadUsername">Извините, Picasa-пользователь не найден.</string><string name="liveWallpaperLowFramerate">Снижение частоты кадров для Живых обоев</string><string name="floatingSpeedTitle">Скорость перемещения изображений</string><string name="facebookPhotosOfFriend">Показать фото пользователя </string><string name="floatingSpeed">Скорость</string><string name="useHighResThumbsSummary">ЭКСПЕРИМЕНТАЛЬНО: Это может испортить Ваш телефон! Только для устройств с экраном высокого разрешения</string><string name="flickrPhotosFromHere">Фото отсюда</string><string name="flickrMyContactsPhotos">Фото моих контактов</string><string name="feedMenuAddSummary">Добавить новый источник изображений</string><string name="showHiddenFiles">Показывать скрытые файлы</string><string name="picasaShowStreamNoUsername">Пожалуйста, введите имя пользователя.</string><string name="picasaShowMyAlbums">Показать мои альбомы</string><string name="floating">Плывущие изображения</string><string name="picasaShowAlbums">Показать альбомы</string><string name="slideSpeed">Время перехода в слайд-шоу</string><string name="flickrShowStreamNoUsername">Пожалуйста, заполните поле имя пользователя.</string><string name="useCache">Кэшировать изображения</string><string name="flickrSearchTerm">Ищите, разделяя метки через запятые (,)</string><string name="me">мой</string><string name="internals">Internals</string><string name="rotateImages">Вращать изображения</string><string name="forceRotation">Принудительное вращение экрана</string><string name="slideIntervalSummary">Выберите время показа каждого изображения</string><string name="backgroundColor">Цвет фона</string><string name="facebookPhotosOfMe">Показать фото со мной</string><string name="dismiss">Отмена</string><string name="manageFeedsSummary">Выбрать откуда загружать изображения</string><string name="modeSummary">Режим показа изображений</string></file><file path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\values-ru\settings_arrays.xml" qualifiers="ru"><string-array name="floatingTypeValues">
+		<item>0</item>
+		<item>1</item>
+
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>20</item>
+
+	</string-array><string-array name="floatingTypeDescriptions">
+		<item>Влево</item>
+		<item>Вправо</item>
+		<item>Вниз</item>
+		<item>Вверх</item>
+		<item>Гиперскорость</item>
+
+		<item>Настольный</item>
+		<item>Наложение</item>
+		<item>Вперемешку</item>
+	</string-array><string-array name="forceRotationValues">
+		<item>0</item>
+		<item>90</item>
+		<item>180</item>
+		<item>270</item>
+	</string-array><string-array name="slideIntervalValues">
+		<item>2000</item>
+
+		<item>5000</item>
+		<item>10000</item>
+		<item>30000</item>
+		<item>60000</item>
+		<item>120000</item>
+		<item>300000</item>
+
+		<item>600000</item>
+		<item>1800000</item>
+		<item>3600000</item>
+		<item>7200000</item>
+		<item>21600000</item>
+		<item>43200000</item>
+
+		<item>86400000</item>
+		<item>604800000</item>
+	</string-array><string-array name="backgroundColorValues">
+		<item>0</item>
+		<item>1</item>
+		<item>8</item>
+		<item>2</item>
+		<item>3</item>
+
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+	</string-array><string-array name="floatingSpeedDescriptions">
+		<item>Очень быстро</item>
+		<item>Быстро</item>
+		<item>Нормально</item>
+		<item>Медленно</item>
+		<item>Очень медленно</item>
+
+	</string-array><string-array name="backgroundColorDescriptions">
+		<item>Серый</item>
+		<item>Почти черный</item>
+		<item>Черный</item>
+
+		<item>Белый</item>
+		<item>Синий</item>
+		<item>Зеленый</item>
+		<item>Красный</item>
+		<item>Желтый</item>
+		<item>Все цвета</item>
+
+	</string-array><string-array name="floatingSpeedValues">
+		<item>7000</item>
+		<item>15000</item>
+		<item>30000</item>
+		<item>60000</item>
+		<item>250000</item>
+
+	</string-array><string-array name="slideSpeedValues">
+		<item>300</item>
+		<item>1000</item>
+		<item>3000</item>
+
+	</string-array><string-array name="displayModeValues">
+		<item>none</item>
+		<item>slideRightToLeft</item>
+
+		<item>SlideTopToBottom</item>
+		<item>crossFade</item>
+		<item>fadeToBlack</item>
+		<item>fadeToWhite</item>
+		<item>random</item>
+		<item>floatingImages</item>
+
+	</string-array><string-array name="slideIntervalDescriptions">
+		<item>2 секунды</item>
+		<item>5 секунд</item>
+		<item>10 секунд</item>
+		<item>30 секунд</item>
+		<item>1 минута</item>
+
+		<item>2 минуты</item>
+		<item>5 минут</item>
+		<item>10 минут</item>
+		<item>30 минут</item>
+		<item>1 час</item>
+		<item>2 часа</item>
+
+		<item>6 часов</item>
+		<item>12 часов</item>
+		<item>1 день</item>
+		<item>1 неделя</item>
+	</string-array><string-array name="forceRotationDescriptions">
+		<item>Не поворачивать</item>
+		<item>90 градусов</item>
+		<item>180 градусов</item>
+		<item>270 градусов</item>
+	</string-array><string-array name="displayModeDescriptions">
+		<item>Без эффектов</item>
+		<item>Сдвигать горизонтально</item>
+		<item>Сдвигать вертикально</item>
+		<item>Перекрестный переход</item>
+		<item>Переход через черное</item>
+
+		<item>Переход через белое</item>
+		<item>Случайно из вышеуказанных</item>
+		<item>Плывущие изображения</item>
+	</string-array><string-array name="slideSpeedDescriptions">
+		<item>Быстро</item>
+
+		<item>Медленно</item>
+		<item>Очень медленно</item>
+	</string-array></file><file path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\values-ru\strings.xml" qualifiers="ru"><string name="share_url">Поделиться ссылкой на изображение</string><string name="show">Начать показ</string><string name="cancel_show">Отменить показ</string><string name="share_subject">Смотри какая картинка!</string><string name="show_flickr_user">Show Flickr user</string><string name="save_image">Сохранить изображение</string><string name="aboutSummary">Информация о программе пока на английском, по просьбе автора</string><string name="please_wait">Процесс идет... Подождите пожалуйста</string><string name="pause">Пауза</string><string name="resume">Продолжить</string><string name="loading_feeds">Загрузка каналов</string><string name="search_flickr">Search Flickr</string><string name="fullscreen">На весь экран</string><string name="show_folder">Show folder</string><string name="delete_image_are_you_sure">Вы уверены, что хотите удалить это изображение?</string><string name="share_image">Поделиться изображением</string><string name="authorize">Войти</string><string name="stream">Поток</string><string name="delete_image">Удалить изображение</string><string name="about">О программе</string><string name="unauthorize">Выйти</string><string name="set_as_background">Установить как обои</string><string name="dataFolder">/floatingImage</string><string name="exploreFolder">/.exploreCache</string><string name="user_agent">Floating image/Android</string><string name="go_to_source">Перейти к исходнику</string><string name="show_details">Показать детали</string><string name="show_flickr">Show Flickr</string><string name="empty_feed">Не найдено изображений в этом канале</string><string name="app_name">Floating Image</string></file><file path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\values-se\error_strings.xml" qualifiers="se"><string name="error_fetching_albums">Fel vid hämtning av album, vänligen försök igen</string><string name="error_getting_flickr_user">Fel vid hämtning av din användarprofil, vänligen logga in igen.</string><string name="error_fetching_friends">Fel vid hämtning av vänner, vänligen försök igen</string><string name="internal_error">Intern fel, vänligen kontakta utvecklaren</string><string name="authorization_failed">Nåt konstigt hände vid autentiseringen... Vänligen försök igen!</string><string name="device_does_not_support_live_wallpapers">Ledsen, men din enhet verkar inte stödja levande bakgrunder. :-(</string><string name="error_showing_fetching_album_list">Fel vid hämtning av albumlistan. Klicka för att försöka igen.</string><string name="cannot_read_feed">Kan ej läsa källa, den är förmodligen för stor.</string></file><file path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\values-se\settingsStrings.xml" qualifiers="se"><string name="slideIntervalSummary">Välj hur länge varje enskild bild ska visas</string><string name="forceRotationTitle">Skärmens rotation</string><string name="flickrSearchNoText">Vänligen fyll i söktext.</string><string name="dismiss">Röj undan</string><string name="backgroundColorTitle">Välj bakgrundsfärgen</string><string name="forceRotationSummary">Justera skärmens rotation manuellt</string><string name="cancel">Avbryt</string><string name="showHiddenFiles">Växla visning av gömda filer</string><string name="picasaShowUserUsername">Vänligen fyll i användarnamnet på användaren</string><string name="flickrShowStreamUsername">Vänligen mata in användarnamnets flöde</string><string name="forceRotation">Tvinga skärmens rotationForce screen rotation</string><string name="useCache">Cacha bilderna</string><string name="picasaShowStreamBadUsername">Picasa användare ej funnen.</string><string name="imageDecorations">Dekorera bilder</string><string name="singleClickDeselect">Klicka en gång för att avmarkera bild</string><string name="floatingSpeedSummary">Hur snabbt bilderna flyger genom skärmen</string><string name="flickrMyContactsPhotos">Foton av mina kontakter</string><string name="facebookFriends">Vänner</string><string name="picasaSearchNoText">Vänligen fyll i söktext.</string><string name="albumBy">Album av</string><string name="selectFolder">Välj mapp</string><string name="flickrShowStreamNoUsername">Vänligen fyll i användarnamn.</string><string name="slideshow">Bildspel</string><string name="galleryModeSummary">Agera som en standard galleri. Detta kommer att upphäva inställningarna nedan!</string><string name="internals">Interna</string><string name="feedMenuRemove">Ta bort källa</string><string name="selectCurrentFolder">Välj nuvarande mapp</string><string name="picasaSearch">Sök efter sökord</string><string name="flickrMyAlbums">Mina album</string><string name="photobucketShowFollowing">Visa foton som följs</string><string name="modeTitle">Välj visningsläge</string><string name="display">Display</string><string name="rotateImagesSummary">Luta bilderna för att ge en liten stökig effekt</string><string name="fullscreenBlackSummary">Tona bakgrunden helsvart i fullskärmsläge</string><string name="signingIn">Loggar in</string><string name="feedMenuAddSummary">Lägg till en ny källa för bilder</string><string name="moreCameraPictures">Fler bilder från kameran</string><string name="flickrShowStream">Visa flickr flöde</string><string name="searching_for_user">Leta efter användare</string><string name="flickrExplore">Topp 500 (utforska)</string><string name="Downloads">Nedladdningar</string><string name="me">mig</string><string name="photobucketShowUser">Visa användare</string><string name="picasaShowAlbums">Visa album</string><string name="facebookShowAlbum">Visa</string><string name="floatingType">Rörelse</string><string name="loadingAlbums">Laddar album...</string><string name="picasaSearchTerm">Sök, separera varje sökord med en komma (,)</string><string name="floatingTypeTitle">Svävande bilders rörelse</string><string name="tsunami">Tsunami</string><string name="picasaShowMyAlbums">Visa mina album</string><string name="backgroundColor">Bakgrundsfärg</string><string name="liveWallpaperLowFramerateSummary">Begränsa till 20 bilduppdateringar per sekund för att förlänga batteriets kapacitet</string><string name="clearCache">Töm cache</string><string name="picasaShowStreamNoUsername">Vänligen fyll i ett användarnamn.</string><string name="slideSpeed">Bildspelets övergångshastighet</string><string name="backgroundColorSummary">Färgen bakom de svävande bilderna</string><string name="cameraPictures">Bilder från kameran</string><string name="shuffle">Blanda bilderna</string><string name="slideSpeedSummary">Hur snabb glidningshastigheten ska vara</string><string name="flickrSearchTerm">Sök, separera sökord med ett komma (,)</string><string name="feedMenuAdd">Lägg till ny källa</string><string name="mode">Visningsläge</string><string name="flickrMyPhotos">Mina bilder</string><string name="photobucketShowUserBadUsername">Photobucket användare ej funnen.</string><string name="flickrMyFavorites">Mina favoriter</string><string name="blackEdgesSummary">Lägg en svart ytterlinje runt bilderna. Ta bort detta för högre prestanda.</string><string name="flickr">Flickr</string><string name="useCacheSummary">Ger ett jämnare flöde vid streaming från internetkällor</string><string name="loadingFriends">Laadar vänner...</string><string name="flickrShowStreamBadUsername">Flickr användaren ej funnen.</string><string name="rotateImages">Roterande bilder</string><string name="photobucket">Photobucket</string><string name="floating">Svävande bilder</string><string name="flickrPhotosFromHere">Foton härifrån</string><string name="facebookPhotosOfFriend">Visa bilder av</string><string name="picasaShowStream">Visa flöde</string><string name="slideSpeedTitle">Väl hastighet på övergångseffekten</string><string name="modeSummary">Hur bilderna ska visas</string><string name="floatingTypeSummary">Hur bilderna ska röra sig</string><string name="picasaShowMyStream">Visa mitt flöde</string><string name="facebook">Facebook</string><string name="useHighResThumbs">Använd högupplösta miniatyrer</string><string name="slideInterval">Bildspel intervall</string><string name="facebookMyAlbums">Mna album</string><string name="galleryMode">Galleri läge</string><string name="picasaShowUser">Show user</string><string name="flickr_search">Sök: </string><string name="LiveWallpapers">Levande bakgrunder</string><string name="fullscreenBlack">Tona bakgrunden svart vid fullskärmsläge</string><string name="flickrAllContactsStreams">Alla kontakters\' flöden</string><string name="LiveWallpapersSummary">Handera levande bakgrunder för att ställa in Floating Image som bakgrund</string><string name="floatingSpeed">Hastighet</string><string name="manageFeeds">Hantera källor</string><string name="flickrSearch">Sök efter taggar</string><string name="floatingSpeedTitle">Flygande bilders hastighet</string><string name="feeds">Källor</string><string name="tsunamiSummary">Fyll skärmen med bilder. VARNING: Kan orsaka konstigheter och instabilitet!</string><string name="slideIntervalTitle">Välj bildspelets interval</string><string name="local">Telefon</string><string name="useHighResThumbsSummary">EXPERIMENTELLT: Detta kan orsaka krasher! Endast för högpresterande enheter.</string><string name="facebookPhotosOfMe">Visa bilder av mig</string><string name="facebookFriendsAlbums">Album av</string><string name="picasa">Picasa</string><string name="manageFeedsSummary">Var ska bilderna strömmas från</string><string name="misc">Diverse</string><string name="liveWallpaperLowFramerate">Minska bilduppdateringshastighet som levande bakgrund</string><string name="blackEdges">Svart ytterlinje</string><string name="clearCacheSummary">Töm hela bildcachen</string><string name="shuffleSummary">Visa bilderna på måfå</string><string name="imageDecorationsSummary">Ger bilderna en skugga och ett sken under dem</string><string name="photobucketShowRecent">Visa nya foton</string><string name="singleClickDeselectSummary">Avmarkerar bild vid en enkel klick. Dubbelklick får fram menyn.</string><string name="settings">Inställningar</string></file><file path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\values-se\settings_arrays.xml" qualifiers="se"><string-array name="floatingTypeDescriptions">
+                <item>Höger</item>
+                <item>Vänster</item>
+                <item>Ner</item>
+                <item>Upp</item>
+                <item>Hyperfart</item>
+                <item>Lägg på ett bord</item>
+                <item>Lägg i en hög</item>
+                <item>Mixa ihop</item>
+        </string-array><string-array name="slideSpeedDescriptions">
+                <item>snabb</item>
+                <item>långsam</item>
+                <item>väldigt långsam</item>
+        </string-array><string-array name="forceRotationDescriptions">
+                <item>Ingen rotation</item>
+                <item>90 grader</item>
+                <item>180 grader</item>
+                <item>270 grader</item>
+        </string-array><string-array name="slideIntervalDescriptions">
+                <item>2 sekund</item>
+                <item>5 sekund</item>
+                <item>10 sekund</item>
+                <item>30 sekund</item>
+                <item>1 minut</item>
+                <item>2 minuter</item>
+                <item>5 minuter</item>
+                <item>10 minuter</item>
+                <item>30 minuter</item>
+                <item>1 timme</item>
+                <item>2 timmar</item>
+                <item>6 timmar</item>
+                <item>12 timmar</item>
+                <item>1 dag</item>
+                <item>1 vecka</item>
+        </string-array><string-array name="slideIntervalValues">
+                <item>2000</item>
+                <item>5000</item>
+                <item>10000</item>
+                <item>30000</item>
+                <item>60000</item>
+                <item>120000</item>
+                <item>300000</item>
+                <item>600000</item>
+                <item>1800000</item>
+                <item>3600000</item>
+                <item>7200000</item>
+                <item>21600000</item>
+                <item>43200000</item>
+                <item>86400000</item>
+                <item>604800000</item>
+        </string-array><string-array name="forceRotationValues">
+                <item>0</item>
+                <item>90</item>
+                <item>180</item>
+                <item>270</item>
+        </string-array><string-array name="displayModeValues">
+                <item>none</item>
+                <item>slideRightToLeft</item>
+                <item>SlideTopToBottom</item>
+                <item>crossFade</item>
+                <item>fadeToBlack</item>
+                <item>fadeToWhite</item>
+                <item>random</item>
+                <item>floatingImages</item>
+        </string-array><string-array name="backgroundColorDescriptions">
+                <item>Grå</item>
+                <item>Svart</item>
+                <item>Ren svärta</item>
+                <item>Vitt</item>
+                <item>Blått</item>
+                <item>Grön</item>
+                <item>Röd</item>
+                <item>Gul</item>
+                <item>Alla</item>
+        </string-array><string-array name="floatingSpeedValues">
+                <item>7000</item>
+                <item>15000</item>
+                <item>30000</item>
+                <item>60000</item>
+                <item>250000</item>
+        </string-array><string-array name="floatingTypeValues">
+                <item>0</item>
+                <item>1</item>
+                <item>2</item>
+                <item>3</item>
+                <item>4</item>
+                <item>5</item>
+                <item>6</item>
+                <item>20</item>
+        </string-array><string-array name="slideSpeedValues">
+                <item>300</item>
+                <item>1000</item>
+                <item>3000</item>
+        </string-array><string-array name="backgroundColorValues">
+                <item>0</item>
+                <item>1</item>
+                <item>8</item>
+                <item>2</item>
+                <item>3</item>
+                <item>4</item>
+                <item>5</item>
+                <item>6</item>
+                <item>7</item>
+        </string-array><string-array name="floatingSpeedDescriptions">
+                <item>väldigt snabb</item>
+                <item>snabb</item>
+                <item>normal</item>
+                <item>långsam</item>
+                <item>väldigt långsam</item>
+        </string-array><string-array name="displayModeDescriptions">
+                <item>Ingen</item>
+                <item>Glid horisontellt</item>
+                <item>Glid vertikalt</item>
+                <item>Övergång</item>
+                <item>Tona över till svar</item>
+                <item>Tona över till vitt</item>
+                <item>Slumpmässigt från ovan</item>
+                <item>Flytande bilder</item>
+        </string-array></file><file path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\values-se\strings.xml" qualifiers="se"><string name="go_to_source">Gå till källan</string><string name="set_as_background">Andvänd som bakgrund</string><string name="delete_image_are_you_sure">Är du säker på att du vill ta bort bilden?</string><string name="show_flickr_user">Visa Flickr användare</string><string name="share_subject">Titta, en bild!</string><string name="stream">Ström</string><string name="show_details">Visa detaljer</string><string name="delete_image">Ta bort bild</string><string name="show_folder">Visa mapp</string><string name="user_agent">Floating image/Android</string><string name="authorize">Logga in</string><string name="pause">Paus</string><string name="resume">Fortsätt</string><string name="dataFolder">/floatingImage</string><string name="unauthorize">Logga ut</string><string name="app_name">Floating Image</string><string name="about">Om appen</string><string name="aboutSummary">Våghalsig presentation av mig</string><string name="share_image">Dela bild</string><string name="exploreFolder">/.exploreCache</string><string name="cancel_show">Avbryt visning</string><string name="loading_feeds">Laddar bilder från källor</string><string name="fullscreen">Helskärm</string><string name="authorizing">Autentiserar</string><string name="share_url">Dela bildens URL</string><string name="please_wait">Hamsterhjulen snurrar... Vänligen vänta</string><string name="search_flickr">Sök på Flickr</string><string name="empty_feed">Inga bilder funna från källan</string><string name="show_flickr">Visa Flickr</string><string name="save_image">Spara bild</string><string name="show">Visa</string></file><file path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\values-zh\error_strings.xml" qualifiers="zh"><string name="cannot_read_feed">无法读取反馈,可能文件太大了.</string><string name="error_fetching_friends">获取好友错误，请再次尝试</string><string name="authorization_failed">授权时一些奇怪的事情发生... 请再次尝试!</string><string name="internal_error">陷入内部错误,请联系开发者</string><string name="error_getting_flickr_user">获取您的信息错误，请尝试再次登录.</string><string name="error_fetching_albums">获取专辑错误, 请再次尝试</string><string name="error_showing_fetching_album_list">专辑列表获取错误.请点击再次尝试.</string><string name="device_does_not_support_live_wallpapers">抱歉,看来你的设备不支持动态壁纸. :(</string></file><file path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\values-zh\settingsStrings.xml" qualifiers="zh"><string name="facebookFriends">朋友</string><string name="Downloads">下载</string><string name="LiveWallpapersSummary">管理动态壁纸，设置为墙纸浮动图像</string><string name="facebookMyAlbums">我的相册</string><string name="flickrExplore">Top 500 (Explore)</string><string name="fullscreenBlackSummary">全屏为黑色摘要</string><string name="photobucketShowFollowing">显示后面的照片</string><string name="photobucketShowUser">显示用户</string><string name="liveWallpaperLowFramerateSummary">控制最大每秒20帧，以减少电池消耗</string><string name="floatingTypeSummary">应该如何移动图像</string><string name="picasaShowUser">显示用户</string><string name="me">我</string><string name="floatingTypeTitle">移动图像使之运动</string><string name="slideInterval">幻灯片间隔</string><string name="backgroundColor">背景颜色</string><string name="fullscreenBlack">当全屏时淡出为黑色</string><string name="flickr_search">搜索: </string><string name="slideSpeedSummary">幻灯片转换的速度有多快</string><string name="floatingType">动作</string><string name="clearCache">清除缓存</string><string name="dismiss">退出</string><string name="useHighResThumbs">使用高清晰度的缩略图</string><string name="LiveWallpapers">动态壁纸</string><string name="cancel">取消</string><string name="showHiddenFiles">切换隐藏文件</string><string name="facebookPhotosOfFriend">显示照片</string><string name="facebookShowAlbum">显示</string><string name="flickrSearch">标记搜索</string><string name="feedMenuAddSummary">添加一个新的图像源</string><string name="clearCacheSummary">擦除整个图像缓存</string><string name="picasaShowUserUsername">请输入所需的用户的用户名</string><string name="feeds">反馈</string><string name="slideIntervalSummary">选择每张图片显示多久</string><string name="slideIntervalTitle">选择幻灯片间隔</string><string name="cameraPictures">相机图片</string><string name="flickr">网络相册</string><string name="floatingSpeedTitle">浮动图像的速度</string><string name="useHighResThumbsSummary">实验: 这可能使你的手机崩溃!只适用于高分辨率设备.</string><string name="imageDecorations">修饰图像</string><string name="internals">内部</string><string name="backgroundColorTitle">选择背景颜色</string><string name="photobucketShowRecent">显示最近的相片</string><string name="liveWallpaperLowFramerate">动态壁纸减少帧频</string><string name="picasaSearch">搜索关键字</string><string name="flickrSearchNoText">请搜索需要.</string><string name="feedMenuAdd">添加一个新的反馈</string><string name="floatingSpeedSummary">如何快速遍历图像</string><string name="picasaShowAlbums">显示专辑</string><string name="picasaSearchTerm">搜索，用逗号（，）分割所搜字词</string><string name="facebook">Facebook</string><string name="manageFeeds">管理反馈信息</string><string name="blackEdgesSummary">将图像周围全部变成黑色轮廓</string><string name="picasaShowStreamNoUsername">请填写用户名.</string><string name="facebookFriendsAlbums">通过相册</string><string name="slideSpeed">幻灯片更换速度</string><string name="slideshow">幻灯片</string><string name="signingIn">登录</string><string name="floatingSpeed">速度</string><string name="modeTitle">选择显示模式</string><string name="flickrShowStream">显示相册</string><string name="photobucketShowUserBadUsername">对不起,相片集用户没有找到.</string><string name="modeSummary">如何显示图像</string><string name="selectCurrentFolder">选择当前文件夹</string><string name="picasaShowMyAlbums">显示我的相册</string><string name="imageDecorationsSummary">图像背后显示阴影和辉光</string><string name="tsunamiSummary">图像填充屏幕. 谨慎使用:这可能导致奇怪的行为和不稳定的因素!</string><string name="flickrShowStreamBadUsername">抱歉, 网络相册用户未找到.</string><string name="forceRotationTitle">屏幕旋转</string><string name="blackEdges">黑色轮廓</string><string name="tsunami">海啸</string><string name="mode">显示模式</string><string name="photobucket">相片集</string><string name="feedMenuRemove">删除反馈</string><string name="facebookPhotosOfMe">显示我的图片</string><string name="settings">设置</string><string name="manageFeedsSummary">图像应该在哪里浮动</string><string name="picasaShowStream">显示流</string><string name="flickrMyPhotos">我的照片</string><string name="loadingFriends">载入朋友...</string><string name="flickrAllContactsStreams">所有联系人的流</string><string name="flickrMyAlbums">我的相册</string><string name="flickrPhotosFromHere">从这里的照片</string><string name="backgroundColorSummary">背后浮动的图像颜色</string><string name="local">手机</string><string name="display">显示</string><string name="forceRotation">强制屏幕旋转</string><string name="searching_for_user">搜索用户</string><string name="picasa">网络相册</string><string name="flickrMyFavorites">收藏夹</string><string name="flickrMyContactsPhotos">我的联系人照片</string><string name="picasaSearchNoText">请寻找的东西.</string><string name="albumBy">相册页</string><string name="flickrShowStreamNoUsername">请填写用户名.</string><string name="picasaShowStreamBadUsername">对不起，没有找到网络相册用户.</string><string name="shuffle">随机图像</string><string name="useCache">缓存图像</string><string name="moreCameraPictures">更多的相机照片</string><string name="rotateImagesSummary">旋转图片摘要</string><string name="shuffleSummary">以随机顺序显示的图像</string><string name="rotateImages">旋转图片</string><string name="selectFolder">选择文件夹</string><string name="flickrSearchTerm">搜索，用逗号分隔的搜索字词</string><string name="slideSpeedTitle">选择转换速度</string><string name="floating">浮动图像</string><string name="flickrShowStreamUsername">请输入流用户名</string><string name="forceRotationSummary">手动调整屏幕旋转</string><string name="picasaShowMyStream">显示我的流</string><string name="useCacheSummary">这给人一种稳定的流量</string><string name="loadingAlbums">载入专辑...</string><string name="misc">杂项</string></file><file path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\values-zh\settings_arrays.xml" qualifiers="zh"><string-array name="displayModeDescriptions">
+		<item>无</item>
+		<item>左右滑动</item>
+		<item>上下滑动</item>
+		<item>淡入淡出</item>
+		<item>淡出为黑色</item>
+
+		<item>淡出为白色</item>
+		<item>从上面随机</item>
+		<item>浮动图像</item>
+	</string-array><string-array name="floatingTypeValues">
+		<item>0</item>
+		<item>1</item>
+
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>20</item>
+
+	</string-array><string-array name="displayModeValues">
+		<item>none</item>
+		<item>slideRightToLeft</item>
+		<item>SlideTopToBottom</item>
+		<item>crossFade</item>
+		<item>fadeToBlack</item>
+		<item>fadeToWhite</item>
+		<item>random</item>
+		<item>floatingImages</item>
+	</string-array><string-array name="backgroundColorDescriptions">
+		<item>灰色</item>
+		<item>黑色</item>
+		<item>纯黑色</item>
+
+		<item>白色</item>
+		<item>蓝色</item>
+		<item>绿色</item>
+		<item>红色</item>
+		<item>黄色</item>
+		<item>全部</item>
+
+	</string-array><string-array name="forceRotationDescriptions">
+		<item>无旋转</item>
+		<item>90 度</item>
+		<item>180 度</item>
+		<item>270 度</item>
+	</string-array><string-array name="floatingTypeDescriptions">
+		<item>右边</item>
+		<item>左边</item>
+		<item>下面</item>
+		<item>上面</item>
+		<item>超高速</item>
+
+		<item>台面</item>
+		<item>堆累</item>
+		<item>混合起来</item>
+	</string-array><string-array name="floatingSpeedValues">
+		<item>7000</item>
+		<item>15000</item>
+		<item>30000</item>
+		<item>60000</item>
+		<item>250000</item>
+
+	</string-array><string-array name="slideIntervalValues">
+		<item>2000</item>
+
+		<item>5000</item>
+		<item>10000</item>
+		<item>30000</item>
+		<item>60000</item>
+		<item>120000</item>
+		<item>300000</item>
+
+		<item>600000</item>
+		<item>1800000</item>
+		<item>3600000</item>
+		<item>7200000</item>
+		<item>21600000</item>
+		<item>43200000</item>
+
+		<item>86400000</item>
+		<item>604800000</item>
+	</string-array><string-array name="slideSpeedDescriptions">
+		<item>快</item>
+
+		<item>慢</item>
+		<item>超慢</item>
+	</string-array><string-array name="slideSpeedValues">
+		<item>300</item>
+		<item>1000</item>
+		<item>3000</item>
+
+	</string-array><string-array name="floatingSpeedDescriptions">
+		<item>非常快</item>
+		<item>快</item>
+		<item>正常</item>
+		<item>慢</item>
+		<item>非常慢</item>
+
+	</string-array><string-array name="slideIntervalDescriptions">
+		<item>2 秒</item>
+		<item>5 秒</item>
+		<item>10 秒</item>
+		<item>30 秒</item>
+		<item>1 分钟</item>
+
+		<item>2 分钟</item>
+		<item>5 分钟</item>
+		<item>10 分钟</item>
+		<item>30 分钟</item>
+		<item>1 小时</item>
+		<item>2 小时</item>
+
+		<item>6 小时</item>
+		<item>12 小时</item>
+		<item>1 天</item>
+		<item>1 星期</item>
+	</string-array><string-array name="backgroundColorValues">
+		<item>0</item>
+		<item>1</item>
+		<item>8</item>
+		<item>2</item>
+		<item>3</item>
+
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+	</string-array><string-array name="forceRotationValues">
+		<item>0</item>
+		<item>90</item>
+		<item>180</item>
+		<item>270</item>
+	</string-array></file><file path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\values-zh\strings.xml" qualifiers="zh"><string name="app_name">浮动图像</string><string name="show_flickr_user">显示网络相册用户</string><string name="show_details">查看详情</string><string name="share_url">分享图片链接</string><string name="delete_image">删除图像</string><string name="about">关于</string><string name="dataFolder">/floatingImage</string><string name="show_folder">显示文件夹</string><string name="delete_image_are_you_sure">你确定要删除这图片吗</string><string name="go_to_source">去找资源</string><string name="show">显示</string><string name="pause">暂停</string><string name="unauthorize">退出</string><string name="authorizing">授权</string><string name="please_wait">The gears are grinding... 请稍等</string><string name="cancel_show">取消显示</string><string name="aboutSummary">自我推广</string><string name="stream">流</string><string name="fullscreen">全屏</string><string name="save_image">保存图像</string><string name="loading_feeds">载入反馈</string><string name="share_image">分享图像</string><string name="resume">恢复</string><string name="authorize">登录</string><string name="exploreFolder">/.exploreCache</string><string name="show_flickr">显示网络相册</string><string name="user_agent">浮动图片/Android</string><string name="set_as_background">设置为背景</string><string name="empty_feed">反馈中没有发现图片</string><string name="share_subject">看, 一张图片!</string><string name="search_flickr">搜索网络相册</string></file><file name="display" path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\xml\display.xml" qualifiers="" type="xml"/><file name="feeds" path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\xml\feeds.xml" qualifiers="" type="xml"/><file name="floating" path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\xml\floating.xml" qualifiers="" type="xml"/><file name="gallery_settings" path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\xml\gallery_settings.xml" qualifiers="" type="xml"/><file name="misc" path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\xml\misc.xml" qualifiers="" type="xml"/><file name="settings" path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\xml\settings.xml" qualifiers="" type="xml"/><file name="settings_headers" path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\xml\settings_headers.xml" qualifiers="" type="xml"/><file name="wallpaper" path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\xml\wallpaper.xml" qualifiers="" type="xml"/><file name="wallpaper_settings" path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\res\xml\wallpaper_settings.xml" qualifiers="" type="xml"/></source><source path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\build\generated\res\rs\debug"/><source path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\build\generated\res\resValues\debug"/></dataSet><dataSet config="debug" generated-set="debug$Generated"><source path="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\debug\res"/></dataSet><mergedItems/></merger>

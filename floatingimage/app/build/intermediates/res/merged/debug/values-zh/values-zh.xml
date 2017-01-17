@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="backgroundColorDescriptions">
+		<item>灰色</item>
+		<item>黑色</item>
+		<item>纯黑色</item>
+
+		<item>白色</item>
+		<item>蓝色</item>
+		<item>绿色</item>
+		<item>红色</item>
+		<item>黄色</item>
+		<item>全部</item>
+
+	</string-array>
+    <string-array name="backgroundColorValues">
+		<item>0</item>
+		<item>1</item>
+		<item>8</item>
+		<item>2</item>
+		<item>3</item>
+
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+	</string-array>
+    <string-array name="displayModeDescriptions">
+		<item>无</item>
+		<item>左右滑动</item>
+		<item>上下滑动</item>
+		<item>淡入淡出</item>
+		<item>淡出为黑色</item>
+
+		<item>淡出为白色</item>
+		<item>从上面随机</item>
+		<item>浮动图像</item>
+	</string-array>
+    <string-array name="displayModeValues">
+		<item>none</item>
+		<item>slideRightToLeft</item>
+		<item>SlideTopToBottom</item>
+		<item>crossFade</item>
+		<item>fadeToBlack</item>
+		<item>fadeToWhite</item>
+		<item>random</item>
+		<item>floatingImages</item>
+	</string-array>
+    <string-array name="floatingSpeedDescriptions">
+		<item>非常快</item>
+		<item>快</item>
+		<item>正常</item>
+		<item>慢</item>
+		<item>非常慢</item>
+
+	</string-array>
+    <string-array name="floatingSpeedValues">
+		<item>7000</item>
+		<item>15000</item>
+		<item>30000</item>
+		<item>60000</item>
+		<item>250000</item>
+
+	</string-array>
+    <string-array name="floatingTypeDescriptions">
+		<item>右边</item>
+		<item>左边</item>
+		<item>下面</item>
+		<item>上面</item>
+		<item>超高速</item>
+
+		<item>台面</item>
+		<item>堆累</item>
+		<item>混合起来</item>
+	</string-array>
+    <string-array name="floatingTypeValues">
+		<item>0</item>
+		<item>1</item>
+
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>20</item>
+
+	</string-array>
+    <string-array name="forceRotationDescriptions">
+		<item>无旋转</item>
+		<item>90 度</item>
+		<item>180 度</item>
+		<item>270 度</item>
+	</string-array>
+    <string-array name="forceRotationValues">
+		<item>0</item>
+		<item>90</item>
+		<item>180</item>
+		<item>270</item>
+	</string-array>
+    <string-array name="slideIntervalDescriptions">
+		<item>2 秒</item>
+		<item>5 秒</item>
+		<item>10 秒</item>
+		<item>30 秒</item>
+		<item>1 分钟</item>
+
+		<item>2 分钟</item>
+		<item>5 分钟</item>
+		<item>10 分钟</item>
+		<item>30 分钟</item>
+		<item>1 小时</item>
+		<item>2 小时</item>
+
+		<item>6 小时</item>
+		<item>12 小时</item>
+		<item>1 天</item>
+		<item>1 星期</item>
+	</string-array>
+    <string-array name="slideIntervalValues">
+		<item>2000</item>
+
+		<item>5000</item>
+		<item>10000</item>
+		<item>30000</item>
+		<item>60000</item>
+		<item>120000</item>
+		<item>300000</item>
+
+		<item>600000</item>
+		<item>1800000</item>
+		<item>3600000</item>
+		<item>7200000</item>
+		<item>21600000</item>
+		<item>43200000</item>
+
+		<item>86400000</item>
+		<item>604800000</item>
+	</string-array>
+    <string-array name="slideSpeedDescriptions">
+		<item>快</item>
+
+		<item>慢</item>
+		<item>超慢</item>
+	</string-array>
+    <string-array name="slideSpeedValues">
+		<item>300</item>
+		<item>1000</item>
+		<item>3000</item>
+
+	</string-array>
+    <string name="Downloads">下载</string>
+    <string name="LiveWallpapers">动态壁纸</string>
+    <string name="LiveWallpapersSummary">管理动态壁纸，设置为墙纸浮动图像</string>
+    <string name="about">关于</string>
+    <string name="aboutSummary">自我推广</string>
+    <string name="albumBy">相册页</string>
+    <string name="app_name">浮动图像</string>
+    <string name="authorization_failed">授权时一些奇怪的事情发生... 请再次尝试!</string>
+    <string name="authorize">登录</string>
+    <string name="authorizing">授权</string>
+    <string name="backgroundColor">背景颜色</string>
+    <string name="backgroundColorSummary">背后浮动的图像颜色</string>
+    <string name="backgroundColorTitle">选择背景颜色</string>
+    <string name="blackEdges">黑色轮廓</string>
+    <string name="blackEdgesSummary">将图像周围全部变成黑色轮廓</string>
+    <string name="cameraPictures">相机图片</string>
+    <string name="cancel">取消</string>
+    <string name="cancel_show">取消显示</string>
+    <string name="cannot_read_feed">无法读取反馈,可能文件太大了.</string>
+    <string name="clearCache">清除缓存</string>
+    <string name="clearCacheSummary">擦除整个图像缓存</string>
+    <string name="dataFolder">/floatingImage</string>
+    <string name="delete_image">删除图像</string>
+    <string name="delete_image_are_you_sure">你确定要删除这图片吗</string>
+    <string name="device_does_not_support_live_wallpapers">抱歉,看来你的设备不支持动态壁纸. :(</string>
+    <string name="dismiss">退出</string>
+    <string name="display">显示</string>
+    <string name="empty_feed">反馈中没有发现图片</string>
+    <string name="error_fetching_albums">获取专辑错误, 请再次尝试</string>
+    <string name="error_fetching_friends">获取好友错误，请再次尝试</string>
+    <string name="error_getting_flickr_user">获取您的信息错误，请尝试再次登录.</string>
+    <string name="error_showing_fetching_album_list">专辑列表获取错误.请点击再次尝试.</string>
+    <string name="exploreFolder">/.exploreCache</string>
+    <string name="facebook">Facebook</string>
+    <string name="facebookFriends">朋友</string>
+    <string name="facebookFriendsAlbums">通过相册</string>
+    <string name="facebookMyAlbums">我的相册</string>
+    <string name="facebookPhotosOfFriend">显示照片</string>
+    <string name="facebookPhotosOfMe">显示我的图片</string>
+    <string name="facebookShowAlbum">显示</string>
+    <string name="feedMenuAdd">添加一个新的反馈</string>
+    <string name="feedMenuAddSummary">添加一个新的图像源</string>
+    <string name="feedMenuRemove">删除反馈</string>
+    <string name="feeds">反馈</string>
+    <string name="flickr">网络相册</string>
+    <string name="flickrAllContactsStreams">所有联系人的流</string>
+    <string name="flickrExplore">Top 500 (Explore)</string>
+    <string name="flickrMyAlbums">我的相册</string>
+    <string name="flickrMyContactsPhotos">我的联系人照片</string>
+    <string name="flickrMyFavorites">收藏夹</string>
+    <string name="flickrMyPhotos">我的照片</string>
+    <string name="flickrPhotosFromHere">从这里的照片</string>
+    <string name="flickrSearch">标记搜索</string>
+    <string name="flickrSearchNoText">请搜索需要.</string>
+    <string name="flickrSearchTerm">搜索，用逗号分隔的搜索字词</string>
+    <string name="flickrShowStream">显示相册</string>
+    <string name="flickrShowStreamBadUsername">抱歉, 网络相册用户未找到.</string>
+    <string name="flickrShowStreamNoUsername">请填写用户名.</string>
+    <string name="flickrShowStreamUsername">请输入流用户名</string>
+    <string name="flickr_search">搜索: </string>
+    <string name="floating">浮动图像</string>
+    <string name="floatingSpeed">速度</string>
+    <string name="floatingSpeedSummary">如何快速遍历图像</string>
+    <string name="floatingSpeedTitle">浮动图像的速度</string>
+    <string name="floatingType">动作</string>
+    <string name="floatingTypeSummary">应该如何移动图像</string>
+    <string name="floatingTypeTitle">移动图像使之运动</string>
+    <string name="forceRotation">强制屏幕旋转</string>
+    <string name="forceRotationSummary">手动调整屏幕旋转</string>
+    <string name="forceRotationTitle">屏幕旋转</string>
+    <string name="fullscreen">全屏</string>
+    <string name="fullscreenBlack">当全屏时淡出为黑色</string>
+    <string name="fullscreenBlackSummary">全屏为黑色摘要</string>
+    <string name="go_to_source">去找资源</string>
+    <string name="imageDecorations">修饰图像</string>
+    <string name="imageDecorationsSummary">图像背后显示阴影和辉光</string>
+    <string name="internal_error">陷入内部错误,请联系开发者</string>
+    <string name="internals">内部</string>
+    <string name="liveWallpaperLowFramerate">动态壁纸减少帧频</string>
+    <string name="liveWallpaperLowFramerateSummary">控制最大每秒20帧，以减少电池消耗</string>
+    <string name="loadingAlbums">载入专辑...</string>
+    <string name="loadingFriends">载入朋友...</string>
+    <string name="loading_feeds">载入反馈</string>
+    <string name="local">手机</string>
+    <string name="manageFeeds">管理反馈信息</string>
+    <string name="manageFeedsSummary">图像应该在哪里浮动</string>
+    <string name="me">我</string>
+    <string name="misc">杂项</string>
+    <string name="mode">显示模式</string>
+    <string name="modeSummary">如何显示图像</string>
+    <string name="modeTitle">选择显示模式</string>
+    <string name="moreCameraPictures">更多的相机照片</string>
+    <string name="pause">暂停</string>
+    <string name="photobucket">相片集</string>
+    <string name="photobucketShowFollowing">显示后面的照片</string>
+    <string name="photobucketShowRecent">显示最近的相片</string>
+    <string name="photobucketShowUser">显示用户</string>
+    <string name="photobucketShowUserBadUsername">对不起,相片集用户没有找到.</string>
+    <string name="picasa">网络相册</string>
+    <string name="picasaSearch">搜索关键字</string>
+    <string name="picasaSearchNoText">请寻找的东西.</string>
+    <string name="picasaSearchTerm">搜索，用逗号（，）分割所搜字词</string>
+    <string name="picasaShowAlbums">显示专辑</string>
+    <string name="picasaShowMyAlbums">显示我的相册</string>
+    <string name="picasaShowMyStream">显示我的流</string>
+    <string name="picasaShowStream">显示流</string>
+    <string name="picasaShowStreamBadUsername">对不起，没有找到网络相册用户.</string>
+    <string name="picasaShowStreamNoUsername">请填写用户名.</string>
+    <string name="picasaShowUser">显示用户</string>
+    <string name="picasaShowUserUsername">请输入所需的用户的用户名</string>
+    <string name="please_wait">The gears are grinding... 请稍等</string>
+    <string name="resume">恢复</string>
+    <string name="rotateImages">旋转图片</string>
+    <string name="rotateImagesSummary">旋转图片摘要</string>
+    <string name="save_image">保存图像</string>
+    <string name="search_flickr">搜索网络相册</string>
+    <string name="searching_for_user">搜索用户</string>
+    <string name="selectCurrentFolder">选择当前文件夹</string>
+    <string name="selectFolder">选择文件夹</string>
+    <string name="set_as_background">设置为背景</string>
+    <string name="settings">设置</string>
+    <string name="share_image">分享图像</string>
+    <string name="share_subject">看, 一张图片!</string>
+    <string name="share_url">分享图片链接</string>
+    <string name="show">显示</string>
+    <string name="showHiddenFiles">切换隐藏文件</string>
+    <string name="show_details">查看详情</string>
+    <string name="show_flickr">显示网络相册</string>
+    <string name="show_flickr_user">显示网络相册用户</string>
+    <string name="show_folder">显示文件夹</string>
+    <string name="shuffle">随机图像</string>
+    <string name="shuffleSummary">以随机顺序显示的图像</string>
+    <string name="signingIn">登录</string>
+    <string name="slideInterval">幻灯片间隔</string>
+    <string name="slideIntervalSummary">选择每张图片显示多久</string>
+    <string name="slideIntervalTitle">选择幻灯片间隔</string>
+    <string name="slideSpeed">幻灯片更换速度</string>
+    <string name="slideSpeedSummary">幻灯片转换的速度有多快</string>
+    <string name="slideSpeedTitle">选择转换速度</string>
+    <string name="slideshow">幻灯片</string>
+    <string name="stream">流</string>
+    <string name="tsunami">海啸</string>
+    <string name="tsunamiSummary">图像填充屏幕. 谨慎使用:这可能导致奇怪的行为和不稳定的因素!</string>
+    <string name="unauthorize">退出</string>
+    <string name="useCache">缓存图像</string>
+    <string name="useCacheSummary">这给人一种稳定的流量</string>
+    <string name="useHighResThumbs">使用高清晰度的缩略图</string>
+    <string name="useHighResThumbsSummary">实验: 这可能使你的手机崩溃!只适用于高分辨率设备.</string>
+    <string name="user_agent">浮动图片/Android</string>
+</resources>

@@ -1,0 +1,353 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:2:1-118:12
+	package
+		ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:3:7-32
+		INJECTED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:4:38-66
+		INJECTED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml
+	android:versionCode
+		ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:4:67-92
+		INJECTED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:2:11-69
+	android:installLocation
+		ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:4:7-37
+application
+ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:5:5-101:15
+	android:label
+		ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:5:48-80
+	android:hardwareAccelerated
+		ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:5:81-115
+	android:debuggable
+		ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:5:116-142
+	android:icon
+		ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:5:18-47
+	android:largeHeap
+		ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:5:143-167
+activity#dk.nindroid.rss.ShowStreams
+ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:6:9-12:14
+	android:screenOrientation
+		ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:6:47-83
+	android:name
+		ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:6:19-46
+intent-filter#android.intent.action.MAIN+android.intent.category.DEFAULT+android.intent.category.LAUNCHER
+ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:7:10-11:20
+action#android.intent.action.MAIN
+ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:8:11-70
+	android:name
+		ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:8:19-60
+category#android.intent.category.LAUNCHER
+ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:9:5-74
+	android:name
+		ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:9:15-62
+category#android.intent.category.DEFAULT
+ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:10:5-64
+	android:name
+		ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:10:15-61
+activity#dk.nindroid.rss.menu.Settings
+ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:14:6-48
+	android:name
+		ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:14:16-45
+activity#dk.nindroid.rss.ClearCache
+ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:15:3-51
+	android:name
+		ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:15:13-39
+activity#dk.nindroid.rss.settings.ManageFeeds
+ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:16:3-61
+	android:name
+		ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:16:13-49
+activity#dk.nindroid.rss.settings.DirectoryBrowser
+ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:17:3-66
+	android:name
+		ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:17:13-54
+activity#dk.nindroid.rss.settings.SourceSelectorFragmentActivity
+ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:18:3-80
+	android:name
+		ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:18:13-68
+activity#dk.nindroid.rss.settings.FlickrBrowser$AlbumActivity
+ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:19:3-77
+	android:name
+		ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:19:13-65
+activity#dk.nindroid.rss.settings.PicasaBrowser
+ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:20:3-63
+	android:name
+		ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:20:13-51
+activity#dk.nindroid.rss.parser.facebook.FacebookAuth
+ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:21:3-28:14
+	android:name
+		ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:21:13-57
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:22:4-27:20
+action#android.intent.action.VIEW
+ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:23:6-58
+	android:name
+		ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:23:14-55
+category#android.intent.category.BROWSABLE
+ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:25:12-73
+	android:name
+		ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:25:22-70
+data
+ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:26:12-50
+	android:scheme
+		ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:26:18-48
+activity#dk.nindroid.rss.settings.FacebookBrowser$SubActivity
+ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:29:3-30:14
+	android:name
+		ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:29:13-65
+activity#dk.nindroid.rss.parser.facebook.WebAuth
+ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:31:3-64
+	android:name
+		ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:31:13-52
+activity#dk.nindroid.rss.parser.facebook.FacebookAlbumBrowser
+ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:32:3-77
+	android:name
+		ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:32:13-65
+activity#dk.nindroid.rss.parser.facebook.FacebookFriendsBrowser
+ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:33:3-79
+	android:name
+		ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:33:13-67
+activity#dk.nindroid.rss.parser.facebook.FacebookFriendView
+ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:34:3-75
+	android:name
+		ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:34:13-63
+activity#dk.nindroid.rss.flickr.WebAuth
+ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:35:3-55
+	android:name
+		ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:35:13-43
+activity#dk.nindroid.rss.parser.flickr.FlickrAlbumBrowser
+ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:36:3-73
+	android:name
+		ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:36:13-61
+activity#dk.nindroid.rss.parser.picasa.PicasaWebAuth
+ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:37:3-68
+	android:name
+		ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:37:13-56
+activity#dk.nindroid.rss.parser.picasa.PicasaAlbumBrowser
+ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:38:3-73
+	android:name
+		ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:38:13-61
+activity#dk.nindroid.rss.settings.PicasaBrowser$UserActivity
+ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:39:3-76
+	android:name
+		ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:39:13-64
+activity#dk.nindroid.rss.settings.About
+ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:40:3-99
+	android:theme
+		ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:40:44-87
+	android:name
+		ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:40:13-43
+activity#dk.nindroid.rss.menu.WallpaperSettings
+ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:41:3-78
+	android:exported
+		ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:41:52-75
+	android:name
+		ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:41:13-51
+activity#dk.nindroid.rss.menu.ApplicationFeedManagerLauncher
+ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:42:3-76
+	android:name
+		ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:42:13-64
+activity#dk.nindroid.rss.menu.WallpaperFeedManagerLauncher
+ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:43:3-74
+	android:name
+		ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:43:13-62
+service#dk.nindroid.rss.Wallpaper
+ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:45:3-52:13
+	android:label
+		ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:46:6-36
+	android:permission
+		ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:47:6-60
+	android:name
+		ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:45:12-37
+intent-filter#android.service.wallpaper.WallpaperService
+ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:48:6-50:22
+action#android.service.wallpaper.WallpaperService
+ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:49:7-75
+	android:name
+		ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:49:15-72
+meta-data#android.service.wallpaper
+ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:51:6-94
+	android:resource
+		ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:51:58-91
+	android:name
+		ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:51:17-57
+activity#dk.nindroid.rss.settings.PhotobucketBrowser
+ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:53:2-67
+	android:name
+		ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:53:12-55
+activity#dk.nindroid.rss.settings.PhotobucketBrowser$ShowUserActivity
+ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:54:1-83
+	android:name
+		ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:54:11-71
+activity#dk.nindroid.rss.settings.SourceSelector$SourceActivity
+ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:55:1-77
+	android:name
+		ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:55:11-65
+activity#dk.nindroid.rss.settings.PicasaBrowser$AlbumActivity
+ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:56:1-75
+	android:name
+		ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:56:11-63
+activity#dk.nindroid.rss.parser.facebook.FacebookFriendsBrowser$SubActivity
+ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:57:1-89
+	android:name
+		ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:57:11-77
+activity#dk.nindroid.rss.parser.facebook.FacebookFriendView$SubActivity
+ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:58:1-85
+	android:name
+		ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:58:11-73
+activity#dk.nindroid.rss.menu.LiveWallpaperLauncher
+ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:59:1-65
+	android:name
+		ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:59:11-53
+activity#dk.nindroid.rss.parser.picasa.PicasaUserView$AlbumActivity
+ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:60:1-81
+	android:name
+		ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:60:11-69
+activity#dk.nindroid.rss.settings.FeedSettings
+ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:61:1-60
+	android:name
+		ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:61:11-48
+activity#dk.nindroid.rss.GalleryActivity
+ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:63:1-68:12
+	android:label
+		ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:63:42-74
+	android:icon
+		ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:63:115-152
+	android:taskAffinity
+		ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:63:75-114
+	android:name
+		ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:63:11-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:64:5-67:18
+activity#dk.nindroid.rss.menu.GallerySettings
+ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:70:1-59
+	android:name
+		ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:70:11-47
+activity#dk.nindroid.rss.menu.GalleryFeedManagerLauncher
+ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:71:1-70
+	android:name
+		ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:71:11-58
+activity#dk.nindroid.rss.GalleryImageLauncher
+ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:72:1-81:12
+	android:label
+		ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:72:48-80
+	android:icon
+		ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:72:121-158
+	android:taskAffinity
+		ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:72:81-120
+	android:name
+		ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:72:11-47
+intent-filter#android.intent.action.VIEW+android.intent.category.DEFAULT+com.cooliris.media.action.REVIEW
+ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:73:5-80:18
+action#com.cooliris.media.action.REVIEW
+ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:75:4-62
+	android:name
+		ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:75:12-59
+activity#dk.nindroid.rss.settings.FiveHundredPxBrowser$DiscoverActivity
+ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:84:1-85
+	android:name
+		ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:84:11-73
+activity#dk.nindroid.rss.settings.FiveHundredPxBrowser$CategoryActivity
+ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:85:1-85
+	android:name
+		ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:85:11-73
+activity#dk.nindroid.rss.menu.SaveChooser
+ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:86:1-55
+	android:name
+		ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:86:11-43
+activity#dk.nindroid.rss.DockListener
+ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:87:1-91:12
+	android:name
+		ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:87:11-39
+category#android.intent.category.DESK_DOCK
+ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:89:5-66
+	android:name
+		ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:89:15-63
+receiver#dk.nindroid.rss.DockBroadcastReceiver
+ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:92:1-96:12
+	android:label
+		ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:92:49-81
+	android:name
+		ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:92:11-48
+intent-filter#android.intent.action.ACTION_POWER_CONNECTED
+ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:93:5-95:21
+action#android.intent.action.ACTION_POWER_CONNECTED
+ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:94:9-86
+	android:name
+		ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:94:17-76
+activity#dk.nindroid.rss.settings.ClockSettings
+ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:97:1-61
+	android:name
+		ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:97:11-49
+activity#dk.nindroid.rss.menu.ApplicationClockSettingsLauncher
+ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:98:1-76
+	android:name
+		ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:98:11-64
+activity#dk.nindroid.rss.menu.GalleryClockSettingsLauncher
+ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:99:1-72
+	android:name
+		ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:99:11-60
+activity#dk.nindroid.rss.menu.WallpaperClockSettingsLauncher
+ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:100:1-74
+	android:name
+		ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:100:11-62
+uses-sdk
+ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:102:5-72
+	android:targetSdkVersion
+		ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:102:41-70
+		INJECTED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:102:15-40
+		INJECTED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.VIBRATE
+ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:103:2-79
+	android:name
+		ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:103:19-60
+uses-permission#android.permission.WAKE_LOCK
+ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:104:2-81
+	android:name
+		ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:104:19-62
+uses-permission#android.permission.SET_WALLPAPER
+ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:105:2-85
+	android:name
+		ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:105:19-66
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:106:2-94
+	android:name
+		ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:106:19-75
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:107:2-86
+	android:name
+		ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:107:19-67
+uses-permission#android.permission.BIND_WALLPAPER
+ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:108:2-86
+	android:name
+		ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:108:19-67
+uses-permission#android.permission.INTERNET
+ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:109:2-64
+	android:name
+		ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:109:19-61
+uses-feature#android.hardware.touchscreen
+ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:110:2-86
+	android:required
+		ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:110:60-84
+	android:name
+		ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:110:16-59
+supports-screens
+ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:112:2-117:34
+	android:largeScreens
+		ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:113:3-30
+	android:smallScreens
+		ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:116:3-30
+	android:normalScreens
+		ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:115:3-31
+	android:xlargeScreens
+		ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:117:3-31
+	android:anyDensity
+		ADDED from D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage\app\src\main\AndroidManifest.xml:114:3-28
