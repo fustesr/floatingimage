@@ -1,0 +1,47 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.2"
+    defaultConfig {
+        applicationId "com.example.maxime.androidtuto"
+        minSdkVersion 15
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        debug {
+            debuggable true
+        }
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile 'com.android.support:appcompat-v7:25.1.0'
+    testCompile 'junit:junit:4.12'
+
+
+    compile files('libs/cling-core-2.1.1.jar')
+    //compile files('src/libs/cling-support-2.0.1.jar')
+    compile files('libs/seamless-http-1.1.1.jar')
+    compile files('libs/seamless-util-1.1.1.jar')
+    compile files('libs/seamless-xml-1.1.1.jar')
+    /*compile group: 'org.eclipse.jetty', name: 'jetty-server', version:'8.1.18.v20150929'
+    compile group: 'org.eclipse.jetty', name: 'jetty-servlet', version:'8.1.18.v20150929'
+    compile group: 'org.eclipse.jetty', name: 'jetty-client', version:'8.1.18.v20150929'*/
+    compile 'org.eclipse.jetty:jetty-server:8+'
+    compile 'org.eclipse.jetty:jetty-servlet:8+'
+    compile 'org.eclipse.jetty:jetty-client:8+'
+    compile group: 'org.slf4j', name: 'slf4j-jdk14', version:'1.7.14'
+
+}
