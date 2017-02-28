@@ -38,7 +38,10 @@ import org.fourthline.cling.android.FixedAndroidLogHandler;
 import org.fourthline.cling.model.meta.Device;
 import org.fourthline.cling.model.meta.LocalDevice;
 import org.fourthline.cling.model.meta.RemoteDevice;
+import org.fourthline.cling.model.meta.RemoteService;
 import org.fourthline.cling.model.meta.Service;
+import org.fourthline.cling.model.types.ServiceId;
+import org.fourthline.cling.model.types.UDAServiceId;
 import org.fourthline.cling.registry.DefaultRegistryListener;
 import org.fourthline.cling.registry.Registry;
 import org.fourthline.cling.transport.Router;
@@ -176,12 +179,14 @@ public class BrowserActivity extends ListActivity {
     }
     // DOC:MENU
 
+    ServiceId serviceId = new UDAServiceId("ContentDirectory");
+
     @Override
     protected void onListItemClick(ListView l, View v, int position, long id) {
         AlertDialog dialog = new AlertDialog.Builder(this).create();
         dialog.setTitle(R.string.deviceDetails);
         DeviceDisplay deviceDisplay = (DeviceDisplay)l.getItemAtPosition(position);
-        dialog.setMessage(deviceDisplay.getDetailsMessage());
+        /*dialog.setMessage(deviceDisplay.getDetailsMessage());
         dialog.setButton(
             getString(R.string.OK),
             new DialogInterface.OnClickListener() {
@@ -191,7 +196,17 @@ public class BrowserActivity extends ListActivity {
         );
         dialog.show();
         TextView textView = (TextView) dialog.findViewById(android.R.id.message);
-        textView.setTextSize(12);
+        textView.setTextSize(12);*/
+
+        Intent intent = new Intent(BrowserActivity.this, URLActivity.class);
+        RemoteService s = (RemoteService) deviceDisplay.device.findService(serviceId);
+        RemoteDevice d = (RemoteDevice) deviceDisplay.device;
+        intent.putExtra("type", s.getServiceType().getType());
+        intent.putExtra("descriptor", s.getDescriptorURI());
+        intent.putExtra("control", s.getControlURI());
+        intent.putExtra("event", s.getEventSubscriptionURI());
+
+        startActivity(intent);
         super.onListItemClick(l, v, position, id);
     }
 
@@ -221,6 +236,7 @@ public class BrowserActivity extends ListActivity {
 
         @Override
         public void remoteDeviceAdded(Registry registry, RemoteDevice device) {
+            Log.d("Trace","remote");
             deviceAdded(device);
         }
 
@@ -231,7 +247,8 @@ public class BrowserActivity extends ListActivity {
 
         @Override
         public void localDeviceAdded(Registry registry, LocalDevice device) {
-            deviceAdded(device);
+            /*Log.d("Trace","local");
+            deviceAdded(device);*/
         }
 
         @Override
@@ -239,22 +256,29 @@ public class BrowserActivity extends ListActivity {
             deviceRemoved(device);
         }
 
+        ServiceId serviceId = new UDAServiceId("ContentDirectory");
+
         public void deviceAdded(final Device device) {
 
             Log.d("Trace", "Device "+device.getDisplayString());
-            runOnUiThread(new Runnable() {
-                public void run() {
-                    DeviceDisplay d = new DeviceDisplay(device);
-                    int position = listAdapter.getPosition(d);
-                    if (position >= 0) {
-                        // Device already in the list, re-set new value at same position
-                        listAdapter.remove(d);
-                        listAdapter.insert(d, position);
-                    } else {
-                        listAdapter.add(d);
+            Service contentDirectory;
+
+            if ((contentDirectory = device.findService(serviceId)) != null) {
+                System.out.println("Service discovered: " + contentDirectory);
+                runOnUiThread(new Runnable() {
+                    public void run() {
+                        DeviceDisplay d = new DeviceDisplay(device);
+                        int position = listAdapter.getPosition(d);
+                        if (position >= 0) {
+                            // Device already in the list, re-set new value at same position
+                            listAdapter.remove(d);
+                            listAdapter.insert(d, position);
+                        } else {
+                            listAdapter.add(d);
+                        }
                     }
-                }
-            });
+                });
+            }
         }
 
         public void deviceRemoved(final Device device) {
