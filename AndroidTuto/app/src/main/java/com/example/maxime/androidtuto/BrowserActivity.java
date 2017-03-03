@@ -69,6 +69,7 @@ public class BrowserActivity extends ListActivity {
         public void onServiceConnected(ComponentName className, IBinder service) {
             Log.d("Trace", "Device connected");
             upnpService = (AndroidUpnpService) service;
+            RemoteDirectories.setUpnp(upnpService);
 
             // Clear the list
             listAdapter.clear();
@@ -200,11 +201,14 @@ public class BrowserActivity extends ListActivity {
 
         Intent intent = new Intent(BrowserActivity.this, URLActivity.class);
         RemoteService s = (RemoteService) deviceDisplay.device.findService(serviceId);
-        RemoteDevice d = (RemoteDevice) deviceDisplay.device;
+        /*RemoteDevice d = (RemoteDevice) deviceDisplay.device;
         intent.putExtra("type", s.getServiceType().getType());
         intent.putExtra("descriptor", s.getDescriptorURI());
         intent.putExtra("control", s.getControlURI());
         intent.putExtra("event", s.getEventSubscriptionURI());
+        Log.d("End", s.getAction("Browse").toString());*/
+        RemoteDirectories.add(s);
+        intent.putExtra("Service",s.hashCode());
 
         startActivity(intent);
         super.onListItemClick(l, v, position, id);
