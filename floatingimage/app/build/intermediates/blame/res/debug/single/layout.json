@@ -24,12 +24,12 @@
         "source": "D:\\Documents\\workspace\\Projet_floatingimage\\floatingimage\\floatingimage\\app\\src\\main\\res\\layout\\feeds_row.xml"
     },
     {
-        "merged": "D:\\Documents\\workspace\\Projet_floatingimage\\floatingimage\\floatingimage\\app\\build\\intermediates\\res\\merged\\debug\\layout\\manage_feeds.xml",
-        "source": "D:\\Documents\\workspace\\Projet_floatingimage\\floatingimage\\floatingimage\\app\\src\\main\\res\\layout\\manage_feeds.xml"
-    },
-    {
         "merged": "D:\\Documents\\workspace\\Projet_floatingimage\\floatingimage\\floatingimage\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
         "source": "D:\\Documents\\workspace\\Projet_floatingimage\\floatingimage\\floatingimage\\app\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "D:\\Documents\\workspace\\Projet_floatingimage\\floatingimage\\floatingimage\\app\\build\\intermediates\\res\\merged\\debug\\layout\\manage_feeds.xml",
+        "source": "D:\\Documents\\workspace\\Projet_floatingimage\\floatingimage\\floatingimage\\app\\src\\main\\res\\layout\\manage_feeds.xml"
     },
     {
         "merged": "D:\\Documents\\workspace\\Projet_floatingimage\\floatingimage\\floatingimage\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gallery.xml",

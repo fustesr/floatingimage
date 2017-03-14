@@ -245,6 +245,8 @@ public class GalleryActivity extends ListActivity {
 				return R.drawable.fivehundredpx_icon;
 			case Settings.TYPE_RSS:
 				return R.drawable.rss_icon;
+			case Settings.TYPE_UPNP:
+				return R.drawable.phone_icon;
 			}
 			return R.drawable.phone_icon;
 		}

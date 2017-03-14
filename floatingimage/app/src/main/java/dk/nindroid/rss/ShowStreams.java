@@ -53,6 +53,7 @@ import dk.nindroid.rss.parser.flickr.FlickrParser;
 import dk.nindroid.rss.parser.photobucket.PhotobucketParser;
 import dk.nindroid.rss.parser.picasa.PicasaParser;
 import dk.nindroid.rss.parser.rss.RssParser;
+import dk.nindroid.rss.parser.upnp.UPnPParser;
 import dk.nindroid.rss.renderers.OSD;
 import dk.nindroid.rss.renderers.Renderer;
 import dk.nindroid.rss.renderers.floating.FloatingRenderer;
@@ -61,6 +62,7 @@ import dk.nindroid.rss.renderers.slideshow.SlideshowRenderer;
 import dk.nindroid.rss.settings.FeedsDbAdapter;
 import dk.nindroid.rss.settings.ManageFeeds;
 import dk.nindroid.rss.uiActivities.ShowDialog;
+import dk.nindroid.rss.upnp.globalUpnpService;
 
 public class ShowStreams extends Activity implements MainActivity {
 	public static final int 			ABOUT_ID 		= Menu.FIRST;
@@ -99,11 +101,12 @@ public class ShowStreams extends Activity implements MainActivity {
 	private int showFeedId;
 	private String showImageId;
 	
-	
+	//TODO BEGINNING HERE
 	/** Called when the activity is first created. */
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+		//getting intent data
 		this.showFeedId = getIntent().getIntExtra(SHOW_FEED_ID, -1);
 		this.showImageId = getIntent().getStringExtra(SHOW_IMAGE_ID);
 		String settingsName = getIntent().getStringExtra(SETTINGS_NAME);
@@ -123,6 +126,7 @@ public class ShowStreams extends Activity implements MainActivity {
 		}
 		
 		registerParsers();
+		globalUpnpService.startUpnp(this);
 		String dataFolder = getString(R.string.dataFolder);
 		File sdDir = Environment.getExternalStorageDirectory();
 		dataFolder = sdDir.getAbsolutePath() + dataFolder;
@@ -166,6 +170,7 @@ public class ShowStreams extends Activity implements MainActivity {
 		ParserProvider.registerParser(dk.nindroid.rss.settings.Settings.TYPE_PHOTOBUCKET, PhotobucketParser.class);
 		ParserProvider.registerParser(dk.nindroid.rss.settings.Settings.TYPE_FIVEHUNDREDPX, FiveHundredPxParser.class);
 		ParserProvider.registerParser(dk.nindroid.rss.settings.Settings.TYPE_RSS, RssParser.class);
+		ParserProvider.registerParser(dk.nindroid.rss.settings.Settings.TYPE_UPNP, UPnPParser.class);
 	}
 	
 	TextureBank setupFeeders(){

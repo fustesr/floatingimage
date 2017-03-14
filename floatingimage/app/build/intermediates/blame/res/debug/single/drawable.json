@@ -36,12 +36,12 @@
         "source": "D:\\Documents\\workspace\\Projet_floatingimage\\floatingimage\\floatingimage\\app\\src\\main\\res\\drawable\\osd_brightness.png"
     },
     {
-        "merged": "D:\\Documents\\workspace\\Projet_floatingimage\\floatingimage\\floatingimage\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background_dark.jpg",
-        "source": "D:\\Documents\\workspace\\Projet_floatingimage\\floatingimage\\floatingimage\\app\\src\\main\\res\\drawable\\background_dark.jpg"
-    },
-    {
         "merged": "D:\\Documents\\workspace\\Projet_floatingimage\\floatingimage\\floatingimage\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\picasa_icon.png",
         "source": "D:\\Documents\\workspace\\Projet_floatingimage\\floatingimage\\floatingimage\\app\\src\\main\\res\\drawable\\picasa_icon.png"
+    },
+    {
+        "merged": "D:\\Documents\\workspace\\Projet_floatingimage\\floatingimage\\floatingimage\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background_dark.jpg",
+        "source": "D:\\Documents\\workspace\\Projet_floatingimage\\floatingimage\\floatingimage\\app\\src\\main\\res\\drawable\\background_dark.jpg"
     },
     {
         "merged": "D:\\Documents\\workspace\\Projet_floatingimage\\floatingimage\\floatingimage\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\smooth_circle_red.png",
@@ -72,16 +72,16 @@
         "source": "D:\\Documents\\workspace\\Projet_floatingimage\\floatingimage\\floatingimage\\app\\src\\main\\res\\drawable\\osd_play.png"
     },
     {
+        "merged": "D:\\Documents\\workspace\\Projet_floatingimage\\floatingimage\\floatingimage\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\photobucket_icon.png",
+        "source": "D:\\Documents\\workspace\\Projet_floatingimage\\floatingimage\\floatingimage\\app\\src\\main\\res\\drawable\\photobucket_icon.png"
+    },
+    {
         "merged": "D:\\Documents\\workspace\\Projet_floatingimage\\floatingimage\\floatingimage\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background_yellow.jpg",
         "source": "D:\\Documents\\workspace\\Projet_floatingimage\\floatingimage\\floatingimage\\app\\src\\main\\res\\drawable\\background_yellow.jpg"
     },
     {
         "merged": "D:\\Documents\\workspace\\Projet_floatingimage\\floatingimage\\floatingimage\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\osd_settings.png",
         "source": "D:\\Documents\\workspace\\Projet_floatingimage\\floatingimage\\floatingimage\\app\\src\\main\\res\\drawable\\osd_settings.png"
-    },
-    {
-        "merged": "D:\\Documents\\workspace\\Projet_floatingimage\\floatingimage\\floatingimage\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\photobucket_icon.png",
-        "source": "D:\\Documents\\workspace\\Projet_floatingimage\\floatingimage\\floatingimage\\app\\src\\main\\res\\drawable\\photobucket_icon.png"
     },
     {
         "merged": "D:\\Documents\\workspace\\Projet_floatingimage\\floatingimage\\floatingimage\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\osd_images.png",
@@ -120,20 +120,20 @@
         "source": "D:\\Documents\\workspace\\Projet_floatingimage\\floatingimage\\floatingimage\\app\\src\\main\\res\\drawable\\background_green.jpg"
     },
     {
-        "merged": "D:\\Documents\\workspace\\Projet_floatingimage\\floatingimage\\floatingimage\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\flickr_icon.png",
-        "source": "D:\\Documents\\workspace\\Projet_floatingimage\\floatingimage\\floatingimage\\app\\src\\main\\res\\drawable\\flickr_icon.png"
-    },
-    {
         "merged": "D:\\Documents\\workspace\\Projet_floatingimage\\floatingimage\\floatingimage\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\smooth_circle.png",
         "source": "D:\\Documents\\workspace\\Projet_floatingimage\\floatingimage\\floatingimage\\app\\src\\main\\res\\drawable\\smooth_circle.png"
     },
     {
-        "merged": "D:\\Documents\\workspace\\Projet_floatingimage\\floatingimage\\floatingimage\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\smooth_block_red.png",
-        "source": "D:\\Documents\\workspace\\Projet_floatingimage\\floatingimage\\floatingimage\\app\\src\\main\\res\\drawable\\smooth_block_red.png"
+        "merged": "D:\\Documents\\workspace\\Projet_floatingimage\\floatingimage\\floatingimage\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\flickr_icon.png",
+        "source": "D:\\Documents\\workspace\\Projet_floatingimage\\floatingimage\\floatingimage\\app\\src\\main\\res\\drawable\\flickr_icon.png"
     },
     {
         "merged": "D:\\Documents\\workspace\\Projet_floatingimage\\floatingimage\\floatingimage\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\glow_trans.png",
         "source": "D:\\Documents\\workspace\\Projet_floatingimage\\floatingimage\\floatingimage\\app\\src\\main\\res\\drawable\\glow_trans.png"
+    },
+    {
+        "merged": "D:\\Documents\\workspace\\Projet_floatingimage\\floatingimage\\floatingimage\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\smooth_block_red.png",
+        "source": "D:\\Documents\\workspace\\Projet_floatingimage\\floatingimage\\floatingimage\\app\\src\\main\\res\\drawable\\smooth_block_red.png"
     },
     {
         "merged": "D:\\Documents\\workspace\\Projet_floatingimage\\floatingimage\\floatingimage\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\osd_pause.png",

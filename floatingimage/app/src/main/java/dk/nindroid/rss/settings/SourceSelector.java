@@ -11,6 +11,7 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v4.app.ListFragment;
+import android.util.Log;
 import android.view.Gravity;
 import android.view.KeyEvent;
 import android.view.View;
@@ -21,7 +22,6 @@ import android.widget.ListView;
 import android.widget.Toast;
 import dk.nindroid.rss.R;
 import dk.nindroid.rss.gfx.ImageUtil;
-import dk.nindroid.rss.parser.photobucket.PhotobucketFeeder;
 import dk.nindroid.rss.settings.SourceSelectorAdapter.Source;
 
 public class SourceSelector extends ListFragment {
@@ -32,6 +32,7 @@ public class SourceSelector extends ListFragment {
 	public static final int		PHOTOBUCKET_ACTIVITY = 17;
 	public static final int		FIVEHUNDREDPX_ACTIVITY = 18;
 	public static final int		RSS = 19;
+	public static final int 	UPNP_ACTIVITY = 20;
 	
 	boolean mDualPane;
 	int mSelected = 0;
@@ -87,13 +88,17 @@ public class SourceSelector extends ListFragment {
 		
 		String photobucket = this.getString(R.string.photobucket);
 		Bitmap photobucketBmp = ImageUtil.readBitmap(activity, R.drawable.photobucket_icon);
-		SourceSelectorAdapter.Source photobucketS = new Source(photobucket, photobucketBmp, PHOTOBUCKET_ACTIVITY);		
-		
+		SourceSelectorAdapter.Source photobucketS = new Source(photobucket, photobucketBmp, PHOTOBUCKET_ACTIVITY);
+
 		String rss = "RSS";
 		Bitmap rssBmp = ImageUtil.readBitmap(activity, R.drawable.rss_icon);
 		SourceSelectorAdapter.Source rssS = new Source(rss, rssBmp, RSS);
+
+		String upnp = "UPnP";
+		Bitmap upnpBmp = ImageUtil.readBitmap(activity, R.drawable.phone_icon);
+		SourceSelectorAdapter.Source upnpS = new Source(upnp, upnpBmp, UPNP_ACTIVITY);
 		
-		SourceSelectorAdapter.Source[] options = new Source[] {localS, flickrS, picasaS, facebookS, fivehundredpxS, photobucketS, rssS};
+		SourceSelectorAdapter.Source[] options = new Source[] {localS, flickrS, picasaS, facebookS, fivehundredpxS, photobucketS, rssS, upnpS};
 		setListAdapter(new SourceSelectorAdapter(activity, options));
 	}
 		
@@ -148,6 +153,9 @@ public class SourceSelector extends ListFragment {
 				break;
 			case 6:
 				handleRss();
+				break;
+			case 7:
+				startActivityForResult(intent, UPNP_ACTIVITY);
 				break;
 			}
 		}
@@ -226,8 +234,12 @@ public class SourceSelector extends ListFragment {
 			case FIVEHUNDREDPX_ACTIVITY:
 				b.putInt("TYPE", Settings.TYPE_FIVEHUNDREDPX);
 				break;
+			case UPNP_ACTIVITY:
+				b.putInt("TYPE", Settings.TYPE_UPNP);
+				break;
 			}
 			intent.putExtras(b);
+			Log.v("Activity",this.getActivity().toString());
 			getActivity().setResult(Activity.RESULT_OK, intent);
 			getActivity().finish();
 		}
@@ -247,6 +259,8 @@ public class SourceSelector extends ListFragment {
     		return new FiveHundredPxBrowser();
     	case 5:
     		return new PhotobucketBrowser();
+		case 7:
+			return new UPnPBrowser();
     	}
 		return null;
 	}

@@ -66,7 +66,7 @@ public class ManageFeeds extends PreferenceActivity {
 		if(mAddFeed){
 			addFeed();
 		}
-			
+
 	}
 	
 	void addFeed(){
@@ -90,6 +90,7 @@ public class ManageFeeds extends PreferenceActivity {
 		List<Feed> photobucket = data.get(Settings.TYPE_PHOTOBUCKET);
 		List<Feed> fivehundredpx = data.get(Settings.TYPE_FIVEHUNDREDPX);
 		List<Feed> rss = data.get(Settings.TYPE_RSS);
+		List<Feed> upnp = data.get(Settings.TYPE_UPNP);
 		
 		if(local.size() != 0){
 			Bitmap bmp = readBitmap(R.drawable.phone_icon);
@@ -174,6 +175,18 @@ public class ManageFeeds extends PreferenceActivity {
 				mRowList.add(f);
 			}
 		}
+
+		if(upnp.size() != 0){
+			Bitmap bmp = readBitmap(R.drawable.phone_icon);
+			PreferenceCategory upnpCat = new PreferenceCategory(this);
+			mRowList.add(null);
+			upnpCat.setTitle("UPnP");
+			root.addPreference(upnpCat);
+			for(Feed f : upnp){
+				upnpCat.addPreference(createCheckbox(f, bmp));
+				mRowList.add(f);
+			}
+		}
 		
 		PreferenceCategory newCat = new PreferenceCategory(this);
 		newCat.setTitle("");
@@ -217,6 +230,7 @@ public class ManageFeeds extends PreferenceActivity {
 		data.put(Settings.TYPE_PHOTOBUCKET, new ArrayList<Feed>());
 		data.put(Settings.TYPE_FIVEHUNDREDPX, new ArrayList<Feed>());
 		data.put(Settings.TYPE_RSS, new ArrayList<Feed>());
+		data.put(Settings.TYPE_UPNP, new ArrayList<Feed>());
 		int idi = c.getColumnIndex(FeedsDbAdapter.KEY_ROWID);
 		int typei = c.getColumnIndex(FeedsDbAdapter.KEY_TYPE);
 		int namei = c.getColumnIndex(FeedsDbAdapter.KEY_TITLE);
@@ -271,6 +285,7 @@ public class ManageFeeds extends PreferenceActivity {
 	}
 	
 	@Override
+	//TODO: HERE, IT IS HERE, LOOK
 	protected void onActivityResult(int requestCode, int resultCode, Intent data) {
 		super.onActivityResult(requestCode, resultCode, data);
 		if(requestCode == SELECT_FOLDER){

@@ -18,6 +18,7 @@ public class Settings {
 	public static final int TYPE_FIVEHUNDREDPX = 6;
 	public static final int TYPE_RSS = 7;
 	public static final int TYPE_CONTENT_URI = 8;
+	public static final int TYPE_UPNP = 9;
 	
 	public static final int MODE_NONE = 0;
 	public static final int MODE_SLIDE_RIGHT_TO_LEFT = 1;

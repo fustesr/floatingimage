@@ -1,364 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="f99a88cd-ab8e-486a-98ad-1904c4662ed0" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.classpath" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.project" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.settings/org.eclipse.ltk.core.refactoring.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Privacy_statement.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/commons-codec-1.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/photobucket-core.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/signpost-commonshttp4-1.2.1.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/FloatingImage.apk" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/res/drawable/background.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/res/drawable/facebook_icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/res/drawable/flickr_icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/res/drawable/glow_trans.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/res/drawable/icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/res/drawable/image_shadow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/res/drawable/oldicon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/res/drawable/osd_about.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/res/drawable/osd_brightness.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/res/drawable/osd_images.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/res/drawable/osd_pause.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/res/drawable/osd_play.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/res/drawable/osd_rotate_clockwise.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/res/drawable/osd_rotate_counterclockwise.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/res/drawable/osd_settings.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/res/drawable/osd_toggle_full.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/res/drawable/phone_icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/res/drawable/photobucket_icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/res/drawable/picasa_icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/res/drawable/plus.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/res/drawable/smooth_block_red.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/res/drawable/smooth_circle.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/res/drawable/smooth_circle_red.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/res/drawable/splash.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/resources.ap_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/default.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/signpost-core-1.2.1.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/signpost-core-1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/android-support-v4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/commons-codec-1.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/photobucket-core.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/signpost-commonshttp4-1.2.1.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/signpost-core-1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lint.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/proguard.cfg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/background.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/background_all.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/background_blue.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/background_dark.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/background_green.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/background_red.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/background_white.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/background_yellow.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/facebook_icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/fivehundredpx_icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/flickr_icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/glow_trans.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/icon_gallery.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/image_shadow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/oldicon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/osd_autoselect_pause.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/osd_autoselect_play.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/osd_brightness.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/osd_images.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/osd_images_move.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/osd_images_pause.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/osd_pause.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/osd_play.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/osd_rotate_clockwise.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/osd_rotate_counterclockwise.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/osd_settings.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/osd_toggle_full.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/phone_icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/photobucket_icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/picasa_icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/plus.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/plus_circle.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/rss_icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/smooth_block_red.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/smooth_circle.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/smooth_circle_red.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/splash.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout-land/source_selector.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/about.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/clock_placement.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/context_menu.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/directory_browser_item.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/feed_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/feeds_row.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/gallery.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/main.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/manage_feeds.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/save_chooser.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/source_row.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/source_selector.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/splashscreen.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/webauth.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/menu/file_menu.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/values-cs/error_strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/values-cs/settingsStrings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/values-cs/settings_arrays.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/values-cs/strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/values-da/error_strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/values-da/settingsStrings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/values-da/settings_arrays.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/values-da/strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/values-de/error_strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/values-de/settingsStrings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/values-de/settings_arrays.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/values-de/strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/values-es/error_strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/values-es/settingsStrings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/values-es/settings_arrays.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/values-es/strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/values-ko/error_strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/values-ko/settingsStrings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/values-ko/settings_arrays.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/values-ko/strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/values-no/error_strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/values-no/settingsStrings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/values-no/settings_arrays.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/values-no/strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/values-ru/error_strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/values-ru/settingsStrings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/values-ru/settings_arrays.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/values-ru/strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/values-se/error_strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/values-se/settingsStrings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/values-se/settings_arrays.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/values-se/strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/values-zh/error_strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/values-zh/settingsStrings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/values-zh/settings_arrays.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/values-zh/strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/values/error_strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/values/settingsStrings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/values/settings_arrays.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/xml/display.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/xml/feeds.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/xml/floating.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/xml/gallery_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/xml/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/xml/settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/xml/settings_headers.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/xml/wallpaper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/xml/wallpaper_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/BitmapDownloader.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/ClearCache.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/ClickHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/Display.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/DockBroadcastReceiver.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/DockListener.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/DownloadUtil.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/FeedController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/GalleryActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/GalleryImageLauncher.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/HttpTools.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/ImageCache.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/ImageDownloader.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/ImageFileChunkDecoder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/ImageFileReader.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/ImageTypeResolver.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/MainActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/OnDemandImageBank.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/RiverRenderer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/ShowStreams.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/TextureBank.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/TextureSelector.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/Triangle.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/Wallpaper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/compatibility/ButtonBrightness.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/compatibility/Exif.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/compatibility/Honeycomb.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/compatibility/SetWallpaper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/compatibility/TryGetFragmentManager.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/data/CircularList.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/data/ContentUriImage.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/data/ExtensionFilter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/data/FeedReference.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/data/FileDateReverseComparator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/data/ImageOnDisk.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/data/ImageReference.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/data/KeyVal.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/data/LocalImage.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/data/Progress.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/data/Ray.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/data/Texture.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/facebook/FacebookImage.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/flickr/FindUserTask.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/flickr/FlickrFeeder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/flickr/FlickrImage.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/flickr/FlickrUserInfo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/flickr/PersonInfo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/flickr/SetFrobTask.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/flickr/WebAuth.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/gfx/ImageUtil.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/gfx/Vec2f.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/gfx/Vec3f.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/helpers/GLWallpaperService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/helpers/MultisampleConfigChooser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/launchers/ReadFeeds.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/menu/ApplicationClockSettingsLauncher.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/menu/ApplicationFeedManagerLauncher.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/menu/GalleryClockSettingsLauncher.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/menu/GalleryFeedManagerLauncher.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/menu/GallerySettings.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/menu/LiveWallpaperLauncher.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/menu/SaveChooser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/menu/Settings.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/menu/WallpaperClockSettingsLauncher.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/menu/WallpaperFeedManagerLauncher.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/menu/WallpaperSettings.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/orientation/ChangeOrientation.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/orientation/InitialOritentationReflector.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/orientation/OrientationManager.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/orientation/OrientationSubscriber.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/parser/Crypto.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/parser/FeedParser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/parser/ParserProvider.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/parser/XMLParser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/parser/contentUri/ContentUriParser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/parser/facebook/FacebookAlbumBrowser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/parser/facebook/FacebookAuth.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/parser/facebook/FacebookFeeder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/parser/facebook/FacebookFriendView.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/parser/facebook/FacebookFriendsBrowser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/parser/facebook/FacebookParser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/parser/facebook/FacebookTags.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/parser/facebook/FeedCallback.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/parser/facebook/GetAlbumsTask.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/parser/facebook/GetFriendsTask.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/parser/facebook/WebAuth.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/parser/fivehundredpx/CategoryBrowser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/parser/fivehundredpx/DiscoverBrowser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/parser/fivehundredpx/FiveHundredPxFeeder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/parser/fivehundredpx/FiveHundredPxImage.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/parser/fivehundredpx/FiveHundredPxParser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/parser/fivehundredpx/FiveHundredPxTags.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/parser/fivehundredpx/VerifyUserTask.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/parser/flickr/CheckTokenParser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/parser/flickr/ExploreTags.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/parser/flickr/FindByUsernameParser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/parser/flickr/FindByUsernameTags.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/parser/flickr/FlickrAlbum.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/parser/flickr/FlickrAlbumBrowser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/parser/flickr/FlickrParser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/parser/flickr/FlickrUser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/parser/flickr/FlickrUserInfoParser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/parser/flickr/FlickrUserInfoTags.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/parser/flickr/GetAlbumsParser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/parser/flickr/GetAlbumsTags.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/parser/flickr/GetAlbumsTask.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/parser/flickr/ImageSizesParser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/parser/flickr/ImageSizesTags.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/parser/flickr/data/ImageSizes.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/parser/photobucket/AlbumParser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/parser/photobucket/LoadAlbumsTask.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/parser/photobucket/PhotobucketAlbum.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/parser/photobucket/PhotobucketFeeder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/parser/photobucket/PhotobucketImage.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/parser/photobucket/PhotobucketParser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/parser/photobucket/PhotobucketShowUser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/parser/picasa/GetAlbumsParser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/parser/picasa/GetAlbumsTask.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/parser/picasa/PicasaAlbum.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/parser/picasa/PicasaAlbumBrowser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/parser/picasa/PicasaFeeder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/parser/picasa/PicasaParser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/parser/picasa/PicasaTags.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/parser/picasa/PicasaUserView.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/parser/picasa/PicasaWebAuth.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/parser/picasa/SetAuthTask.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/parser/picasa/SignInTask.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/parser/rss/RssImage.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/parser/rss/RssParser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/parser/rss/RssTags.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/picasa/PicasaImage.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/renderers/Clock.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/renderers/Dimmer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/renderers/FeedProgress.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/renderers/ImagePlane.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/renderers/OSD.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/renderers/ProgressBar.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/renderers/Renderer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/renderers/Rotator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/renderers/floating/BackgroundPainter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/renderers/floating/FloatingRenderer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/renderers/floating/Image.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/renderers/floating/ImageDepthComparator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/renderers/floating/InfoBar.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/renderers/floating/InfoPainter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/renderers/floating/ShadowPainter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/renderers/floating/positionControllers/FloatDown.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/renderers/floating/positionControllers/FloatLeft.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/renderers/floating/positionControllers/FloatRight.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/renderers/floating/positionControllers/FloatUp.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/renderers/floating/positionControllers/Gallery.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/renderers/floating/positionControllers/GridController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/renderers/floating/positionControllers/Mixup.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/renderers/floating/positionControllers/PositionController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/renderers/floating/positionControllers/Rotation.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/renderers/floating/positionControllers/SequentialController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/renderers/floating/positionControllers/Stack.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/renderers/floating/positionControllers/StarSpeed.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/renderers/floating/positionControllers/TableTop.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/renderers/osd/Brightness.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/renderers/osd/Button.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/renderers/osd/Fullscreen.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/renderers/osd/Images.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/renderers/osd/Play.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/renderers/osd/PlayPauseAbstractButton.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/renderers/osd/PlayPauseAutoPicker.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/renderers/osd/PlayPauseEventHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/renderers/osd/PlayPauseFloating.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/renderers/osd/RotateClockwise.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/renderers/osd/RotateCounterClockwise.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/renderers/osd/Settings.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/renderers/slideshow/Image.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/renderers/slideshow/SlideshowRenderer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/renderers/slideshow/transitions/CrossFade.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/renderers/slideshow/transitions/FadeToBlack.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/renderers/slideshow/transitions/FadeToWhite.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/renderers/slideshow/transitions/Instant.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/renderers/slideshow/transitions/Random.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/renderers/slideshow/transitions/SlideRightToLeft.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/renderers/slideshow/transitions/SlideTopToBottom.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/renderers/slideshow/transitions/Transition.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/settings/About.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/settings/BoxPlacement.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/settings/ClockSettings.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/settings/DirectoryAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/settings/DirectoryBrowser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/settings/FacebookBrowser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/settings/FeedSettings.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/settings/FeedsDbAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/settings/FiveHundredPxBrowser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/settings/FlickrBrowser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/settings/ManageFeedPreference.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/settings/ManageFeeds.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/settings/PhotobucketBrowser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/settings/PicasaBrowser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/settings/Settings.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/settings/SettingsFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/settings/SourceSelector.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/settings/SourceSelectorAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/settings/SourceSelectorFragmentActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/uiActivities/AdjustBrightness.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/uiActivities/BlockingTask.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/uiActivities/OpenContextMenu.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/uiActivities/ShowDialog.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/uiActivities/Toaster.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/nindroid/rss/uiActivities/ToggleNotificationBar.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/svn-commit.tmp" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/buildConfig/androidTest/debug/dk/nindroid/rss/test/BuildConfig.java" afterPath="$PROJECT_DIR$/app/build/generated/source/buildConfig/androidTest/debug/dk/nindroid/rss/test/BuildConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/dk/nindroid/rss/BuildConfig.java" afterPath="$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/dk/nindroid/rss/BuildConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-cs.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-cs.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-da.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-da.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-de.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-de.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-es.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-es.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ko.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ko.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-no.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-no.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ru.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ru.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-se.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-se.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-zh.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-zh.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/layout-land.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/layout-land.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/layout.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/layout.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/menu.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/menu.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/xml.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/xml.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-cs/values-cs.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-cs/values-cs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-da/values-da.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-da/values-da.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-de/values-de.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-de/values-de.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-es/values-es.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-es/values-es.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ko/values-ko.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ko/values-ko.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-no/values-no.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-no/values-no.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ru/values-ru.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ru/values-ru.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-se/values-se.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-se/values-se.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh/values-zh.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh/values-zh.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-cs/values-cs.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-cs/values-cs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-da/values-da.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-da/values-da.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-de/values-de.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-de/values-de.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-es/values-es.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-es/values-es.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-ko/values-ko.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-ko/values-ko.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-no/values-no.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-no/values-no.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-ru/values-ru.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-ru/values-ru.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-se/values-se.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-se/values-se.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-zh/values-zh.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-zh/values-zh.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" />
     </list>
     <ignored path="floatingimage_old.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -379,16 +82,46 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="floatingimage_old" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="import-summary.txt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/import-summary.txt">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="UPnPBrowser.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/dk/nindroid/rss/settings/UPnPBrowser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+            <state relative-caret-position="199">
+              <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="93" column="93" selection-start-line="93" selection-start-column="93" selection-end-line="93" selection-end-column="93" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-manifest">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="629">
+              <caret line="37" column="69" selection-start-line="37" selection-start-column="69" selection-end-line="37" selection-end-column="69" />
               <folding />
             </state>
           </provider>
@@ -1660,7 +1393,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage" value="4454014741194" />
+        <entry key="D:\Documents\workspace\Projet_floatingimage\floatingimage\floatingimage" value="4465968517692" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -1985,10 +1718,17 @@
       <projects_view />
     </option>
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-138" />
-    <option name="y" value="170" />
-    <option name="width" value="1932" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
     <option name="height" value="1066" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -2016,6 +1756,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -2037,33 +1778,19 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="floatingimage" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="D:/Software/androidsdk" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="device.picker.selection" value="Nexus_5_API_25" />
   </component>
   <component name="RunManager" selected="Android App.app">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
@@ -2295,7 +2022,7 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="false" name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+    <configuration default="false" name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="app" />
       <option name="DEPLOY" value="true" />
       <option name="ARTIFACT_NAME" value="" />
@@ -2373,19 +2100,19 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-138" y="170" width="1932" height="1066" extended-state="0" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -2393,20 +2120,20 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25320512" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2531983" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3993576" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -2427,10 +2154,45 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/import-summary.txt">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/import-summary.txt">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/dk/nindroid/rss/settings/UPnPBrowser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="69" selection-start-line="37" selection-start-column="69" selection-end-line="37" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="93" column="93" selection-start-line="93" selection-start-column="93" selection-end-line="93" selection-end-column="93" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest">
+        <state />
       </provider>
     </entry>
   </component>
