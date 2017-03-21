@@ -58,20 +58,10 @@ public class UPnPBrowser extends SourceFragment {
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		globalUpnpService.startUpnp(this.getActivity());
-		globalUpnpService.addRegistryListener(new BrowseRegistryListener());
-	}
-
-	@Override
-	public void onResume() {
-		super.onResume();
-		fillMenu();
-	}
-	
-	void fillMenu(){
-		//temporary: need to display every available device
 		listAdapter = new ArrayAdapter(this.getActivity(), android.R.layout.simple_list_item_1);
 		setListAdapter(listAdapter);
+		globalUpnpService.startUpnp(this.getActivity().getApplicationContext());
+		globalUpnpService.addRegistryListener(new BrowseRegistryListener());
 	}
 	
 	@Override
@@ -149,12 +139,12 @@ public class UPnPBrowser extends SourceFragment {
 			Log.d("Trace", "Device "+device.getDisplayString());
 			Service contentDirectory;
 
-			if ((contentDirectory = device.findService(serviceId)) != null) {
-				System.out.println("Service discovered: " + contentDirectory);
+			if ((contentDirectory = device.findService(serviceId)) != null && getActivity()!=null) {
 				getActivity().runOnUiThread(new Runnable() {
 					public void run() {
 						DeviceDisplay d = new DeviceDisplay(device);
 						int position = listAdapter.getPosition(d);
+						Log.e("position",""+position);
 						if (position >= 0) {
 							// Device already in the list, re-set new value at same position
 							listAdapter.remove(d);

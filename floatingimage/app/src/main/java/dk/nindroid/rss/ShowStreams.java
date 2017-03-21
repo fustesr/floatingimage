@@ -126,7 +126,6 @@ public class ShowStreams extends Activity implements MainActivity {
 		}
 		
 		registerParsers();
-		globalUpnpService.startUpnp(this);
 		String dataFolder = getString(R.string.dataFolder);
 		File sdDir = Environment.getExternalStorageDirectory();
 		dataFolder = sdDir.getAbsolutePath() + dataFolder;
