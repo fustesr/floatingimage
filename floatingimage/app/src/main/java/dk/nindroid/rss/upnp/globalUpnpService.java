@@ -60,6 +60,8 @@ public class globalUpnpService {
     };
 
     public static void addRegistryListener(RegistryListener listener){
+        Log.d("Listener","ddd");
+        Log.e("Listener",listener.getClass().toString());
         if(upnpService!=null) {
             // Get ready for future device advertisements
             upnpService.getRegistry().addListener(listener);
@@ -72,6 +74,10 @@ public class globalUpnpService {
         }
         else
             lists.add(listener);
+    }
+
+    public static void removeRegistryListener(RegistryListener listener){
+        upnpService.getRegistry().removeListener(listener);
     }
 
     public static Registry getRegistry() {

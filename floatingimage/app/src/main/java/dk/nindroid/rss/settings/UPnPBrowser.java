@@ -55,15 +55,25 @@ public class UPnPBrowser extends SourceFragment {
         mDualPane = sourceFrame != null && sourceFrame.getVisibility() == View.VISIBLE;
 	}
 
+	BrowseRegistryListener currentListener;
+
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		listAdapter = new ArrayAdapter(this.getActivity(), android.R.layout.simple_list_item_1);
 		setListAdapter(listAdapter);
 		globalUpnpService.startUpnp(this.getActivity().getApplicationContext());
-		globalUpnpService.addRegistryListener(new BrowseRegistryListener());
+		globalUpnpService.addRegistryListener(currentListener = new BrowseRegistryListener());
+		Log.e("Salut","dddsalutsalut");
 	}
-	
+
+	@Override
+	public void onDestroy() {
+		super.onDestroy();
+		globalUpnpService.removeRegistryListener(currentListener);
+		Log.e("Fragment","destroy");
+	}
+
 	@Override
 	public void onListItemClick(ListView l, View v, int position, long id) {
 		super.onListItemClick(l, v, position, id);
@@ -158,11 +168,14 @@ public class UPnPBrowser extends SourceFragment {
 		}
 
 		public void deviceRemoved(final Device device) {
-			getActivity().runOnUiThread(new Runnable() {
-				public void run() {
-					listAdapter.remove(new DeviceDisplay(device));
-				}
-			});
+			Log.e("Device","Device disconnected");
+			if(getActivity()!=null)
+				getActivity().runOnUiThread(new Runnable() {
+					public void run() {
+						listAdapter.remove(new DeviceDisplay(device));
+						Log.e("Device","Device removd from list");
+					}
+				});
 		}
 	}
 

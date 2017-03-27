@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.content.SharedPreferences.Editor;
 import android.database.Cursor;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -115,6 +116,7 @@ public class GalleryActivity extends ListActivity {
 		intent.putExtra(ShowStreams.SHOW_FEED_ID, (int)mAdapter.getItemId(position));
 		intent.putExtra(FeedSettings.HIDE_ACTIVE, true);
 		intent.putExtra(ShowStreams.SETTINGS_NAME, GallerySettings.SHARED_PREFS_NAME);
+		Log.e("Salut","ddd");
 		this.startActivity(intent);
 	}
 		
