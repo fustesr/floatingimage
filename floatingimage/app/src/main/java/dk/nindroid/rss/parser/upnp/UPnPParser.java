@@ -10,6 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Vector;
 import java.util.concurrent.Semaphore;
+import java.util.concurrent.TimeUnit;
 
 import javax.xml.parsers.FactoryConfigurationError;
 import javax.xml.parsers.ParserConfigurationException;
@@ -30,13 +31,18 @@ public class UPnPParser implements FeedParser {
 
     @Override
     public List<ImageReference> parseFeed(FeedReference feed, Context context) throws ParserConfigurationException, SAXException, FactoryConfigurationError, IOException {
+        boolean timeOut = true;
         imgs = new ArrayList<ImageReference>();
         globalUpnpService.startUpnp(context.getApplicationContext());
         globalUpnpService.addRegistryListener(globalUpnpService.listenForService(feed.getFeedLocation(),this));
         try {
-            done.acquire();
+            timeOut = !done.tryAcquire(1,7, TimeUnit.SECONDS);
         } catch (InterruptedException e) {
             e.printStackTrace();
+        }
+        if(timeOut){
+            Log.e("Parser", "Failed to parse "+feed.getName());
+            return imgs;
         }
         Log.e("Parser","Images obtained");
         for(ImageReference img : imgs)

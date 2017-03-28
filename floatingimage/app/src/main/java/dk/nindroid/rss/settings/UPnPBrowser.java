@@ -77,7 +77,6 @@ public class UPnPBrowser extends SourceFragment {
 	@Override
 	public void onListItemClick(ListView l, View v, int position, long id) {
 		super.onListItemClick(l, v, position, id);
-		//add this feed to
 		DeviceDisplay deviceDisplay = (DeviceDisplay)l.getItemAtPosition(position);
 		RemoteService s = (RemoteService) deviceDisplay.device.findService(serviceId);
 		returnUdn(s.getReference().getUdn().getIdentifierString(),deviceDisplay.toString());
