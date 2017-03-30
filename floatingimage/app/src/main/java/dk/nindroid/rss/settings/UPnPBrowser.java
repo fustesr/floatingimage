@@ -1,23 +1,11 @@
 package dk.nindroid.rss.settings;
 
-import android.annotation.TargetApi;
 import android.app.Activity;
-import android.app.AlertDialog;
-import android.content.DialogInterface;
 import android.content.Intent;
-import android.content.res.Configuration;
-import android.os.Build;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentActivity;
-import android.support.v4.app.FragmentTransaction;
 import android.util.Log;
-import android.view.Gravity;
 import android.view.View;
-import android.view.WindowManager;
 import android.widget.ArrayAdapter;
-import android.widget.EditText;
-import android.widget.FrameLayout;
 import android.widget.ListView;
 import android.widget.Toast;
 
@@ -32,10 +20,8 @@ import org.fourthline.cling.registry.DefaultRegistryListener;
 import org.fourthline.cling.registry.Registry;
 
 import dk.nindroid.rss.R;
-import dk.nindroid.rss.parser.photobucket.PhotobucketFeeder;
-import dk.nindroid.rss.parser.photobucket.PhotobucketShowUser;
 import dk.nindroid.rss.settings.SourceSelector.SourceFragment;
-import dk.nindroid.rss.upnp.globalUpnpService;
+import dk.nindroid.rss.upnp.GlobalUpnpService;
 
 public class UPnPBrowser extends SourceFragment {
 
@@ -62,9 +48,8 @@ public class UPnPBrowser extends SourceFragment {
 		super.onCreate(savedInstanceState);
 		listAdapter = new ArrayAdapter(this.getActivity(), android.R.layout.simple_list_item_1);
 		setListAdapter(listAdapter);
-		globalUpnpService.startUpnp(this.getActivity().getApplicationContext());
-		globalUpnpService.addRegistryListener(currentListener = new BrowseRegistryListener());
-		Log.e("Salut","dddsalutsalut");
+		GlobalUpnpService.startUpnp(this.getActivity().getApplicationContext());
+		GlobalUpnpService.addRegistryListener(new BrowseRegistryListener());
 	}
 
 	@Override
@@ -78,8 +63,10 @@ public class UPnPBrowser extends SourceFragment {
 	public void onListItemClick(ListView l, View v, int position, long id) {
 		super.onListItemClick(l, v, position, id);
 		DeviceDisplay deviceDisplay = (DeviceDisplay)l.getItemAtPosition(position);
-		RemoteService s = (RemoteService) deviceDisplay.device.findService(serviceId);
-		returnUdn(s.getReference().getUdn().getIdentifierString(),deviceDisplay.toString());
+		//RemoteService s = (RemoteService) deviceDisplay.device.findService(serviceId);
+		RemoteDevice d = (RemoteDevice) deviceDisplay.device;
+		Log.e("browse",d.getIdentity().getUdn().getIdentifierString());
+		returnUdn(d.getIdentity().getUdn().getIdentifierString(),deviceDisplay.toString());
 	}
 
 	@Override
@@ -167,14 +154,12 @@ public class UPnPBrowser extends SourceFragment {
 		}
 
 		public void deviceRemoved(final Device device) {
-			Log.e("Device","Device disconnected");
 			if(getActivity()!=null)
-				getActivity().runOnUiThread(new Runnable() {
-					public void run() {
-						listAdapter.remove(new DeviceDisplay(device));
-						Log.e("Device","Device removd from list");
-					}
-				});
+			getActivity().runOnUiThread(new Runnable() {
+				public void run() {
+					listAdapter.remove(new DeviceDisplay(device));
+				}
+			});
 		}
 	}
 

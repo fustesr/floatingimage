@@ -62,7 +62,6 @@ import dk.nindroid.rss.renderers.slideshow.SlideshowRenderer;
 import dk.nindroid.rss.settings.FeedsDbAdapter;
 import dk.nindroid.rss.settings.ManageFeeds;
 import dk.nindroid.rss.uiActivities.ShowDialog;
-import dk.nindroid.rss.upnp.globalUpnpService;
 
 public class ShowStreams extends Activity implements MainActivity {
 	public static final int 			ABOUT_ID 		= Menu.FIRST;

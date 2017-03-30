@@ -5,8 +5,10 @@ import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
 import android.content.ServiceConnection;
+import android.os.Handler;
 import android.os.IBinder;
 import android.util.Log;
+import android.view.ViewGroup;
 
 import org.fourthline.cling.android.AndroidUpnpService;
 import org.fourthline.cling.android.AndroidUpnpServiceImpl;
@@ -26,6 +28,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Vector;
 
+import dk.nindroid.rss.GalleryActivity;
 import dk.nindroid.rss.data.ImageReference;
 import dk.nindroid.rss.parser.upnp.PicturesBatch;
 import dk.nindroid.rss.parser.upnp.UPnPParser;
@@ -34,11 +37,12 @@ import dk.nindroid.rss.parser.upnp.UPnPParser;
  * Created by Maxime on 14/03/2017.
  */
 
-public class globalUpnpService {
+public class GlobalUpnpService {
 
     public static AndroidUpnpService upnpService = null;
     public static boolean bound = false;
-    private static Vector<RegistryListener> lists = new Vector();
+    private static Vector<RegistryListener> lists = new Vector<RegistryListener>();
+    private static Vector<RegistryListener> uiLists = new Vector<RegistryListener>();
 
     private static ServiceConnection serviceConnection = new ServiceConnection() {
 
@@ -84,35 +88,80 @@ public class globalUpnpService {
         return upnpService.getRegistry();
     }
 
-    public static RegistryListener listenForService(final String udn, final UPnPParser parser){
+    public static RegistryListener pictureFetcherListener(final String udn, final UPnPParser parser){
         return new DefaultRegistryListener() {
-            ServiceId serviceId = new UDAServiceId("ContentDirectory");
-            private boolean used = false;
+            //private boolean used = false;
+            private DefaultRegistryListener connectListener = this;
 
-            @Override
-            public void localDeviceAdded(Registry registry, LocalDevice device) {
-                Log.e("Event","local device "+device);
-            }
+            private RegistryListener disconnectListener = new DefaultRegistryListener() {
+                @Override
+                public void remoteDeviceRemoved(Registry registry, RemoteDevice device) {
+                    Log.e("Event","remote device removed "+device);
+                    if(device.getIdentity().getUdn().equals(udn)){
+                        Log.e("Event","Device fit!");
+                        new PicturesBatch(upnpService, device.findService(new UDAServiceId("ContentDirectory")), parser).run();
+                        getRegistry().removeListener(this);
+                        getRegistry().addListener(connectListener);
+                    }
+                }
+            };
 
             @Override
             public void remoteDeviceAdded(Registry registry, RemoteDevice device) {
-                if(used==true)
-                    return;
-                used=true;
-                Log.e("Event","remote device "+device);
-                ServiceReference serviceReference = new ServiceReference(UDN.valueOf(udn),new UDAServiceId("ContentDirectory"));
-                Service contentDirectory;
-                if ((contentDirectory=upnpService.getRegistry().getService(serviceReference)) != null) {
-                    Log.e("Service test","Test succeeded, good service");
-                    new PicturesBatch(upnpService, contentDirectory, parser).run();
-                    globalUpnpService.getRegistry().removeListener(this);
-                }
-                else {
-                    Log.e("Service test","Test failed, not good service");
+                    /*(used==true)
+                        return;
+                    used=true;
+                    Log.e("Event","remote device "+device);
+                    ServiceReference serviceReference = new ServiceReference(UDN.valueOf(udn),new UDAServiceId("ContentDirectory"));
+                    Service contentDirectory;
+                    device.getIdentity().getUdn();
+                    if ((contentDirectory=upnpService.getRegistry().getService(serviceReference)) != null) {
+                        Log.e("Service test","Test succeeded, good service");
+                        new PicturesBatch(upnpService, contentDirectory, parser).run();
+                        GlobalUpnpService.getRegistry().removeListener(this);
+                    }
+                    else {
+                        Log.e("Service test","Test failed, not good service");
+                    }*/
+                Log.e("Event","remote device added "+device);
+                if(device.getIdentity().getUdn().getIdentifierString().equals(udn)){
+                    Log.e("Event","Device fit!");
+                    new PicturesBatch(upnpService, device.findService(new UDAServiceId("ContentDirectory")), parser).run();
+                    getRegistry().removeListener(this);
                 }
             }
         };
     }
+
+    public static RegistryListener availabilityListener(final String udn, final ViewGroup v, final Handler handler) {
+        return new DefaultRegistryListener() {
+
+            @Override
+            public void remoteDeviceAdded(Registry registry, RemoteDevice device) {
+                Log.e("available","remote device added "+device.getIdentity().getUdn().getIdentifierString()+" "+udn);
+                if(device.getIdentity().getUdn().getIdentifierString().equals(udn)){
+                    Log.e("available","Device fit!");
+                    handler.obtainMessage(GalleryActivity.AVAILABLE,v).sendToTarget();
+                }
+            }
+
+            @Override
+            public void remoteDeviceRemoved(Registry registry, RemoteDevice device) {
+                Log.e("unavailable","remote device removed "+device.getIdentity().getUdn().getIdentifierString()+" "+udn);
+                if(device.getIdentity().getUdn().getIdentifierString().equals(udn)){
+                    Log.e("unavailable","Device fit!");
+                    handler.obtainMessage(GalleryActivity.UNAVAILABLE,v).sendToTarget();
+                }
+            }
+        };
+    }
+
+    public static void addAvailabilityListener(String udn, ViewGroup v, Handler handler){
+        Log.e("addingListener",udn);
+        RegistryListener listener = availabilityListener(udn,v,handler);
+        addRegistryListener(listener);
+    }
+
 
     /***
      * start the upnpservice for the application if not already started

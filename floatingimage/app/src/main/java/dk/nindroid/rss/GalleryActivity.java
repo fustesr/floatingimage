@@ -5,7 +5,10 @@ import android.app.ListActivity;
 import android.content.Intent;
 import android.content.SharedPreferences.Editor;
 import android.database.Cursor;
+import android.graphics.Color;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Message;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -23,13 +26,17 @@ import dk.nindroid.rss.settings.FeedSettings;
 import dk.nindroid.rss.settings.FeedsDbAdapter;
 import dk.nindroid.rss.settings.ManageFeeds;
 import dk.nindroid.rss.settings.Settings;
+import dk.nindroid.rss.upnp.GlobalUpnpService;
 
 public class GalleryActivity extends ListActivity {
 	public static final int ADD_FEED = 0;
+	public static final int UNAVAILABLE = 0;
+	public static final int AVAILABLE = 1;
 	
 	GalleryListAdapter mAdapter;
 	Cursor mCursor;
-	
+	final Handler handler = new UpnpHandler();
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -47,6 +54,7 @@ public class GalleryActivity extends ListActivity {
 		newText.setText(R.string.feedMenuAdd);
 		newSummary.setText(R.string.feedMenuAddSummary);
 		showNew.setOnClickListener(new ShowNewListener());
+		GlobalUpnpService.startUpnp(getApplicationContext());
 		
 		Editor e = this.getSharedPreferences(GallerySettings.SHARED_PREFS_NAME, 0).edit();
 		e.putBoolean("galleryMode", true);
@@ -128,6 +136,7 @@ public class GalleryActivity extends ListActivity {
 		int extrasi;
 		int userNamei;
 		int userExtrai;
+		int udni;
 		final LayoutInflater inflater;
 		
 		public GalleryListAdapter(Cursor c) {
@@ -140,6 +149,7 @@ public class GalleryActivity extends ListActivity {
 			extrasi = c.getColumnIndex(FeedsDbAdapter.KEY_EXTRA);
 			userNamei = c.getColumnIndex(FeedsDbAdapter.KEY_USER_TITLE);
 			userExtrai = c.getColumnIndex(FeedsDbAdapter.KEY_USER_EXTRA);
+			udni = c.getColumnIndex(FeedsDbAdapter.KEY_URI);
 		}
 		
 		@Override
@@ -208,7 +218,14 @@ public class GalleryActivity extends ListActivity {
 			iconView.setImageResource(iconId);
 			
 			editView.setOnClickListener(new OnEditListener(id));
-			
+			//TODO Change feed background color here
+			Log.e("getView","lololul");
+			if(type == Settings.TYPE_UPNP) {
+				Log.e("getView","lololol");
+				l.setBackgroundColor(Color.RED);
+				String udn = mCursor.getString(udni);
+				GlobalUpnpService.addAvailabilityListener(udn,l,handler);
+			}
 			return l;
 		}
 		
@@ -251,6 +268,21 @@ public class GalleryActivity extends ListActivity {
 				return R.drawable.phone_icon;
 			}
 			return R.drawable.phone_icon;
+		}
+	}
+
+	private static class UpnpHandler extends Handler {
+		@Override
+		public void handleMessage(Message msg) {
+			Log.w("HANDLER","Handled");
+			switch(msg.what){
+				case GalleryActivity.AVAILABLE :
+					((ViewGroup) msg.obj).setBackgroundColor(Color.GREEN);
+					break;
+				case GalleryActivity.UNAVAILABLE :
+					((ViewGroup) msg.obj).setBackgroundColor(Color.RED);
+					break;
+			}
 		}
 	}
 }
