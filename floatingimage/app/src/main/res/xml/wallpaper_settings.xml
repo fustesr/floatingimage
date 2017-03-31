@@ -45,7 +45,12 @@
                 android:entryValues="@array/slideSpeedValues"
                 android:dialogTitle="@string/slideSpeedTitle"
                 android:defaultValue="300" />
-            <ListPreference
+		<CheckBoxPreference
+			android:key="slideshowFill"
+			android:title="@string/slideshowFill"
+			android:summary="@string/slideshowFillSummary"
+			android:defaultValue="false"/>
+		<ListPreference
             	android:key="forceRotation"
                 android:title="@string/forceRotation"
                 android:summary="@string/forceRotationSummary"
