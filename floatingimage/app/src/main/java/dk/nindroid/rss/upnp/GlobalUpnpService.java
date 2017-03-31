@@ -170,6 +170,7 @@ public class GlobalUpnpService {
     }
 
     public static void refreshDevices(){
+        Log.e("cc","POSAYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY");
         for(RegistryListener list : lists)
             for (Device device : upnpService.getRegistry().getDevices())
                 if (device instanceof RemoteDevice)

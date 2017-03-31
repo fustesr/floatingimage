@@ -1,39 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" 
-		android:layout_width="fill_parent" 
-		android:layout_height="fill_parent">
-		<LinearLayout 
-		    android:layout_width="fill_parent" 
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:id="@+id/show_new_entity">
+		<View
+			android:layout_width="0dp"
+			android:layout_height="10dp"/>
+		<include
+			android:id="@+id/show_new"
+			layout="@layout/feeds_row"/>
+	</LinearLayout>
+	<TextView
+		android:id="@+id/old"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/show_new_entity"
+		android:background="#333333"
+		android:text="@string/feeds"
+		android:textColor="#CCCCCC"
+		android:textSize="14dp"
+		android:layout_marginLeft="5dp"/>
+	<LinearLayout
+		android:id="@+id/LinearLayout02"
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:layout_alignParentBottom="true">
+		<Button
+			android:id="@+id/settings"
+			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
-			android:orientation="vertical"
-			android:id="@+id/show_new_entity">
-		    <View 
-		        android:layout_width="0dp"
-		        android:layout_height="10dp"/>
-		    <include 
-			    android:id="@+id/show_new"
-			    layout="@layout/feeds_row"/>
-		</LinearLayout>
-		<TextView 
-		    android:id="@+id/old"
-		    android:layout_width="fill_parent" 
+			android:layout_weight="1"
+			android:text="@string/settings">
+		</Button>
+		<Button
+			android:id="@+id/buttonRefresh"
+			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
-			android:layout_below="@id/show_new_entity"
-			android:background="#333333"
-			android:text="@string/feeds"
-			android:textColor="#CCCCCC"
-			android:textSize="14dp"
-			android:layout_marginLeft="5dp"/>
-		<Button 
-		    android:id="@+id/settings"
-		    android:layout_width="fill_parent" 
-			android:layout_height="wrap_content"
-			android:layout_alignParentBottom="true"
-			android:text="@string/settings"/>
-		<ListView 
-		    android:id="@android:id/list"
-		    android:layout_width="fill_parent" 
-			android:layout_height="fill_parent"
-			android:layout_below="@id/old"
-			android:layout_above="@id/settings"/>
+			android:layout_weight="1"
+			android:text="Refresh">
+		</Button>
+	</LinearLayout>
+	<!--		<Button
+                android:id="@+id/settings"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:text="@string/settings"/>-->
+	<ListView
+		android:id="@android:id/list"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_below="@id/old"
+		android:layout_above="@id/LinearLayout02"/>
 </RelativeLayout>
+
+
+

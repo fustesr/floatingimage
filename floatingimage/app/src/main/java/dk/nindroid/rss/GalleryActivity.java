@@ -43,7 +43,10 @@ public class GalleryActivity extends ListActivity {
 		super.onCreate(savedInstanceState);
 		this.setContentView(R.layout.gallery);
 		Button settingsButton = (Button)findViewById(R.id.settings);
+		Button refreshButton = (Button)findViewById(R.id.buttonRefresh);
 		settingsButton.setOnClickListener(new SettingsListener());
+		refreshButton.setOnClickListener(new RefreshListener());
+
 		
 		View showNew = findViewById(R.id.show_new);
 		showNew.setBackgroundResource(android.R.drawable.list_selector_background);
@@ -117,6 +120,16 @@ public class GalleryActivity extends ListActivity {
 			startActivity(intent);
 		}
 	}
+
+	class RefreshListener implements OnClickListener{
+
+		@Override
+		public void onClick(View v) {
+			GlobalUpnpService.refreshDevices();
+		}
+	}
+
+
 	
 	@Override
 	protected void onListItemClick(ListView l, View v, int position, long id) {
