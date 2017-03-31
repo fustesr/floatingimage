@@ -8,6 +8,7 @@ import android.content.ServiceConnection;
 import android.os.Handler;
 import android.os.IBinder;
 import android.util.Log;
+import android.view.View;
 import android.view.ViewGroup;
 
 import org.fourthline.cling.android.AndroidUpnpService;
@@ -25,6 +26,7 @@ import org.fourthline.cling.registry.Registry;
 import org.fourthline.cling.registry.RegistryListener;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Vector;
 
@@ -42,7 +44,7 @@ public class GlobalUpnpService {
     public static AndroidUpnpService upnpService = null;
     public static boolean bound = false;
     private static Vector<RegistryListener> lists = new Vector<RegistryListener>();
-    private static Vector<RegistryListener> uiLists = new Vector<RegistryListener>();
+    private static HashMap<View,RegistryListener> uiLists = new HashMap<View, RegistryListener>();
 
     private static ServiceConnection serviceConnection = new ServiceConnection() {
 
@@ -90,21 +92,6 @@ public class GlobalUpnpService {
 
     public static RegistryListener pictureFetcherListener(final String udn, final UPnPParser parser){
         return new DefaultRegistryListener() {
-            //private boolean used = false;
-            private DefaultRegistryListener connectListener = this;
-
-            private RegistryListener disconnectListener = new DefaultRegistryListener() {
-                @Override
-                public void remoteDeviceRemoved(Registry registry, RemoteDevice device) {
-                    Log.e("Event","remote device removed "+device);
-                    if(device.getIdentity().getUdn().equals(udn)){
-                        Log.e("Event","Device fit!");
-                        new PicturesBatch(upnpService, device.findService(new UDAServiceId("ContentDirectory")), parser).run();
-                        getRegistry().removeListener(this);
-                        getRegistry().addListener(connectListener);
-                    }
-                }
-            };
 
             @Override
             public void remoteDeviceAdded(Registry registry, RemoteDevice device) {
@@ -133,7 +120,7 @@ public class GlobalUpnpService {
         };
     }
 
-    public static RegistryListener availabilityListener(final String udn, final ViewGroup v, final Handler handler) {
+    public static RegistryListener availabilityListener(final String udn, final View v, final Handler handler) {
         return new DefaultRegistryListener() {
 
             @Override
@@ -156,10 +143,15 @@ public class GlobalUpnpService {
         };
     }
 
-    public static void addAvailabilityListener(String udn, ViewGroup v, Handler handler){
+    public static void addAvailabilityListener(String udn, View v, Handler handler){
         Log.e("addingListener",udn);
         RegistryListener listener = availabilityListener(udn,v,handler);
+        uiLists.put(v,listener);
         addRegistryListener(listener);
+    }
+
+    public static void removeAvailabilityListener(View v){
+        if(uiLists.get(v)!=null) getRegistry().removeListener(uiLists.get(v));
     }
 
 
@@ -175,5 +167,14 @@ public class GlobalUpnpService {
                 Context.BIND_AUTO_CREATE
         );
         Log.e("Bound",""+upnpService);
+    }
+
+    public static void refreshDevices(){
+        for(RegistryListener list : lists)
+            for (Device device : upnpService.getRegistry().getDevices())
+                if (device instanceof RemoteDevice)
+                    list.remoteDeviceRemoved(upnpService.getRegistry(), (RemoteDevice) device);
+        getRegistry().removeAllRemoteDevices();
+        upnpService.getControlPoint().search();
     }
 }

@@ -10,6 +10,7 @@ import android.content.SharedPreferences;
 import android.content.SharedPreferences.Editor;
 import android.database.Cursor;
 import android.graphics.Bitmap;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.preference.Preference;
 import android.preference.PreferenceActivity;
@@ -23,8 +24,12 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView.AdapterContextMenuInfo;
+
+import dk.nindroid.rss.GalleryActivity;
 import dk.nindroid.rss.R;
 import dk.nindroid.rss.gfx.ImageUtil;
+import dk.nindroid.rss.upnp.GlobalUpnpService;
+import dk.nindroid.rss.upnp.UPnPHandler;
 
 public class ManageFeeds extends PreferenceActivity {
 	public static final String SHARED_PREFS_NAME = "SHARED_PREFS_NAME";
@@ -42,7 +47,8 @@ public class ManageFeeds extends PreferenceActivity {
 	List<Preference> mCheckBoxes;
 	private boolean mHideCheckBoxes;
 	private boolean	mAddFeed;
-	private boolean mNudity; 
+	private boolean mNudity;
+	private UPnPHandler handler;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -58,6 +64,7 @@ public class ManageFeeds extends PreferenceActivity {
 		
 		this.mHideCheckBoxes = this.getIntent().getExtras().getBoolean(HIDE_CHECKBOXES);
 		this.mAddFeed = this.getIntent().getExtras().getBoolean(ADD_FEED, false);
+		this.handler = new UPnPHandler();
 		
 		setContentView(R.layout.manage_feeds);
 		mDbHelper = new FeedsDbAdapter(this);
@@ -183,7 +190,7 @@ public class ManageFeeds extends PreferenceActivity {
 			upnpCat.setTitle("UPnP");
 			root.addPreference(upnpCat);
 			for(Feed f : upnp){
-				upnpCat.addPreference(createCheckbox(f, bmp));
+				upnpCat.addPreference(createCheckboxUPnP(f, bmp));
 				mRowList.add(f);
 			}
 		}
@@ -208,7 +215,32 @@ public class ManageFeeds extends PreferenceActivity {
 	
 	
 	private Preference createCheckbox(Feed f, Bitmap bmp){
-		ManageFeedPreference pref = new ManageFeedPreference(this, bmp, mHideCheckBoxes);
+		ManageFeedPreference pref = new ManageFeedPreference(this, bmp, mHideCheckBoxes){
+			@Override
+			protected void onBindView(View view) {
+				super.onBindView(view);
+				GlobalUpnpService.removeAvailabilityListener(view);
+				view.setBackgroundColor(Color.TRANSPARENT);
+			}
+		};
+		pref.setKey("feed_" + Integer.toString(f.id));
+		pref.setDefaultValue(false);
+		pref.setTitle(f.title);
+		pref.setSummary(f.extras);
+		pref.setOnPreferenceClickListener(new FeedClickListener(f.id));
+		mCheckBoxes.add(pref);
+		return pref;
+	}
+
+	private Preference createCheckboxUPnP(final Feed f, Bitmap bmp){
+		ManageFeedPreference pref = new ManageFeedPreference(this, bmp, mHideCheckBoxes){
+			@Override
+			protected void onBindView(View view) {
+				super.onBindView(view);
+				view.setBackgroundColor(Color.RED);
+				GlobalUpnpService.addAvailabilityListener(((UPnPFeed)f).udn,view,handler);
+			}
+		};
 		pref.setKey("feed_" + Integer.toString(f.id));
 		pref.setDefaultValue(false);
 		pref.setTitle(f.title);
@@ -237,6 +269,7 @@ public class ManageFeeds extends PreferenceActivity {
 		int extrasi = c.getColumnIndex(FeedsDbAdapter.KEY_EXTRA);
 		int userNamei = c.getColumnIndex(FeedsDbAdapter.KEY_USER_TITLE);
 		int userExtrai = c.getColumnIndex(FeedsDbAdapter.KEY_USER_EXTRA);
+		int udni = c.getColumnIndex(FeedsDbAdapter.KEY_URI);
 		while(c.moveToNext()){
 			int type = c.getInt(typei);
 			String title = c.getString(userNamei);
@@ -248,7 +281,11 @@ public class ManageFeeds extends PreferenceActivity {
 			if(extras == null || extras.length() == 0){
 				extras = c.getString(extrasi);
 			}
-			Feed feed = new Feed(title, id, extras);
+			Feed feed;
+			if(typei==Settings.TYPE_UPNP)
+				feed = new UPnPFeed(title, id, extras, c.getString(udni));
+			else
+				feed = new Feed(title, id, extras);
 			List<Feed> feeds = data.get(type);
 			if(feeds != null){
 				feeds.add(feed);
@@ -388,5 +425,13 @@ public class ManageFeeds extends PreferenceActivity {
 			this.extras = extras;
 		}
 		
+	}
+
+	private class UPnPFeed extends Feed{
+		public String udn;
+		UPnPFeed(String title, int id, String extras, String udn){
+			super(title,id,extras);
+			this.udn = udn;
+		}
 	}
 }

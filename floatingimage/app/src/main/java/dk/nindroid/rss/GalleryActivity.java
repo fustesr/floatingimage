@@ -27,6 +27,7 @@ import dk.nindroid.rss.settings.FeedsDbAdapter;
 import dk.nindroid.rss.settings.ManageFeeds;
 import dk.nindroid.rss.settings.Settings;
 import dk.nindroid.rss.upnp.GlobalUpnpService;
+import dk.nindroid.rss.upnp.UPnPHandler;
 
 public class GalleryActivity extends ListActivity {
 	public static final int ADD_FEED = 0;
@@ -35,7 +36,7 @@ public class GalleryActivity extends ListActivity {
 	
 	GalleryListAdapter mAdapter;
 	Cursor mCursor;
-	final Handler handler = new UpnpHandler();
+	final Handler handler = new UPnPHandler();
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -226,6 +227,10 @@ public class GalleryActivity extends ListActivity {
 				String udn = mCursor.getString(udni);
 				GlobalUpnpService.addAvailabilityListener(udn,l,handler);
 			}
+			else {
+				GlobalUpnpService.removeAvailabilityListener(l);
+				l.setBackgroundColor(Color.TRANSPARENT);
+			}
 			return l;
 		}
 		
@@ -268,21 +273,6 @@ public class GalleryActivity extends ListActivity {
 				return R.drawable.logo_upnp;
 			}
 			return R.drawable.phone_icon;
-		}
-	}
-
-	private static class UpnpHandler extends Handler {
-		@Override
-		public void handleMessage(Message msg) {
-			Log.w("HANDLER","Handled");
-			switch(msg.what){
-				case GalleryActivity.AVAILABLE :
-					((ViewGroup) msg.obj).setBackgroundColor(Color.GREEN);
-					break;
-				case GalleryActivity.UNAVAILABLE :
-					((ViewGroup) msg.obj).setBackgroundColor(Color.RED);
-					break;
-			}
 		}
 	}
 }

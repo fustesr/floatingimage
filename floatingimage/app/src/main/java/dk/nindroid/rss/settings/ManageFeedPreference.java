@@ -3,6 +3,7 @@ package dk.nindroid.rss.settings;
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.Bitmap;
+import android.graphics.Color;
 import android.preference.Preference;
 import android.view.View;
 import android.widget.CheckBox;
