@@ -265,7 +265,7 @@ public class GalleryActivity extends ListActivity {
 			case Settings.TYPE_RSS:
 				return R.drawable.rss_icon;
 			case Settings.TYPE_UPNP:
-				return R.drawable.phone_icon;
+				return R.drawable.logo_upnp;
 			}
 			return R.drawable.phone_icon;
 		}

@@ -177,7 +177,7 @@ public class ManageFeeds extends PreferenceActivity {
 		}
 
 		if(upnp.size() != 0){
-			Bitmap bmp = readBitmap(R.drawable.phone_icon);
+			Bitmap bmp = readBitmap(R.drawable.logo_upnp);
 			PreferenceCategory upnpCat = new PreferenceCategory(this);
 			mRowList.add(null);
 			upnpCat.setTitle("UPnP");

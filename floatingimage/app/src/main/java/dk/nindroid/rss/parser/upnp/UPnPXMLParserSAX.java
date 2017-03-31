@@ -37,8 +37,9 @@ public class UPnPXMLParserSAX extends DefaultHandler {
     //Nous nous servirons de cette variable plus tard
     private String node = null;
 
-    private ArrayList<URL> images = new ArrayList<URL>();;
+    private ArrayList<UPnPImage> images = new ArrayList<UPnPImage>();;
     private ArrayList<String> subFolders = new ArrayList<String>();
+    UPnPImage image;
 
 
     private String idB;
@@ -63,6 +64,7 @@ public class UPnPXMLParserSAX extends DefaultHandler {
         else if (qname.equals("item")) {
             selector = 2;
             Log.e("cc","selector = 2");
+            image = new UPnPImage();
         }
     }
 
@@ -78,6 +80,7 @@ public class UPnPXMLParserSAX extends DefaultHandler {
             selector = 0;
             selector2 = 0;
             firstRes = true;
+            images.add(image);
         }
     }
 
@@ -100,13 +103,13 @@ public class UPnPXMLParserSAX extends DefaultHandler {
 
 
 
-        Log.e("cc","NODE ==========" + node);
+/*        Log.e("cc","NODE ==========" + node);
         Log.e("cc","selector ================" + selector);
         Log.e("cc","STR ==================" + str);
         System.out.println(node.equals("upnp:class"));
         System.out.println(selector == 1);
         System.out.println(str.equals("object.container"));
-        System.out.println("ID =  " +idB);
+        System.out.println("ID =  " +idB);*/
         if (node.equals("upnp:class") && selector == 2 && str.equals("object.item.imageItem.photo")) {
             selector2 = 1;
             Log.e("cc","selector2 = 1");
@@ -120,24 +123,32 @@ public class UPnPXMLParserSAX extends DefaultHandler {
         else if (node.equals("res") && selector2 == 1 && firstRes == true) {
             try {
                 Log.e("cc","Ajout URL dans images");
-                images.add(new URL(str));
+                image.thumbURL = str;
+                image.sourceURL = str;
+                image.pageURL = str;
+                image.setID(str);
+
             } catch (Exception e) {
                 e.printStackTrace();
             }
             firstRes = false;
         }
+        else if (node.equals("upnp:title") && selector == 1) {
+            image.title = str;
+        }
 
 
     }
 
-    public ArrayList<URL> getImages() {
+/*    public ArrayList<URL> getImages() {
         return images;
-    }
+    }*/
 
     public ArrayList<String> getSubFolders() {
         return subFolders;
     }
 
+    public ArrayList<UPnPImage> getUpnpImage() { return images; }
 
 }
 

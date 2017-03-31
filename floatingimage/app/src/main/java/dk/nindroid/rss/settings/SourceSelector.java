@@ -95,7 +95,7 @@ public class SourceSelector extends ListFragment {
 		SourceSelectorAdapter.Source rssS = new Source(rss, rssBmp, RSS);
 
 		String upnp = "UPnP";
-		Bitmap upnpBmp = ImageUtil.readBitmap(activity, R.drawable.phone_icon);
+		Bitmap upnpBmp = ImageUtil.readBitmap(activity, R.drawable.logo_upnp);
 		SourceSelectorAdapter.Source upnpS = new Source(upnp, upnpBmp, UPNP_ACTIVITY);
 		
 		SourceSelectorAdapter.Source[] options = new Source[] {localS, flickrS, picasaS, facebookS, fivehundredpxS, photobucketS, rssS, upnpS};
@@ -330,5 +330,8 @@ public class SourceSelector extends ListFragment {
 		public int getSource(){
 			return getArguments().getInt("source", 0);
 		}
+
+
+
 	}
 }

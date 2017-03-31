@@ -55,7 +55,7 @@ public class UPnPBrowser extends SourceFragment {
 	@Override
 	public void onDestroy() {
 		super.onDestroy();
-		globalUpnpService.removeRegistryListener(currentListener);
+		GlobalUpnpService.removeRegistryListener(currentListener);
 		Log.e("Fragment","destroy");
 	}
 

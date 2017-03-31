@@ -79,8 +79,8 @@ public class PicturesBatch implements Runnable{
 			List<URL> urls = parser.getImages();
 			UPnPImage image;*/
 
-			List<URL> urls = null;
-			UPnPXMLParserSAX SAXparser = null;
+			List<UPnPImage> arrayListImage = null;
+			UPnPXMLParserSAX parserSAX = null;
 			UPnPImage image;
 
 
@@ -89,37 +89,39 @@ public class PicturesBatch implements Runnable{
 				SAXParserFactory factory = SAXParserFactory.newInstance();
 				SAXParser parser = factory.newSAXParser();
 
-				SAXparser = new UPnPXMLParserSAX();
+				parserSAX = new UPnPXMLParserSAX();
 
 				InputSource source = new InputSource(new StringReader(invocation.getOutput()[0].toString()));
-				parser.parse(source, SAXparser );
+				parser.parse(source, parserSAX );
 
-				urls = SAXparser.getImages();
+				arrayListImage  = parserSAX.getUpnpImage();
 
 
 			} catch (Exception e) {
 				e.printStackTrace();
 			}
 
-			for (URL url : urls) {
+/*			for (URL url : urls) {
 				Log.e("cc", url.toString());
 			}
-			List<String> listID = SAXparser.getSubFolders();
+			List<String> listID = parserSAX.getSubFolders();
 			for (String id : listID) {
 				Log.e("ccID", id);
-			}
+			}*/
 
-			for(URL url : urls){
+/*			for(URL url : urls){
 				images.add(image = new UPnPImage());
 				image.title = url.toString();
 				image.thumbURL = url.toString();
 				image.sourceURL = url.toString();
 				image.pageURL = url.toString();
 				image.setID(url.toString());
-			}
-			folders.addAll(SAXparser.getSubFolders());
+			}*/
+			images.addAll(arrayListImage);
+
+			folders.addAll(parserSAX.getSubFolders());
 			waitingForReply.remove(invocation);
-			if(!SAXparser.getSubFolders().isEmpty() || waitingForReply.isEmpty())
+			if(!parserSAX.getSubFolders().isEmpty() || waitingForReply.isEmpty())
 				synchronized(lock){ lock.notify(); }
 		}
 
