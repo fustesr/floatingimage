@@ -133,10 +133,7 @@ public class ImageCache {
 			FileOutputStream fos = new FileOutputStream(f);
 			synchronized (bmp) {
 				synchronized (this) {
-					if(bmp.isRecycled()){
-						fos.close();
-						return;
-					}
+					if(bmp.isRecycled()) return;
 					bmp.compress(CompressFormat.JPEG, 85, fos);
 					fos.flush();
 					fos.close();

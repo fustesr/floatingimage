@@ -69,7 +69,6 @@ public class FeedController {
 	}
 	
 	public int getFeedSize(){
-		if(mReferences == null) return 0;
 		return mReferences.size();
 	}
 	
@@ -125,11 +124,11 @@ public class FeedController {
 			
 			if(refs != 0){
 				if(mForceFeedId != -1){
-					if(position < 0 || position >= refs){
+					if(position < 0 || position >= mReferences.size()){
 						return null;
 					}
 				}
-				position = (position + refs * 100) % refs;
+				position = (position + mReferences.size() * 100) % refs;
 				return mReferences.get((int)position);
 			}
 		}
@@ -190,10 +189,8 @@ public class FeedController {
 			mDbHelper.open();
 		}catch(SQLException e){
 			Log.w("Floating Image", "Database could not be opened", e);
-			synchronized (mReferences) {
-				mReferences.clear(); // Force retry
-				return;
-			}
+			mReferences.clear(); // Force retry
+			return;
 		}
 		Cursor c = null;
 		try{
@@ -286,7 +283,6 @@ public class FeedController {
 	}
 	
 	public int getShowing(){
-		if(mReferences == null) return 0;
 		return mReferences.size();
 	}
 	
