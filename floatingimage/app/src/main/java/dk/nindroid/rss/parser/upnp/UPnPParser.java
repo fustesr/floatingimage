@@ -47,8 +47,10 @@ public class UPnPParser implements FeedParser {
             return imgs;
         }
         Log.e("Parser","Images obtained");
-        for(ImageReference img : imgs)
+        for(ImageReference img : imgs){
+            if(img.getOriginalImageUrl()!=null)
             Log.w("Image",img.getOriginalImageUrl());
+        }
         return imgs;
     }
 

@@ -96,6 +96,14 @@ public class PicturesBatch implements Runnable{
 
 				arrayListImage  = parserSAX.getUpnpImage();
 
+				Log.e("cc","CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC");
+				for (UPnPImage maxime : arrayListImage) {
+					Log.e("IMAGE:", "" + maxime.getImagePageUrl());
+				}
+				for (String id : parserSAX.getSubFolders()) {
+					Log.e("ID:", "" + id);
+				}
+
 
 			} catch (Exception e) {
 				e.printStackTrace();

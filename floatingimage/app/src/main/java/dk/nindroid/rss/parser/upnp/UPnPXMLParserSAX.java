@@ -44,8 +44,12 @@ public class UPnPXMLParserSAX extends DefaultHandler {
 
     private String idB;
     private int selector = 0; // 1 pour container, 2 pour item
-    private int selector2 = 0; // 1 pour si "object.item.imageItem.photo" pour aller chercher URL
-    private boolean firstRes = true;
+
+    private String upnp_class;
+    private String res;
+    private String title;
+    private int resolution =0;
+    private boolean currentRes;
 
 
     //début du parsing
@@ -66,6 +70,21 @@ public class UPnPXMLParserSAX extends DefaultHandler {
             Log.e("cc","selector = 2");
             image = new UPnPImage();
         }
+        else if (qname.equals("res")) {
+            String reso = attrs.getValue("resolution");
+            if(reso!=null) {
+                String resos[] = reso.split("x", 2);
+                int size = Integer.parseInt(resos[0]) * Integer.parseInt(resos[1]);
+
+                if (size > resolution) {
+                    currentRes = true;
+                    resolution = size;
+                }
+            }
+            else if(res==null){
+                currentRes = true;
+            }
+        }
     }
 
     //fin du parsing
@@ -74,14 +93,28 @@ public class UPnPXMLParserSAX extends DefaultHandler {
         Log.e("------>", "Fin de l'élément " + qName);
         if (qName.equals("container")) {
             selector = 0;
+            subFolders.add(idB);
             Log.e("cc","selector = 0");
         }
-        else if (qName.equals("item")) {
-            selector = 0;
-            selector2 = 0;
-            firstRes = true;
-            images.add(image);
+        else if (qName.equals("res")) {
+            currentRes = false;
         }
+        else if (qName.equals("item")) {
+            Log.i("URL",res);
+
+            if (upnp_class.equals("object.item.imageItem.photo")){
+                image.title = title;
+                image.thumbURL = res;
+                image.sourceURL = res;
+                image.pageURL = res;
+                image.setID(res);
+
+                selector = 0;
+                images.add(image);
+            }
+
+        }
+
     }
 
 
@@ -110,7 +143,9 @@ public class UPnPXMLParserSAX extends DefaultHandler {
         System.out.println(selector == 1);
         System.out.println(str.equals("object.container"));
         System.out.println("ID =  " +idB);*/
-        if (node.equals("upnp:class") && selector == 2 && str.equals("object.item.imageItem.photo")) {
+
+
+/*        if (node.equals("upnp:class") && selector == 2 && str.equals("object.item.imageItem.photo")) {
             selector2 = 1;
             Log.e("cc","selector2 = 1");
         }
@@ -129,12 +164,25 @@ public class UPnPXMLParserSAX extends DefaultHandler {
                 image.setID(str);
 
             } catch (Exception e) {
+                Log.e("erreur","ERRRRRRRRRRRRRREUUUUUUUUUUUUUUUUUR");
                 e.printStackTrace();
             }
             firstRes = false;
         }
         else if (node.equals("upnp:title") && selector == 1) {
             image.title = str;
+        }*/
+
+        if(node.equals("upnp:class")) {
+            upnp_class = str;
+        }
+        else if (node.equals("dc:title")) {
+            title = str;
+        }
+        else if (node.equals("res")) {
+            if (currentRes) {
+                res = str;
+            }
         }
 
 

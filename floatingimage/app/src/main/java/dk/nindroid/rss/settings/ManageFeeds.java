@@ -282,7 +282,7 @@ public class ManageFeeds extends PreferenceActivity {
 				extras = c.getString(extrasi);
 			}
 			Feed feed;
-			if(typei==Settings.TYPE_UPNP)
+			if(type==Settings.TYPE_UPNP)
 				feed = new UPnPFeed(title, id, extras, c.getString(udni));
 			else
 				feed = new Feed(title, id, extras);
