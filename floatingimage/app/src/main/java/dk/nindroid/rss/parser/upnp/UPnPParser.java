@@ -31,13 +31,14 @@ public class UPnPParser implements FeedParser {
 
     @Override
     public List<ImageReference> parseFeed(FeedReference feed, Context context) throws ParserConfigurationException, SAXException, FactoryConfigurationError, IOException {
+        Log.e("Parser","Images begin");
         boolean timeOut = true;
         RegistryListener listener;
         imgs = new ArrayList<ImageReference>();
         GlobalUpnpService.startUpnp(context.getApplicationContext());
         GlobalUpnpService.addRegistryListener(listener = GlobalUpnpService.pictureFetcherListener(feed.getFeedLocation(),this));
         try {
-            timeOut = !done.tryAcquire(1,7, TimeUnit.SECONDS);
+            timeOut = !done.tryAcquire(1,70000, TimeUnit.SECONDS);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }

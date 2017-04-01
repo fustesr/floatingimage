@@ -69,12 +69,16 @@ public class UPnPXMLParserSAX extends DefaultHandler {
             selector = 2;
             Log.e("cc","selector = 2");
             image = new UPnPImage();
+            res = null;
+            resolution = 0;
         }
         else if (qname.equals("res")) {
             String reso = attrs.getValue("resolution");
+            Log.e("Reso:", reso);
             if(reso!=null) {
                 String resos[] = reso.split("x", 2);
                 int size = Integer.parseInt(resos[0]) * Integer.parseInt(resos[1]);
+                Log.e("Reso:", ""+size);
 
                 if (size > resolution) {
                     currentRes = true;
@@ -180,6 +184,7 @@ public class UPnPXMLParserSAX extends DefaultHandler {
             title = str;
         }
         else if (node.equals("res")) {
+            Log.e("Res value",str);
             if (currentRes) {
                 res = str;
             }
