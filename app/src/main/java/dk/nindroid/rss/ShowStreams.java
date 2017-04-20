@@ -99,8 +99,7 @@ public class ShowStreams extends Activity implements MainActivity {
 	
 	private int showFeedId;
 	private String showImageId;
-	
-	//TODO BEGINNING HERE
+
 	/** Called when the activity is first created. */
 	@Override
 	public void onCreate(Bundle savedInstanceState) {

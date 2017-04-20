@@ -56,16 +56,13 @@ public class UPnPBrowser extends SourceFragment {
 	public void onDestroy() {
 		super.onDestroy();
 		GlobalUpnpService.removeRegistryListener(currentListener);
-		Log.e("Fragment","destroy");
 	}
 
 	@Override
 	public void onListItemClick(ListView l, View v, int position, long id) {
 		super.onListItemClick(l, v, position, id);
 		DeviceDisplay deviceDisplay = (DeviceDisplay)l.getItemAtPosition(position);
-		//RemoteService s = (RemoteService) deviceDisplay.device.findService(serviceId);
 		RemoteDevice d = (RemoteDevice) deviceDisplay.device;
-		Log.e("browse",d.getIdentity().getUdn().getIdentifierString());
 		returnUdn(d.getIdentity().getUdn().getIdentifierString(),deviceDisplay.toString());
 	}
 
@@ -111,7 +108,6 @@ public class UPnPBrowser extends SourceFragment {
 
 		@Override
 		public void remoteDeviceAdded(Registry registry, RemoteDevice device) {
-			Log.d("Trace","remote");
 			deviceAdded(device);
 		}
 
@@ -122,7 +118,6 @@ public class UPnPBrowser extends SourceFragment {
 
 		@Override
 		public void localDeviceAdded(Registry registry, LocalDevice device) {
-            Log.d("Trace","local");
             deviceAdded(device);
 		}
 
@@ -132,22 +127,18 @@ public class UPnPBrowser extends SourceFragment {
 		}
 
 		public void deviceAdded(final Device device) {
-			Log.d("Trace", "Device "+device.getDisplayString());
-			Service contentDirectory;
-
-			if ((contentDirectory = device.findService(serviceId)) != null && getActivity()!=null) {
+			if ((device.findService(serviceId)) != null && getActivity()!=null) {
 				getActivity().runOnUiThread(new Runnable() {
 					public void run() {
 						DeviceDisplay d = new DeviceDisplay(device);
 						int position = listAdapter.getPosition(d);
-						Log.e("position",""+position);
 						if (position >= 0) {
 							// Device already in the list, re-set new value at same position
 							listAdapter.remove(d);
 							listAdapter.insert(d, position);
-						} else {
-							listAdapter.add(d);
 						}
+						else
+							listAdapter.add(d);
 					}
 				});
 			}
@@ -174,22 +165,6 @@ public class UPnPBrowser extends SourceFragment {
 		public Device getDevice() {
 			return device;
 		}
-
-		// DOC:DETAILS
-		public String getDetailsMessage() {
-			StringBuilder sb = new StringBuilder();
-			if (getDevice().isFullyHydrated()) {
-				sb.append(getDevice().getDisplayString());
-				sb.append("\n\n");
-				for (Service service : getDevice().getServices()) {
-					sb.append(service.getServiceType()).append("\n");
-				}
-			} else {
-				sb.append("Not yet available");
-			}
-			return sb.toString();
-		}
-		// DOC:DETAILS
 
 		@Override
 		public boolean equals(Object o) {

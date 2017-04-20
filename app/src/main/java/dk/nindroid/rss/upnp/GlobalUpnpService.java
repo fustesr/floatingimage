@@ -49,15 +49,10 @@ public class GlobalUpnpService {
     private static ServiceConnection serviceConnection = new ServiceConnection() {
 
         public void onServiceConnected(ComponentName className, IBinder service) {
-            Log.d("Trace", "Device connected");
             upnpService = (AndroidUpnpService) service;
-            Log.e("UpnpServ",""+upnpService);
-            // Search asynchronously for all devices, they will respond soon
             upnpService.getControlPoint().search();
-            for(RegistryListener l : lists){
-                Log.e("Listener","hey");
+            for(RegistryListener l : lists)
                 addRegistryListener(l);
-            }
         }
 
         public void onServiceDisconnected(ComponentName className) {
@@ -66,17 +61,11 @@ public class GlobalUpnpService {
     };
 
     public static void addRegistryListener(RegistryListener listener){
-        Log.d("Listener","ddd");
-        Log.e("Listener",listener.getClass().toString());
         if(upnpService!=null) {
-            // Get ready for future device advertisements
             upnpService.getRegistry().addListener(listener);
-            // Now add all devices to the list we already know about
-            for (Device device : upnpService.getRegistry().getDevices()) {
-                Log.e("Device",device.toString() + (device instanceof RemoteDevice));
+            for (Device device : upnpService.getRegistry().getDevices())
                 if (device instanceof RemoteDevice)
                     listener.remoteDeviceAdded(upnpService.getRegistry(), (RemoteDevice) device);
-            }
         }
         else
             lists.add(listener);
@@ -95,24 +84,7 @@ public class GlobalUpnpService {
 
             @Override
             public void remoteDeviceAdded(Registry registry, RemoteDevice device) {
-                    /*(used==true)
-                        return;
-                    used=true;
-                    Log.e("Event","remote device "+device);
-                    ServiceReference serviceReference = new ServiceReference(UDN.valueOf(udn),new UDAServiceId("ContentDirectory"));
-                    Service contentDirectory;
-                    device.getIdentity().getUdn();
-                    if ((contentDirectory=upnpService.getRegistry().getService(serviceReference)) != null) {
-                        Log.e("Service test","Test succeeded, good service");
-                        new PicturesBatch(upnpService, contentDirectory, parser).run();
-                        GlobalUpnpService.getRegistry().removeListener(this);
-                    }
-                    else {
-                        Log.e("Service test","Test failed, not good service");
-                    }*/
-                Log.e("Event","remote device added "+device);
                 if(device.getIdentity().getUdn().getIdentifierString().equals(udn)){
-                    Log.e("Event","Device fit!");
                     new PicturesBatch(upnpService, device.findService(new UDAServiceId("ContentDirectory")), parser).run();
                     getRegistry().removeListener(this);
                 }
@@ -125,26 +97,19 @@ public class GlobalUpnpService {
 
             @Override
             public void remoteDeviceAdded(Registry registry, RemoteDevice device) {
-                Log.e("available","remote device added "+device.getIdentity().getUdn().getIdentifierString()+" "+udn);
-                if(device.getIdentity().getUdn().getIdentifierString().equals(udn)){
-                    Log.e("available","Device fit!");
+                if(device.getIdentity().getUdn().getIdentifierString().equals(udn))
                     handler.obtainMessage(GalleryActivity.AVAILABLE,v).sendToTarget();
-                }
             }
 
             @Override
             public void remoteDeviceRemoved(Registry registry, RemoteDevice device) {
-                Log.e("unavailable","remote device removed "+device.getIdentity().getUdn().getIdentifierString()+" "+udn);
-                if(device.getIdentity().getUdn().getIdentifierString().equals(udn)){
-                    Log.e("unavailable","Device fit!");
+                if(device.getIdentity().getUdn().getIdentifierString().equals(udn))
                     handler.obtainMessage(GalleryActivity.UNAVAILABLE,v).sendToTarget();
-                }
             }
         };
     }
 
     public static void addAvailabilityListener(String udn, View v, Handler handler){
-        Log.e("addingListener",udn);
         RegistryListener listener = availabilityListener(udn,v,handler);
         uiLists.put(v,listener);
         addRegistryListener(listener);
@@ -170,7 +135,6 @@ public class GlobalUpnpService {
     }
 
     public static void refreshDevices(){
-        Log.e("cc","POSAYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY");
         for(RegistryListener list : lists)
             for (Device device : upnpService.getRegistry().getDevices())
                 if (device instanceof RemoteDevice)

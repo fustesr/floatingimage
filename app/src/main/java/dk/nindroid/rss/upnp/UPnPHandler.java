@@ -15,7 +15,6 @@ import dk.nindroid.rss.GalleryActivity;
 public class UPnPHandler extends Handler {
     @Override
     public void handleMessage(Message msg) {
-        Log.w("HANDLER","Handled");
         switch(msg.what){
             case GalleryActivity.AVAILABLE :
                 ((ViewGroup) msg.obj).setBackgroundColor(Color.GREEN);

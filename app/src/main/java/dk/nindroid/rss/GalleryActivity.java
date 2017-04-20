@@ -138,7 +138,6 @@ public class GalleryActivity extends ListActivity {
 		intent.putExtra(ShowStreams.SHOW_FEED_ID, (int)mAdapter.getItemId(position));
 		intent.putExtra(FeedSettings.HIDE_ACTIVE, true);
 		intent.putExtra(ShowStreams.SETTINGS_NAME, GallerySettings.SHARED_PREFS_NAME);
-		Log.e("Salut","ddd");
 		this.startActivity(intent);
 	}
 		
@@ -232,10 +231,8 @@ public class GalleryActivity extends ListActivity {
 			iconView.setImageResource(iconId);
 			
 			editView.setOnClickListener(new OnEditListener(id));
-			//TODO Change feed background color here
-			Log.e("getView","lololul");
+			//Change feed background color here
 			if(type == Settings.TYPE_UPNP) {
-				Log.e("getView","lololol");
 				l.setBackgroundColor(Color.RED);
 				String udn = mCursor.getString(udni);
 				GlobalUpnpService.addAvailabilityListener(udn,l,handler);

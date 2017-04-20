@@ -58,8 +58,6 @@ public class PicturesBatch implements Runnable{
 				setInput("StartingIndex", "0");
 				setInput("RequestedCount", "0");
 				setInput("SortCriteria", "");
-
-
 			} catch (InvalidValueException ex) {
 				System.err.println(ex.getMessage());
 				System.exit(1);
@@ -75,58 +73,20 @@ public class PicturesBatch implements Runnable{
 
 		@Override
 		public void success(ActionInvocation invocation) {
-/*			UPnPXMLParser parser = new UPnPXMLParser(invocation.getOutput()[0].toString());
-			List<URL> urls = parser.getImages();
-			UPnPImage image;*/
-
 			List<UPnPImage> arrayListImage = null;
 			UPnPXMLParserSAX parserSAX = null;
-			UPnPImage image;
-
-
 			try {
-
 				SAXParserFactory factory = SAXParserFactory.newInstance();
 				SAXParser parser = factory.newSAXParser();
 
 				parserSAX = new UPnPXMLParserSAX();
-
 				InputSource source = new InputSource(new StringReader(invocation.getOutput()[0].toString()));
 				parser.parse(source, parserSAX );
-
 				arrayListImage  = parserSAX.getUpnpImage();
-
-				Log.e("cc","CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC");
-				for (UPnPImage maxime : arrayListImage) {
-					Log.e("IMAGE:", "" + maxime.getImagePageUrl());
-				}
-				for (String id : parserSAX.getSubFolders()) {
-					Log.e("ID:", "" + id);
-				}
-
-
 			} catch (Exception e) {
 				e.printStackTrace();
 			}
-
-/*			for (URL url : urls) {
-				Log.e("cc", url.toString());
-			}
-			List<String> listID = parserSAX.getSubFolders();
-			for (String id : listID) {
-				Log.e("ccID", id);
-			}*/
-
-/*			for(URL url : urls){
-				images.add(image = new UPnPImage());
-				image.title = url.toString();
-				image.thumbURL = url.toString();
-				image.sourceURL = url.toString();
-				image.pageURL = url.toString();
-				image.setID(url.toString());
-			}*/
 			images.addAll(arrayListImage);
-
 			folders.addAll(parserSAX.getSubFolders());
 			waitingForReply.remove(invocation);
 			if(!parserSAX.getSubFolders().isEmpty() || waitingForReply.isEmpty())
@@ -151,9 +111,6 @@ public class PicturesBatch implements Runnable{
 		folders.add("0");
 		waitingForReply = new Vector<ActionInvocation>();
 		ActionInvocation setTargetInvocation;
-
-		Log.e("PB","Beginning requests");
-
 		while(!folders.isEmpty() || !waitingForReply.isEmpty()) {
 			if (!folders.isEmpty()) {
 				setTargetInvocation = new BrowseActionInvocation(contentDirectory, folders.remove(0));
@@ -170,6 +127,5 @@ public class PicturesBatch implements Runnable{
 		}
 		parser.imgs.addAll(images);
 		parser.done.release();
-		Log.e("PB","Ending requests");
 	}
 }
