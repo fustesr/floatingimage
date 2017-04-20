@@ -131,7 +131,6 @@ public class GlobalUpnpService {
                 serviceConnection,
                 Context.BIND_AUTO_CREATE
         );
-        Log.e("Bound",""+upnpService);
     }
 
     public static void refreshDevices(){

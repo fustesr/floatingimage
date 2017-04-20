@@ -16,3 +16,7 @@ build/
 .idea/
 
 *.iml
+
+\.gradle/2\.14\.1/taskArtifacts/cache\.properties
+
+local\.properties
