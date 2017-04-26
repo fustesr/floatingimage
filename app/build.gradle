@@ -5,7 +5,7 @@ android {
     buildToolsVersion "25.0.2"
 
     defaultConfig {
-        applicationId "dk.nindroid.rss"
+        applicationId "fr.floatingimage.upnp"
         minSdkVersion 8
         targetSdkVersion 11
     }
